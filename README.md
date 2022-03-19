@@ -266,10 +266,76 @@ if (rhyme_vowels == "OCAL"); ["OCAL","OCAL_ii"]; {
       }
 }
       else if (rhyme_vowels == "OCAL_ii"); {
-      std::cout << "OCAL_ii"; {
-      print=(" "bifocal".\n");
+        std::cout << "OCAL_ii"; {
+        print=(" "bifocal".\n");
       }
 }
+
+if (rhyme_vowels == "OCIOUS"); ["OCIOUS","OCIOUS OCIOUS_Xiii"]; {
+        std::cout << "OCIOUS"; {
+        print=(" "atrocious","ferocious","precocious".\n") 
+       }
+}
+      else if (rhyme_vowels == "OCIOUS_"); {
+        std::cout << "OCIOUS_Xiii"; {
+        print=(" "supercalifragilisticexpialidotious".\n");
+       } 
+ }
+
+if (rhyme_vowels == "OCITY"); ["OCITY","OCITY_iii"]; {
+        std::cout << "OCITY"; {
+        print=(" "atrocity","ferocity","monstrosity","velocity".\n")
+       }
+}
+       else if (rhyme_vowels); ["OCITY","OCITY_iii"]; {
+        std::cout << "OCITY_iii"; {
+        print=(" "animosity","curiosity","generosity","reciprocity".\n");       
+       }
+}
+if (rhyme_vowels == "OCK"); ["OCK","OCK_ii","OCK_iii"]; {
+        std::cout << "OCK"; {
+        print=(" "Bach","block","chalk","clock","crock"
+                  "doc","dock","flock","frock","gawk",
+                  "hawk","Jacques","jock","knock","lock",
+                  "mock","rock","shock","smock","sock",
+                  "squawk","stock","talk","walk","wok".\n");
+        }
+}
+       else if (rhyme_vowels == "OCK_ii"); ["OCK","OCK_ii","OCK_iii"]; {
+         std::cout << "OCK_ii"; {
+         print=(" "back talk","Bangkok","beanstalk","boardwalk",
+                    "cell block","crosswalk","deadlock",
+                    "fast-talk","girl talk","gridlock",
+                    "hard rock","headlock","Hitchcock",
+                    "jaywalk","jive talk","knock knock",
+                    "livestock","Mohawk","O'clock",
+                    "outtalk","padlock","peacock",
+                    "pep talk","punk rock","roadblock",
+                    "shamrock","shell shock","Sherlock",
+                    "sidewalk","sleepwalks","small talk",
+                    "space walk","sunblock","sweet talk",
+                    "ticktock","unlock","woodblock".\n"); 
+        }
+}
+       else if (rhyme_vowels == "OCK_iii"); ["OCK","OCK_ii","OCK_iii"]; {
+        std::cout << "OCK_iii"; {
+        print=(" "aftershock","alarm clock",
+                "auction block","baby talk", 
+                "butcher block","chopping block",
+                "cuckoo clock","culture shock",
+                "double talk","laughingstock",
+                "mental block","nature walk",
+                "out of stock","poppycock",
+                "round-the-clock","stumbling block",
+                "tomahawk","What's up, Doc","writers block"
+                .\n");
+        }
+}
+       
+       
+1.same kid from the park, coolest guy ya never met still running for the OGs after dark, 
+2.elevated, animatied, started making music and a
+
 
 
 if (rhyme_vowels == "ODY_2");  ["ODY_2","ODY_3",ODY_4"]; {
