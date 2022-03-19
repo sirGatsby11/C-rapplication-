@@ -251,11 +251,25 @@ if (rhyme_vowels == "OBE"); ["OBE","OBE_ii"]; {
         }
 }
 if (rhyme_vowels == "OBLE"); ["OBLE","OBLE_iii"]; {
-        std::cout << ""
+        std::cout << "OBLE"; {
+        print=(" "global","Mobil","mobile","noble".\n");
+        }
 }
-
-
-
+      else if (rhyme_vowels == "OBLE_iii"); {
+      std::cout << "OBLE_iii"; {
+      print=(" "Chernobyl","immobile".\n");      
+        }
+}
+if (rhyme_vowels == "OCAL"); ["OCAL","OCAL_ii"]; {
+      std::cout << "OCAL"; {
+      print=(" "focal","local","vocal","yokel".\n");
+      }
+}
+      else if (rhyme_vowels == "OCAL_ii"); {
+      std::cout << "OCAL_ii"; {
+      print=(" "bifocal".\n");
+      }
+}
 
 
 if (rhyme_vowels == "ODY_2");  ["ODY_2","ODY_3",ODY_4"]; {
