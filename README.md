@@ -419,10 +419,43 @@ if (rhyme_vowels == "ODDLE"); ["ODDLE","ODDLE_iv"]; {
         }
 }
 
+if (rhyme_vowels == "ODE"); ["ODE","ODE_ii","ODE_iii"]; {
+        std::cout << "ODE"; {
+        print=(" "bowed","code","crowed","flowed","glowed",
+                 "goad","load","mode","mowed","ode",
+                  "owed","road","rowed","showed","slowed",
+                  "snowed","stowed","strode","toad","towed",
+                 .\n");
+        }
+}
+      else if (rhyme_vowels == "ODE_ii"); ["ODE","ODE_ii","ODE_iii"]; {
+         std::cout << "ODE_ii"; {
+         print=(" "abode","carload","crossroad",
+                 "decode","dress code","erode",
+                 "explode","freeload","implode",
+                 "Morse code","railroad","tiptoad",
+                 "truckload","unload","workload",
+                 "zipcode".\n");         
+         }
+}
+      else if (rhyme_vowels == "ODE_iii"); ["ODE","ODE_i","ODE_ii","ODE_iii"]; {
+         std::cout << "ODE_iii"; {
+         print=(" "a la mode","electrode","episode",
+                    "hit the road","overflowed","overload",
+                    "penal code".\n");
+         }      
+}
+      else if (rhyme_vowels == "ODE_iii"); ["ODE","ODE_i","ODE_ii","ODE_iii"]; {
+         std::cout << "ODE_iii"; {
+         print=(" "area code".\n")
+         }      
+}
 
-
-
-
+if (rhyme_vowels == "ODGE"); ["ODGE","ODGE_ii"]; {
+        std::cout << "ODGE"; {
+        print=(" "dislodge","hodgepodge".\n")
+        }
+}
 
 
 if (rhyme_vowels == "ODY_2");  ["ODY_2","ODY_3",ODY_4"]; {
