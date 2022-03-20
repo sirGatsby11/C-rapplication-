@@ -21,7 +21,6 @@ if (rhyme_vowels == "O"); ["O","O_ii","O_iii","O_iv"]; {
                  "stow","through","throw","toe","tow",
                  "whoa","woe".\n");
         }
-
 }
       else if (rhyme_vowels == "O_ii"); ["O","O_ii","O_iii","O_iv"]; {
         std::cout << "O_ii"; {
@@ -64,7 +63,7 @@ if (rhyme_vowels == "O"); ["O","O_ii","O_iii","O_iv"]; {
                 "portfolio","ready, set, go".\n")
         }
  } 
- 
+ // incomplete cross reference
  if (rhyme_vowels == "O_2"); {
       std::cout << "EW"; {
       print=(" "" .\n");
@@ -336,6 +335,94 @@ if (rhyme_vowels == "OCK"); ["OCK","OCK_ii","OCK_iii"]; {
 1.same kid from the park, coolest guy ya never met still running for the OGs after dark, 
 2.elevated, animatied, started making music and a
 
+if (rhyme_vowels == "OCKER"); [OCKER,OCKER_ii]; {
+        std::cout << "OCKER"; {
+        print=(" "blocker","knocker","locker","rocker",
+                "shocker","soccer","talker","walker".\n");
+        }
+}
+      else if (rhyme_vowels == "OCKER"); ["OCKER","OCKER_ii"]; {
+        std::cout << "OCKER_ii"; {
+        print=(" "fast talker","footlocker","jaywalker",
+                "night stalker","sleepwalker".\n");        
+        }   
+}
+if (rhyme_vowels == "OCKET"); ["OCKET","OCKET_ii","OCKET_iii"]; {
+        std::cout << "OCKET"; {
+        print=("docket","locket","pocket","rocket","socket".\n);
+        }
+}
+      else if (rhyme_vowels == "OCKET_ii"); ["OCKET","OCKET_ii","OCKET_iii"]; {
+        std::cout << "OCKET"; {
+        print=(" "light socket","pickpocket","skyrocket".\n");        
+        }
+} 
+      else if (rhyme_vowels == "OCKET_iii"); ["OCKET","OCKET_ii","OCKET_iii"]; {
+        std::cout << "OCKET"; {
+        print=(" "Davy Crockett".\n");
+        }
+}
+// incomplete cross reference file
+if (rhyme_vowels == "OCKS"); {
+        std::cout << "OX"; {
+        print=(OX file);
+        }
+}
+// incomplete cross reference file
+if (rhyme_vowels == "OCKEY"); {
+        std::cout << "AWKY"; {
+        print=(AWKY file);
+        }
+}
+// incomplete cross reference file
+if (rhyme_vowels == "OCKY"); {
+        std::cout << "AWKY"; {
+        print=(AWKY file);
+        }
+}
+if (rhyme_vowels == "OCO"); {
+        std::cout << "OCO"; {
+        print=(" "cocoa","loco".\n");
+        }
+}
+if (rhyme_vowels == "OCRACY"); ["OCRACY","OCRACY_V"]; {
+        std::cout << "OCRACY"; {
+        print=("autocracy","bureaucracy","democracy","hypocrisy");
+        }
+}
+      else if (rhyme_vowels == "OCRACY"); ["OCRACY","OCRACY_V"]; {
+        std::cout << "OCRACY_V"; {
+        print=(" "aristocracy".\n");
+        }
+}
+// incomplete cross reference
+if (rhyme_vowels == "OD"); {
+        std::cout << "awed"; {
+        print=(" print awed")
+        }
+}
+// incomplete cross reference
+if (rhyme_vowels == "ODA"); {
+        std::cout << "OTA"; {
+        print=(" print OTA")
+        }
+}
+if (rhyme_vowels == "ODDLE"); ["ODDLE","ODDLE_iv"]; {
+        std::cout << "ODDLE"; {
+        print=(" "bottle","coddle","dawdle","model","throttle",
+                 "toddle","waddle".\n"
+        }
+}
+      else if (rhyme_vowels == "ODDLE"); ["ODDLE","ODDLE_iv"]; {
+        std::cout << "ODDLE"; {
+        print=(" "Aristotle".\n");        
+        }
+}
+
+
+
+
+
 
 
 if (rhyme_vowels == "ODY_2");  ["ODY_2","ODY_3",ODY_4"]; {
@@ -346,23 +433,50 @@ if (rhyme_vowels == "ODY_2");  ["ODY_2","ODY_3",ODY_4"]; {
           "potty", " Saudi", "Scottie", "shoddy",
           "snotty", " spotty", "embody", "homebody",
           "karate", "nobody", "somebody".\n");
-       };
-      };
+       }
+}
     else if (rhyme_vowels === "ODY_3");  ["ODY_2","ODY_3",ODY_4"]; {
           std::cout << "ODY_3\n"; { "
           print=("antibody", "anybody", "busybody", 
            "student body".\n");
-       }; 
-      };
+       } 
+}
     else if (rhyme_vowels === "ODY_4"); ["ODY_2","ODY_3",ODY_4"]; {
           std::cout << "ODY_4\n"; {"
           print=("everybody", "heavenly body" .\n");
-          };
-        };
-//  };      
-   
-   
-              
+          }
+}
+
+if (rhyme_vowels == "OE_1"); {  
+        std::cout << "O"; {
+        print=(" "beau","blow","bow","crow","doe",
+                 "dough","flow","foe","go","glow",
+                 "grow","joe","know","low","mow",
+                 "no","oh","owe","pro","row",
+                 "sew","show","slow","snow","so",
+                 "stow","through","throw","toe","tow",
+                 "whoa","woe".\n");
+        }
+}
+// incomplete cross reference
+if (rhyme_vowels == "OE_2"); {
+        std::cout << "EW"; {
+        print=(" print EW")
+        }
+}
+// incomplete cross reference
+if (rhyme_vowels == "OES_1"); {
+        std::cout << "USE"; {
+        print=(" print file use.\n")
+        }
+}
+// incomplete cross reference
+if (rhyme_vowels == "OES_2"); {
+        std::cout << "OSE_2"; {
+        print=(" print OSE_2")
+        }
+}
+
 if (rhyme_vowels ==="OFF"); ["OFF","OFF_2",OFF_3]; {
 // mono,duples,triples
           std::cout << "OFF\n"; { "
