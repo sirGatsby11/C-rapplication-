@@ -813,6 +813,19 @@ if (rhyme_vowels == "OKE\n"; ["OKE","OKE_ii","OKE_iii"]; {
    2. theres cancer {from the mean} {a bit shy}
    3. 
    4.   betta know ya worth, 
+
+  std::cout << "           _____ "
+  std::cout << "          | |   \ "
+  std::cout << "          | |    \ "
+  std::cout << "          | |     \___ "
+  std::cout << "          | |         \ "
+  std::cout << "          | |          \ "
+  std::cout << "     0     _|_|___________| "
+  std::cout << "    /\/  /____|____________) " 
+  std::cout << ".  /  \_|__________________| " 
+  std::cout << "  |/__    | )(            )( "
+  std::cout << "  | |\\  :| )(   ejm 97   )( "
+
    
  if (rhyme_vowels == "OKES"); ["OKES","OKES_ii","OKES_iii"]; {
         std::cout << "OKES"; {
