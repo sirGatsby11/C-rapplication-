@@ -861,6 +861,7 @@ if (rhyme_vowels == "OLA"); ["OLA","OLA_ii","OLA_iii"]; {
           print=(" "ayatollah","Coca-cola","gladiola","Pepsi-cola".\n");
           }
 }
+
 if (rhyme_vowels == "OLAR"); ["OLAR","OLAR_ii"]; {
           std::cout << "OLAR"; {
           print=(" "bowler","molar","polar","roller",
@@ -871,9 +872,86 @@ if (rhyme_vowels == "OLAR"); ["OLAR","OLAR_ii"]; {
            print=(" "controller","high roller","patroller","steamroller".\n");     
            }
 }
-                
-                
 
+if (rhyme_vowels == "OLD"); ["OLD","OLD_ii","OLD_iii","OLD_iv"]; {
+            std::cout << "OLD"; {
+            print=(" "bold","bowled","cold","doled","fold",
+                    "gold","hold","mold","old","polled",
+                    "rolled","scold","sold","strolled","told".\n");
+            } 
+}
+       else if (rhyme_vowels == "OLD_ii"); ["OLD","OLD_ii","OLD_iii","OLD_iv"];{
+            std::cout << "OLD_ii"; {
+            print=(" "age-old","behold","billfold","blindfold",
+                      "cajoled","catch cold","choke hold","consoled",
+                      "controlled","enfold","enrolled","extrolled",
+                      "foothold","household","ice-cold","out cold",
+                      "paroled","patrolled","retold","steamrolled",
+                      "stronghold","threshold","toehold","unfold",
+                      "untold","withold"        
+                      .\n");
+            }
+}     
+      else if (rhyme_vowels == "OLD_iii"); ["OLD","OLD_ii","OLD_iii","OLD_iv"];
+            std::cout << "OLD_iii"; {
+            print=(" "common cold","days of old","good as gold","heart of gold",
+                     "hot and cold","pot of gold","rock-and-rolled","self-controlled",
+                     "solid gold","strangehold","uncontrolled".\n");
+             }
+}
+      else if (rhyme_vowels == "OLD_iv"); ["OLD","OLD_ii","OLD_iii","OLD_iv"]; {
+            std::cout << "OLD_iv"; {
+            print=(" "out in the cold".\n"); 
+            }
+}
+
+if (rhyme_vowels == "OLDER"); ["OLDER","OLDER_ii"] {
+            std::cout << "OLDER"; {
+            print=(" "bolder","boulder","colder","older",
+                    "colder","older","shoulder","smolder",
+                    .\n");
+             }
+}
+       else if (rhyme_vowels == "OLDER"); ["OLDER","OLDER_ii"]; {
+            std::cout << "OLDER"; {
+            print=("cold shoulder","pot holder", "shareholder");
+            }
+}
+if (rhyme_vowels == "OLE"); ["OLE","OLE_ii",OLE_iii,"OLE_iv"]; {
+            std::cout << "OLE"; {
+            print=(" "bowl","coal","dole","foal","goal",
+                     "hole","Joel","knoll","Lowell","mole",
+                     "pole","poll","role","roll","scroll",
+                     "sole","soul","stole","stroll","toll",
+                     "troll","whole",
+                     .\n");
+            }
+}
+       else if (rhyme_vowels == "OLE_ii"); ["OLE","OLE_ii",OLE_iii,"OLE_iv"]; {
+           std::cout << "OLE_ii"; {
+           print=(" "cajole","charcoal","console","control",
+                    "Creole","drum roll","egg roll","enroll",
+                    "extol","fishbowl","flagpole","foxhole","keyhole",
+                    "loophole","manhole","mudhole","North pole","parole",
+                    "patrol","payroll","peephole","porthole","pothole",
+                    "Rose Bowl","steamroll","tadpole","unroll".\n");
+           }
+}
+        else if (rhyme_vowels == "OLE_ii"); ["OLE","OLE_ii",OLE_iii,"OLE_iv"]; {
+            std::cout << "OLE_iii"; {
+            print=(" "buttonhole","camisole","casserole","cruise control",
+                    "cubbyhole","fishing pole","heart and soul",
+                    "Old King Cole","pigeonhole","rock and roll","self-control",
+                    "starring role","sugar bowl","swimming hole","toilet bowl",
+                    "Tootsie Roll","totem pole".\n");
+            }
+}
+         else if (rhyme_vowels == "OLE_iv"); ["OLE","OLE_ii",OLE_iii,"OLE_iv"]; {
+            std::cout << "OLE_iv"; {
+            print=(" "ace in the hole","body and soul","Hollywood Bowl",
+                      "out of control","remote control".\n");            
+            }
+}
 
 
 variable =(consonants) {mono,dupples,triples}
