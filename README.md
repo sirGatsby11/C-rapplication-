@@ -880,7 +880,7 @@ if (rhyme_vowels == "OLD"); ["OLD","OLD_ii","OLD_iii","OLD_iv"]; {
                     "rolled","scold","sold","strolled","told".\n");
             } 
 }
-       else if (rhyme_vowels == "OLD_ii"); ["OLD","OLD_ii","OLD_iii","OLD_iv"];{
+      else if (rhyme_vowels == "OLD_ii"); ["OLD","OLD_ii","OLD_iii","OLD_iv"];{
             std::cout << "OLD_ii"; {
             print=(" "age-old","behold","billfold","blindfold",
                       "cajoled","catch cold","choke hold","consoled",
@@ -953,7 +953,124 @@ if (rhyme_vowels == "OLE"); ["OLE","OLE_ii",OLE_iii,"OLE_iv"]; {
             }
 }
 
+if (rhyme_vowels == "OLED"); {
+            std::cout << "OLD"; {
+            print=("  "age-old","behold","billfold","blindfold",
+                      "cajoled","catch cold","choke hold","consoled",
+                      "controlled","enfold","enrolled","extrolled",
+                      "foothold","household","ice-cold","out cold",
+                      "paroled","patrolled","retold","steamrolled",
+                      "stronghold","threshold","toehold","unfold",
+                      "untold","withold"        
+                      .\n");
+            }
+}
 
+if (rhyme_vowels == "OLEN"); {
+            std::cout << "OLEN"; {
+            print=(" "colon","Nolan","stolen","swollen".\n");
+            }
+}
+        else if (rhyme_vowels == "OLEN_iii"); {
+            std::cout << "OLEN"; {
+            print=(" "semicolon".\n");            
+            }
+}
+
+if (rhyme_vowels == "OLIC"); ["OLIC","OLIC_ii","OLIC_iii"]; {
+            std::cout << "OLIC"; {
+            print=(" "colic","frolic".\n");
+            }
+}
+       else if (rhyme_vowels == "OLIC_ii"); ["OLIC","OLIC_ii","OLIC_iii"]; {
+            std::cout << "OLIC_ii" {
+            print=(" "hydraulic","symbolic".\n");
+            }
+ }
+        else if (rhyme_vowels == "OLIC_iii"); ["OLIC","OLIC_ii","OLIC_iii"]; {
+            std::cout << "OLIC_iii"; {
+            print=(" "chocoholic","diabolic","foodaholic","fun and frolic",
+                    "sleepaholic","workaholic".\n");
+            }
+ }
+ 
+ if (rhyme_vowels == "OLISH"); ["OLISH","OLISH_ii","OLISH_iii"]; {
+            std::cout << "OLISH"; {
+            print=(" "polish","smallish","tallish".\n");
+            }
+ }
+        else if (rhyme_vowels == "OLISH_ii"); {
+            std::cout << "OLISH"; {
+            print=(" "abolish","demolish".\n");
+            }
+ }
+        else if (rhyme_vowels == "OLISH_iii"); {
+            std::cout << "OLISH_iii"; {
+            print=(" "apple-polish","spit-and-polish".\n")
+            }
+ }    
+
+if (rhyme_vowels == "OLK"); {
+            std::cout << "OKE"; {
+            print=(" "broke","choke","Coke","croak","folk",
+                    "joke","oak","poke","smoke","soak",
+                    "spoke","stoke","stroke","woke","yolk"
+                    .\n"); 
+          }
+}
+
+if (rhyme_vowels == "OLKS"); {
+            std::cout << "OKES"; {
+            print=(" "chokes","cloaks","coax","Cokes",
+                "croaks","folks","hoax","jokes","oaks",
+                "pokes","smokes","spokes","stokes","strokes",
+                "yolks".\n");
+            }
+}
+
+if (rhyme_vowels == "OLL_1"); {
+          std::cout << "OLE"; {
+          print=(" "bowl","coal","dole","foal","goal",
+                     "hole","Joel","knoll","Lowell","mole",
+                     "pole","poll","role","roll","scroll",
+                     "sole","soul","stole","stroll","toll",
+                     "troll","whole".\n");
+            }
+ }
+ // incomplete cross reference
+ if (rhyme_vowels == "OLL_2"); {
+           std::cout << "OLE"; {
+           print=(".\n");
+            }
+ }       
+
+// incomplete cross reference
+ if (rhyme_vowels == "OLLAR"); {
+           std::cout << "ALLER"; {
+           print=(".\n");
+            }
+ }     
+ 
+ if (rhyme_vowels == "OLLER"); {
+           std::cout << "OLAR"; {
+           print=(" "bowler","molar","polar","roller",
+                    "solar","stroller".\n);
+            }
+ }     
+        
+if (rhyme_vowels == "OLLEY"); {
+            std::cout << "OLLY"; {
+            print=(" .\n");
+            }
+ }
+       
+       
+       
+       
+       
+       
+            
+            
 variable =(consonants) {mono,dupples,triples}
 variable =(IPA) {
 
