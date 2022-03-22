@@ -682,8 +682,8 @@ if (rhyme_vowels === "OIC"); ["OIC","OIC_3"]; {
  if (ryhme_vowels === "OICE"); ["OICE","OICE_2"]; {
           std::cout << "OICE\n"; {
           print=(" "choice","Joyce","voice".\n");
-          };
- };
+          }
+ }
    else if (rhyme_vowels === "OICE_2"); ["OICE","OICE_2"]; {
           std::cout << "OICE_2\n";
           print=( " "first choice", "no choice",
@@ -723,29 +723,30 @@ if (rhyme_vowels === "OIC"); ["OIC","OIC_3"]; {
           }
   }
   
-  if(rhyme_vowels === "OIN"); ["OIN","OIN_2","OIN_3"]; {
+if(rhyme_vowels === "OIN"); ["OIN","OIN_2","OIN_3"]; {
           std::cout << "OIN\n"; {
           print=(" "coin","groin","join",
                     "loin".\n");
-          };  
-  };
+          }  
+  }
       else if (rhyme_vowels === "OIN") ["OIN","OIN_2","OIN_3"]; {
           std::cout << "OIN_2\n"; {
           print=(" "Des Moines", "purloin", "rejoin", "sirloin".\n");
-          };
-      };
+          }
+      }
       else if (rhyme_vowels === "OIN"); ["OIN","OIN_2","OIN_3"]; {
           std::cout << "OIN_3\n"); {
           print=(" "flip a coin","tenderloin".\n"); 
-          };
-      };
+          }
+      }
    // Incomplete file cross reference
   if (rhyme_vowels != "OING"); {
           std::cout << "OWING\n"; {
           print=(" cross reference owing.\n");
           }
   }
-  if (rhyme_vowels === "OINT"); ["OINT","OINT_2","OINT_3"]; {
+  
+if (rhyme_vowels === "OINT"); ["OINT","OINT_2","OINT_3"]; {
           std::cout << "OINT\n"; {
           print=(" "joint","point".\n");
           }
@@ -812,7 +813,7 @@ if (rhyme_vowels == "OKE\n"; ["OKE","OKE_ii","OKE_iii"]; {
                     "love token","misspoken","outspoken",
                     "plainspoken","soft-spoken","unbroken",
                     "unspoken".\n");
-           }
+            }
  } 
    
    1. {prayers answered} {from a queen} {from the chi}, 
@@ -842,7 +843,7 @@ if (rhyme_vowels == "OKE\n"; ["OKE","OKE_ii","OKE_iii"]; {
         }
 }
        else if (rhyme_vowels == "OKES"); ["OKES","OKES_ii","OKE_iii"]; {
-         std::cout << "OKES"; {
+         std::cout << "OKES_ii"; {
          print=(" "provokes".\n");         
          }
 }
@@ -855,8 +856,9 @@ if (rhyme_vowels == "OKE\n"; ["OKE","OKE_ii","OKE_iii"]; {
   if (rhyme_vowels == "OL"); {
           std::cout << "ALL"; {
           print=(" cross reference "ALL".\n");
-          };
-  };
+          }
+  }
+  
 // Incomplete file cross reference
   if (rhyme_vowels == "OL"); {
           std::cout << "OLE"; {
