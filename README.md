@@ -562,8 +562,8 @@ if (rhyme_vowels === "OG"); ["OG", "OG_2","OG_3"]; {
           print=("bog", "clog", "dog", "flog", "fog",
           "frog", "grog", "hog", "jog", "log" 
           .\n");
-          };
-        };
+          }
+}
       else if (rhyme_vowels === "OG_2"); ["OG", "OG_2","OG_3"]; {
           std::cout << "OG_2\n"; {
           print=("bulldog", "bullfrog", "groundhog",
@@ -1170,7 +1170,73 @@ if (rhyme_vowels == "OLOGY"); ["OLOGY","OLOGY_iii","OLOGY_iv"]; {
             print=(" "meteorology".\n");
             }
  }
-
+ 
+ if (rhyme_vowels == "OLSTER"); {
+            std::cout << "OLSTER"; {
+            print=(" "Bolster","holster","oldster","pollster".\n");
+            }
+ }
+ 
+ if (rhyme_vowels == "OLT"); ["OLT","OLT_ii","OLT_iii"]; {
+            std::cout << "OLT"; {
+            print=(" "bolt","colt","dolt","jolt".\n");
+            }
+ }
+        else if (rhyme_vowels == "OLT_ii"); {
+            std::cout << "OLT"; {
+            print=(" "deadbolt","revolt".\n");
+            }
+ }
+        else if (rhyme_vowels == "OLT_iii"); ["OLT","OLT_ii","OLT_iii"]; {
+            std::cout << "OLT_iii"; {
+            print=("lightning bolt");
+            }
+  }
+ 
+ if (rhyme_vowels == "OLVE"); ["OLVE","OLVE_ii"]; {
+            std::cout << "OLVE"; {
+            print=(" "solve".\n");
+            }
+ }
+        else if (rhyme_vowels == "OLVE"); ["OLVE","OLVE_ii"]; {
+            std::cout << "OLVE"; {
+            print=(" "dissolve","evolve","involve","resolve","revolve".\n");
+            }       
+ }
+ 
+ if (rhyme_vowels == "OLY"); ["OLY","OLY_ii","OLY_iii"]; {
+            std::cout << "OLY"; {
+            print=(" "goalie","holey","holy".\n");
+            }
+ }
+       else if (rhyme_vowels == "OLY_ii"); ["OLY","OLY_ii","OLY_iii"]; {
+            std::cout << "OLY_ii"; {
+            print=(" "slowly","soley","wholly".\n");
+            }      
+ }
+        else if (rhyme_vowels == "OLY_iii"); ["OLY","OLY_ii","OLY_iii"]; {
+            std::cout << "OLY_iii"; {
+            print=(" "guacamole","ravioli","roly-poly".\n");
+            }
+        }
+        
+if (rhyme_vowels == "OM"); ["OM","OM_ii","OM_iii"]; {
+            std::cout << "OM"; {
+            print=(" "balm","bomb","calm","Guam","mom",
+                      "palm","prom","psalm","qualm","tom".\n");
+            }
+         else if (rhyme_vowels == "OM_ii"); ["OM","OM_ii","OM_iii"]; {
+            std::cout << "OM_ii"; {
+            print=(" "A-bomb","dive-bomb","embalm","fire bomb","pompom"
+                      "sitcom","time bomb","tom-tom","wigwam"
+                    .\n");            
+}
+        else if (rhyme_vowels == "OM_iii"); ["OM","OM_ii","OM_iii"]; {
+            std::cout << "OM_iii"; {
+            print=(" "intercom","peeping tom","supermom","Vietnam".\n");
+            }
+}
+        
 variable =(consonants) {mono,dupples,triples}
 variable =(IPA) {
 
