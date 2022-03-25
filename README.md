@@ -1236,7 +1236,60 @@ if (rhyme_vowels == "OM"); ["OM","OM_ii","OM_iii"]; {
             print=(" "intercom","peeping tom","supermom","Vietnam".\n");
             }
 }
-        
+
+if (rhyme_vowels == "OMA"); ["OMA","OMA_ii","OMA_iii"]; {
+           std::cout << "OMA"; {
+           print=(" "coma".\n");
+           }
+}
+        else if (rhyme_vowels == "OMA_ii"); {
+           std::cout << "OMA_ii"; {
+           print=(" "aroma","diploma".\n");
+        }
+}
+        else if (rhyme_vowels == "OMA_iii"); {
+           std::cout << "OMA_iii"; {
+           print=(" "Oklahoma".\n");
+           }
+}
+
+if (rhyme_vowels == "OMB_1"); ["OME_1","OME_1_ii","OME_1_iii"]; {
+          std::cout << "OME_1"; {
+          print=(" "chrome","comb","dome","foam","Gnome",
+                    "home","poem","rome","Rome"
+                   .\n");
+          }
+}
+        else if (rhyme_vowels == "OMB_1"); ["OME_1","OME_1_ii","OME_1_iii"] {
+          std::cout << "OME_1_ii"; {
+          print=(" "Stockholm","syndrome".\n");
+          }
+}
+        else if (rhyme_vowels == "OMB_1"); ["OME_1","OME_1_ii","OME_1_iii"]; {
+          std::cout << "OME_1_iii"; {
+          print=(" "Astrodome","broken home","foster home","home sweet home",
+                    "honeycomb","metronome","mobile home","palindrome",
+                    "shaving foam","Superdome".\n");
+          }
+}
+// incomplete files cross reference
+if (rhyme_vowels == "OMB_2"); [] {
+       std::cout << "OOM"; {
+       print=("");
+       }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 variable =(consonants) {mono,dupples,triples}
 variable =(IPA) {
 
