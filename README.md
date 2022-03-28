@@ -5,7 +5,7 @@
 rhyme_generator_c++
 
 int main (rhyme_vowels) {
-rhyme_vowels == "O";
+int rhyme_vowels <= "O";
 rhyme_vowels >= "O";
 rhyhme_vowels != "O";
 };
