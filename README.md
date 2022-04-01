@@ -1279,18 +1279,146 @@ if (rhyme_vowels == "OMB_2"); [] {
        }
 }
 
+if (rhyme_vowels == "OME_1"); ["OME_1","OME_1_ii","OME_1_iii"]; {
+          std::cout << "OME_1"; {
+          print=(" "chrome","comb","dome","foam","Gnome",
+                    "home","poem","rome","Rome"
+                   .\n");
+          }
+}
+        else if (rhyme_vowels == "OMB_1"); ["OME_1","OME_1_ii","OME_1_iii"] {
+          std::cout << "OME_1_ii"; {
+          print=(" "Stockholm","syndrome".\n");
+          }
+}
+        else if (rhyme_vowels == "OMB_1"); ["OME_1","OME_1_ii","OME_1_iii"]; {
+          std::cout << "OME_1_iii"; {
+          print=(" "Astrodome","broken home","foster home","home sweet home",
+                    "honeycomb","metronome","mobile home","palindrome",
+                    "shaving foam","Superdome".\n");
+          }
+}
 
+if (rhyme_vowels ==  "OMETER"; {
+        std::cout << "OMETER"; {
+        print=(" "barometer","kilometer","odometer",
+                "speedometer","thermometer".\n");
+        }
+}
 
+if (rhyme_vowels == "OMIC"); ["OMIC","OMIC_ii","OMIC_iii"]; {
+        std::cout << "OMIC"; {
+        print=(" "comic".\n");
+        }
+}
+        else if (rhyme_vowels == "OMIC"); ["OMIC","OMIC_ii","OMIC_iii"]; {
+        std::cout << "OMIC_ii"; {
+        print=(" "atomic".\n");        
+        }
+}
+        else if (rhyme_vowels == "OMIC"); ["OMIC","OMIC_ii","OMIC_iii"]; {
+        std::cout << "OMIC_iii"; {
+        print=(" "astronomic","economic","stand-up comic".\n");
+        }
+}
 
+if (rhyme_vowels == "OMINATION"); ["OMINATION","OMINATION_ii"]; {
+        std::cout << "OMINATION"; {
+        print=("domination","nomination);
+        }
+}
+        else if (rhyme_vowels == "OMINATION"); ["OMINATION","OMINATION_ii"]; {
+            std::cout << "OMINATION"; {
+            print=("abomination","denomination");
+        }      
+}
 
+if (rhyme_vowels == "OMMY"); ["OMMY", "OMMY_ii","OMMY_iii"]; {
+            std::cout << "OMMY"; {
+            print=("mommy","swami","Tommy");
+        }
+}
+        else if (rhyme_vowels == "OMMY_ii") ["OMMY","OMMY_ii","OMMY_iii"]; {
+            std::cout << "OMMY_ii"; {
+            print=("pastrami","tsuanami");
+        }
+}
+        else if (rhyme_vowels == "OMMY_iii"); ["OMMY","OMMY_ii","OMMY_iii"]; {
+            std::cout << "OMMY_iii"; {
+            print=("origami");       
+        }
+ }
+ 
+ if (rhyme_vowels == "OMP"); {
+            std::cout << "OMP"; {
+            print=(" "chomp","clomp","romp","stomp",
+                     "swamp","tromp","whomp".\n");
+        }
+ }
+ // incomplete reference
+ if (rhyme_vowels == "ON_1"); {
+        std::cout << "AWN"; {
+        print=(incomplete file cross reference);       
+        }    
+ }
+ 
+// incomplete reference
+ if (rhyme_vowels == "ON_2"); {
+        std::cout << "UN"; {
+        print=(incomplete file cross reference);       
+        }    
+ }
+ 
+  // incomplete reference
+ if (rhyme_vowels == "ON_1"); {
+        std::cout << "AWN"; {
+        print=(incomplete file cross reference);       
+        }    
+ }
+ 
+ if (rhyme_vowels == "ONA"); ["ONA","ONA_ii","ONA_iii"]; {
+            std::cout << "ONA"; {
+            print=("Jonah","Mona");       
+        }    
+ }
+      else if (rhyme_vowels == "ONA_ii"); ["ONA","ONA_ii","ONA_iii"]; {
+            std::cout << "ONA_ii"; {
+            print=(" "kimono".\n");
+         } 
+  }
+      else if (rhyme_vowels == "ONA_iii"); ["ONA","ONA_ii","ONA_iii"]; {
+            std::cout << "ONA_iii"; {
+            print=(" "Arizona","Barcelona".\n");      
+         }   
+  }
+           
+if (rhyme_vowels == "ONCHO"); {
+            std::cout << "ONCHO"; {
+            print=(" "honcho","poncho".\n");
+          }
+}
 
-
-
-
-
-
-
+if (rhyme_vowels == "OND"); ["OND","OND_ii","OND_iii"]; {
+            std::cout << "OND"; {
+            print=(" "blond","bond","conned","dawned","donned",
+                   "fawned","fond","pawned","pond","wand",
+                    "yawned".\n");
+            }
+}
+       else if (rhyme_vowels == "OND_ii"); ["OND","OND_ii","OND_iii"]; {
+            std::cout << "OND_ii"; {
+            print=(" "beyond","doggoned","fishpond","James Bond",
+                    "respond" .\n");
+            }
+}
+        else if (rhyme_vowels == "OND_iii"); ["OND","OND_ii","OND_iii"]; {
+            std::cout << "OND_iii"; {
+            print=(" "correspond","magic wand","vagabond".\n");           
+            } 
+ }        
+       
+       
 variable =(consonants) {mono,dupples,triples}
-variable =(IPA) {
+variable =(IPA
 
 }
