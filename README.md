@@ -1440,12 +1440,12 @@ if (rhyme_vowels === "ONDS"); ["ONS","ONS_ii","ONS_iii"]; {
     }
 }
     else if ("rhyme_vowel === ONS_iii"); ["ONS","ONS_ii","ONS_iii"]; {
-            std::cout << "ONS_iii" {
+            std::cout << "ONS_iii"; {
             print=(" "Amazons","corresponds","leprechauns","marathons",
                      "paragons","pros and cons","vagabonds".\n");
             }
 if (rhyme_vowel === ONE_1); ["ONE1","ONE1_ii","ONE1_iii_"]; {
-            std::cout << "ONE_1");
+            std::cout << "ONE_1";
             print=(" "blown","bone","cone",
                      "drone","flown","groan",
                      "grown","hone","Joan",
@@ -1456,8 +1456,8 @@ if (rhyme_vowel === ONE_1); ["ONE1","ONE1_ii","ONE1_iii_"]; {
                      "tone","zone".\n");
         }             
  }
-        else(rhyme_vowels === "ONE1_ii"); ["ONE1","ONE1_ii","ONE1_iii"]; {
-              std::cout << "ONE1_ii"); 
+        else (rhyme_vowels === ("ONE1_ii"); ["ONE1","ONE1_ii","ONE1_iii"]; {
+              std::cout << "ONE1_ii"; 
               print=("alone","backbone","birthstone","car phone",
                       "cologne","condone","cyclone","dethrone"
                       "dial tone","disown","end zone","full-blown",
@@ -1466,9 +1466,25 @@ if (rhyme_vowel === ONE_1); ["ONE1","ONE1_ii","ONE1_iii_"]; {
                       "outshone","ozone","pay phone","pinecone",
                       "postpone","Ramon","rhinestone","sno-cone",
                       "T-bone","time zone","tombstone","trombone","unknown",
-                      "war zone","well-known","","",""
-                      );
-        };
+                      "war zone","well-known","wishbone","windblown","mind blown".\n");
+    }
+}   else (rhyme_vowels === "ONE1_iii"); ["ONE1","ONE1_ii","ONE1_iii"]; {
+                 std::cout << "ONE1_iii"; 
+                 print=(" "baritone","buffer zone","chaperon",
+                        "cobblestone","combat zone","crazy bone",
+                        "doggie bone","funny bone","ice cream cone",
+                        "microphone","moan and groan","monotone",
+                        "over grown","saxophone","stepping-stone",
+                        "telephone","twilight zone","xylophone","Yellowstone"
+                        .\n");
+        }
+}
+            else (rhyme_vowels === "ONE1_iv"); ["ONE1","ONE1_ii","ONE1_iii","ONE1_iv"]; {
+                std::cout << "ONE1_iv"; {
+                print=(" "accident prone".\n");
+         }
+}
+
 
 variable =(consonants) {mono,dupples,triples}
 variable =(IPA
