@@ -1416,8 +1416,60 @@ if (rhyme_vowels == "OND"); ["OND","OND_ii","OND_iii"]; {
             print=(" "correspond","magic wand","vagabond".\n");           
             } 
  }        
-       
-       
+
+if (rhyme_vowels === "ONDER"); {
+            std::cout << "ONDER"; {
+            print=(" "blonder", "condor", "fonder",
+                    "launder","ponder", "squander", 
+                    "wander","yonder".\n"):
+            }
+}
+if (rhyme_vowels === "ONDS"); ["ONS","ONS_ii","ONS_iii"]; {
+            std::cout << "ONS" {
+            print=(" "blondes","bonds","bronze","odds",
+                    "cons","dawns","dons","fawns",
+                    "Hans","lawns","pawns","ponds",
+                    "swans","wands","yawns".\n");
+            }
+}
+    else if ("rhyme_vowels === "ONS_ii"); ["ONS","ONS_ii","ONS_iii"]; {
+            std::cout << "ONS_ii" {
+            print=(" "batons","ex-cons","icons",
+                  "long johns","morons","neutrons",
+                 "pecans","pythons","responds".\n");
+    }
+}
+    else if ("rhyme_vowel === ONS_iii"); ["ONS","ONS_ii","ONS_iii"]; {
+            std::cout << "ONS_iii" {
+            print=(" "Amazons","corresponds","leprechauns","marathons",
+                     "paragons","pros and cons","vagabonds".\n");
+            }
+if (rhyme_vowel === ONE_1); ["ONE1","ONE1_ii","ONE1_iii_"]; {
+            std::cout << "ONE_1");
+            print=(" "blown","bone","cone",
+                     "drone","flown","groan",
+                     "grown","hone","Joan",
+                     "known","loan","moan",
+                     "own","phone","prone",
+                     "sewn","shone","shown",
+                     "stone","throne","thrown",
+                     "tone","zone".\n");
+        }             
+ }
+        else(rhyme_vowels === "ONE1_ii"); ["ONE1","ONE1_ii","ONE1_iii"]; {
+              std::cout << "ONE1_ii"); 
+              print=("alone","backbone","birthstone","car phone",
+                      "cologne","condone","cyclone","dethrone"
+                      "dial tone","disown","end zone","full-blown",
+                      "full-grown","grindstone","headphone","headstone",
+                      "homegrown","hormone","jawbone","milestone",
+                      "outshone","ozone","pay phone","pinecone",
+                      "postpone","Ramon","rhinestone","sno-cone",
+                      "T-bone","time zone","tombstone","trombone","unknown",
+                      "war zone","well-known","","",""
+                      );
+        };
+
 variable =(consonants) {mono,dupples,triples}
 variable =(IPA
 
