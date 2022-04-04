@@ -65,9 +65,17 @@ if (rhyme_vowels == "O"); ["O","O_ii","O_iii","O_iv"]; {
         }
  } 
  // incomplete cross reference
- if (rhyme_vowels == "O_2"); {
+ if (rhyme_vowels == "O_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
       std::cout << "EW"; {
-      print=(" "" .\n");
+      print=(" "blew","blue","boo","brew","chew","clue"
+                "crew","cue","dew","do","drew","due","ewe",
+                "few","flew","flu","glue","gnu","goo","grew"
+                "hue","knew","mew","moo","new","pew","pooh",
+                "rue","screw","shoe","slew","stew","sue","threw",
+                "","","","",
+                
+                
+                .\n");
       }
  }
  
