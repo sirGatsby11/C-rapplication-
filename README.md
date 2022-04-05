@@ -65,21 +65,64 @@ if (rhyme_vowels == "O"); ["O","O_ii","O_iii","O_iv"]; {
         }
  } 
  // incomplete cross reference
- if (rhyme_vowels == "O_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
+if (rhyme_vowels == "O_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
       std::cout << "EW"; {
       print=(" "blew","blue","boo","brew","chew","clue"
                 "crew","cue","dew","do","drew","due","ewe",
                 "few","flew","flu","glue","gnu","goo","grew"
                 "hue","knew","mew","moo","new","pew","pooh",
                 "rue","screw","shoe","slew","stew","sue","threw",
-                "","","","",
-                
-                
-                .\n");
+                "through","to","too","true","two","view","who",
+                "whoo","you","zoo".\n");
       }
  }
  
- 
+    else if (rhyme_vowels === "O_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
+       std::cout << "EW_ii"; {
+       print=(" "ado","ah-choo","anew","bamboo","boo-boo"
+               "boohoo","brand-new","breakthrough","canoe","cashew",
+               "choo-choo","construe","corkscrew","cuckoo","curfew",
+               "debut","dog-doo","drive-through","goo-goo","hairdo",
+               "horseshoe","how-to","into","IQ","kazoo",
+               "kung fu","miscue","misdo","muumuu","on cue",
+               "on view","outdo","outgrew","past due","Peru"
+               "PU","pursue","redo","renew","review",
+               "revue","Says who","see-through","shampoo","snafu",
+               "subdue","taboo","tattoo","thank you","true blue",
+               "tutu","undo","unscrew","unto","untrue",
+               "voodoo","who's who","withdrew","world-view","yoo-hoo".\n");
+       }
+}
+
+    else if (rhyme_vowels === "O_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
+        std::cout << "EW_iii"; {
+        print=(" "avenue","ballyhoo","barbecue",
+                "bird's-eye view","black and blue","book review",
+                "buckaroo","bugaboo","caribou",
+                "cockatoo","countersue","curlicue",
+                "i love you","impromptu","interview",
+                "irish stew","jujitsu","kangaroo",
+                "Malibu","misconstrue","navy blue",
+                "no can do","Oahu","overdo",
+                "overdue","peek-a-boo","point of view",
+                "postage due","quite a few","rendezvous",
+                "residue","revenue","stinkaroo",
+                "super Glue","switcheroo","through and through",
+                "Timbuktu","toodle-oo","tried and true",
+                "two by two","Waterloo","well-to-do",
+                "whoop-de-doo".\n");
+        }
+}
+    else if (rhyme_vowels === "O_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
+        std::cout << "EW_iv"; {
+        print=(" "catch-22","hullabaloo","out of the blue",
+                 "red, white, and blue","skeleton crew","Winnie the Pooh".\n");
+        }
+ }
+    else if (rhyme_vowels === "O_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
+        std::cout << "EW_v"
+        }
+
 
 // 1. {so baby} {had aglow} | {that she keeptd} {to her own} | {she kepted this}, {on the} {real low} | {coming from skid row}
 // 2. {no maybes} {or} {bad info} {but} {thats heads real through} {the type for a} {collegiate sideshow}
