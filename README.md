@@ -178,7 +178,7 @@ if (rhyme_vowels == "OAD_2"); ["AWED","AWED_ii","AWED_iii"]; {
               "wad".\n")
        } 
 }
-    else if (rhyme_vowels === "OAD_2"); ["AWED","AWED_ii","AWED_iii"]; {
+    else if (rhyme_vowels === "OAD_2_ii"); ["AWED","AWED_ii","AWED_iii"]; {
         std::cout << "AWED_ii"; {
         print=(" "abroad","applaud","Cape Cod",
                   "facade","hot rod","outlawed",
@@ -187,7 +187,7 @@ if (rhyme_vowels == "OAD_2"); ["AWED","AWED_ii","AWED_iii"]; {
                   "vice squad".\n");
         }
 }
-    else if (rhyme_vowels === "OAD_2"); ["AWED","AWED_ii","AWED_iii"]; {
+    else if (rhyme_vowels === "OAD_2_iii"); ["AWED","AWED_ii","AWED_iii"]; {
         std::cout << "AWED_iii"; {
         print=(" "act of God","cattle prod","firing squad","fishing rod",
                 "golden rod","hemmed and hawed","land of Nod","lightning rod",
@@ -216,13 +216,30 @@ if (rhyme_vowels == "OAK"); ["OKE","OKE_ii","OKE_iii"]; {
                  "provoke","slowpoke","sunstroke".\n");
         }
  }
-    else if ()
-// INCOMPLETE CROSS REFERENCE!
-if (rhyme_vowels == "OAKS"); {
+    else if (rhyme_vowels === "OKE_iii"); ["OKE","OKE_ii","OKE_iii"]; {
+        std::cout << "OKE_ii"; {
+        print=(" "artichoke","cloud of smoke","Diet coke","go for broke",
+                 "holy smoke"."okey-doke","poison oak".\n");
+        }
+ } 
+ 
+if (rhyme_vowels == "OAKS"); ["OKES","OKES_ii","OKES_iii"]; {
        std::cout << "OKES"; {
-       print=(PULL OKES FILE);
+       print=(" "chokes","cloaks","coax","Cokes","croaks",
+                "folks","hoax","jokes","oaks","pokes",
+                "smokes","spokes","stokes","yolks".\n");
        }
 }
+   else if (rhyme_vowels === "OAKS_ii"); ["OKES","OKES_ii","OKES_iii"]; {
+        std::cout << "OKES_ii"; {
+        print=(" "provokes".\n");
+        }
+   }
+    else if (rhyme_vowels === "OAKS_iii"); ["OKES","OKES_ii","OKES_iii"]; {
+        std::cout << "OKES_iii"; {
+        print=(" "artichoke","Diet Coke".\n");
+        }
+    }
 // INCOMPLETE CROSS REFERENCE!
 if (rhyme_vowels == "OAL"); {
        std::cout << "OLE"; {
