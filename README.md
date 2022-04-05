@@ -162,17 +162,37 @@ if (rhyme_vowels == "OACH"); ["OACH","OACH_ii"]; {
                  "overload","penal code","pigeontoed".\n")
         }
   }
-    else if (rhyme_vowels === "ODE_iii") ["ODE","ODE_ii","ODE_iii"]; {
-        std::cout << "ODE_iii"; {
+    else if (rhyme_vowels === "ODE_iii") ["ODE","ODE_ii","ODE_iv"]; {
+        std::cout << "ODE_iv"; {
         print=(" "area code".\n");
         }
   }
 
-// incomplete cross reference!
-if (rhyme_vowels == "OAD_2"); {
+if (rhyme_vowels == "OAD_2"); ["AWED","AWED_ii","AWED_iii"]; {
        std::cout << "AWED"; {
-       print=(AWED FILE)
+       print=(" "awed","broad","Claude","clawed",
+              "clod","flawed","fraud","gnawed",
+              "God","mod","nod","odd","pawed"
+              "plod","pod","prod","quad","rod",
+              "sawed","squad","Todd","trod",
+              "wad".\n")
        } 
+}
+    else if (rhyme_vowels === "OAD_2"); ["AWED","AWED_ii","AWED_iii"]; {
+        std::cout << "AWED_ii"; {
+        print=(" "abroad","applaud","Cape Cod",
+                  "facade","hot rod","outlawed",
+                  "pea pod","seasawed","slipshod",
+                  "spit-wad","tightwad","tripod",
+                  "vice squad".\n");
+        }
+}
+    else if (rhyme_vowels === "OAD_2"); ["AWED","AWED_ii","AWED_iii"]; {
+        std::cout << "AWED_iii"; {
+        print=(" "act of God","cattle prod","firing squad","fishing rod",
+                "golden rod","hemmed and hawed","land of Nod","lightning rod",
+                "promenade","riot squad".\n");
+        }
 }
 
 if (rhyme_vowels == "OAF"); {
@@ -180,12 +200,23 @@ if (rhyme_vowels == "OAF"); {
        print=(" "loaf","oaf".\n")
        }
 }
-// incomplete cross reference! 
-if (rhyme_vowels == "OAK"); {
+ 
+if (rhyme_vowels == "OAK"); ["OKE","OKE_ii","OKE_iii"]; {
        std::cout << "OKE"; {
-       print=("OKE FILE")
+       print=(" "broke","choke","cloak","coax","Coke",
+                "croak","folk","joke","oak",
+                "poke","smoke","soak","spoke",
+                "stoke","woke","yolk".\n");
        }
 }
+    else if (rhyme_vowels === "OKE_ii"); ["OKE","OKE_ii","OKE_iii"]; {
+        std::cout << "OKE_ii"; {
+        print=(" "awoke","cowpoke","dead broke",
+                 "egg yolk","heartstroke","kinfolk",
+                 "provoke","slowpoke","sunstroke".\n");
+        }
+ }
+    else if ()
 // INCOMPLETE CROSS REFERENCE!
 if (rhyme_vowels == "OAKS"); {
        std::cout << "OKES"; {
