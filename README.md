@@ -120,9 +120,10 @@ if (rhyme_vowels == "O_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
         }
  }
     else if (rhyme_vowels === "O_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
-        std::cout << "EW_v"
+        std::cout << "EW_v" {
+        print=(" "cock-a-doodle-doo","panoramic view".\n"):
         }
-
+ }
 
 // 1. {so baby} {had aglow} | {that she keeptd} {to her own} | {she kepted this}, {on the} {real low} | {coming from skid row}
 // 2. {no maybes} {or} {bad info} {but} {thats heads real through} {the type for a} {collegiate sideshow}
@@ -141,12 +142,31 @@ if (rhyme_vowels == "OACH"); ["OACH","OACH_ii"]; {
         }
      }
     
- // incomplete cross reference!
- if (rhyme_vowels == "OAD_1"); {
+ if (rhyme_vowels == "OAD_1"); ["ODE","ODE_ii","ODE_iii"]; {
        std::cout << "ODE"; {
-       print=("ODE file");
+       print=(" "bowed","code","crowed","flowed","glowed"
+                "goad","load","mode","mowed",
+                "ode","owed","road","rowed",
+                "showed","slowed","snowed","stowed",
+                "strode","toad","towed",
+                .\n");
         }
  }
+    else if (rhyme_vowels === "ODE_ii"); ["ODE","ODE_ii","ODE_iii"]; {
+        std::cout << "ODE_ii"; {
+        print=(" "abode","carload","crossroad","decode",
+                 "dress code","erode","explode","freeload",
+                 "implode","Morse Code","railroad","tiptoed",
+                 "truckload","unload","workload","zipcode",
+                 "a la mode","electrode","episode","hit the road",
+                 "overload","penal code","pigeontoed".\n")
+        }
+  }
+    else if (rhyme_vowels === "ODE_iii") ["ODE","ODE_ii","ODE_iii"]; {
+        std::cout << "ODE_iii"; {
+        print=(" "area code".\n");
+        }
+  }
 
 // incomplete cross reference!
 if (rhyme_vowels == "OAD_2"); {
