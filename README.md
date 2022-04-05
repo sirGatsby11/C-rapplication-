@@ -130,6 +130,21 @@ if (rhyme_vowels == "O_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
 // 3.  ivy league cardigan 
 // 4. working on my lexico somewhere in the orchards of mexico
  
+ 
+std::cout << "       d888888b                         d888888b "
+std::cout << "    d888    8888b                    d888888   888b "
+std::cout << "  d88    88  898888b               d8888  888     88b "
+std::cout << " d8P        88888888b             d88888888888     b8b "
+std::cout << " 88        8888888888             88888888888       88 "
+std::cout << " 88       88888888888             8888888888        88 "
+std::cout << " 98b     88888888888P             988888888        d8P "
+std::cout << " 988     888  8888P      _=_      9888898  88    88P "
+std::cout << "   9888   888888P      q(-_-)p       98888    888P "
+std::cout << "      9888888P         '_) (_`         9888888P "
+std::cout << "         88            /__/  \            88    "
+std::cout << "         88          _(<_   / )_          88  "
+std::cout << "        d88b        (__\_\_|_/__)        d88b "
+  
 if (rhyme_vowels == "OACH"); ["OACH","OACH_ii"]; {
        std::cout << "OACH"; {
        print=(" "broach","coach","poach","roach" .\n")
