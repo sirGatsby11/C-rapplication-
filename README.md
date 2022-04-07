@@ -223,15 +223,13 @@ if (rhyme_vowels == "OAK"); ["OKE","OKE_ii","OKE_iii"]; {
                 "poke","smoke","soak","spoke",
                 "stoke","woke","yolk".\n");
        }
-}
-    else if (rhyme_vowels === "OKE_ii"); ["OKE","OKE_ii","OKE_iii"]; {
+}   else if (rhyme_vowels === "OKE_ii"); ["OKE","OKE_ii","OKE_iii"]; {
         std::cout << "OKE_ii"; {
         print=(" "awoke","cowpoke","dead broke",
                  "egg yolk","heartstroke","kinfolk",
                  "provoke","slowpoke","sunstroke".\n");
         }
- }
-    else if (rhyme_vowels === "OKE_iii"); ["OKE","OKE_ii","OKE_iii"]; {
+ }   else if (rhyme_vowels === "OKE_iii"); ["OKE","OKE_ii","OKE_iii"]; {
         std::cout << "OKE_ii"; {
         print=(" "artichoke","cloud of smoke","Diet coke","go for broke",
                  "holy smoke"."okey-doke","poison oak".\n");
@@ -244,29 +242,73 @@ if (rhyme_vowels == "OAKS"); ["OKES","OKES_ii","OKES_iii"]; {
                 "folks","hoax","jokes","oaks","pokes",
                 "smokes","spokes","stokes","yolks".\n");
        }
-}
-   else if (rhyme_vowels === "OAKS_ii"); ["OKES","OKES_ii","OKES_iii"]; {
+}   else if (rhyme_vowels === "OAKS_ii"); ["OKES","OKES_ii","OKES_iii"]; {
         std::cout << "OKES_ii"; {
         print=(" "provokes".\n");
         }
-   }
-    else if (rhyme_vowels === "OAKS_iii"); ["OKES","OKES_ii","OKES_iii"]; {
+}   else if (rhyme_vowels === "OAKS_iii"); ["OKES","OKES_ii","OKES_iii"]; {
         std::cout << "OKES_iii"; {
         print=(" "artichoke","Diet Coke".\n");
         }
     }
-// INCOMPLETE CROSS REFERENCE!
-if (rhyme_vowels == "OAL"); {
+    
+if (rhyme_vowels == "OAL"); ["OLE","OLE_ii","OLE_iii","OLE_iv"]; {
        std::cout << "OLE"; {
-       print=(PULL OLE FILE);
+       print=(" "bowl","coal","dole","foal","goal",
+                "hole","Joel","knoll","Lowell","mole",
+                "pole","poll","role","roll","scroll",
+                "sole","soul","stole","stroll","toll",
+                "troll","whole".\n");
        }
+}   else if (rhyme_vowels === "OLE_ii"); ["OLE","OLE_ii","OLE_iii","OLE_iv"]; {
+        std::cout << "OLE_ii"; {
+        print=(" "cajole","charcoal","console","control","Creole",
+                  "drum roll","egg roll","enroll","extol","fishbowl",
+                  "flagpole","foxhole","keyhole","loophole","manhole",
+                  "mudhole","North pole","parole","patrol","peephole",
+                  "porthole","pothole","Rose bowl","steamroll","tadpole",
+                  "unroll".\n");
+        }
+}   else if (rhyme_vowels === "OLE_iii"); ["OLE","OLE_ii","OLE_iii","OLE_iv"]; {
+        std::cout << "OLE_iii"; {
+        print=(" "buttonhole","camisole","casserole",
+                 "cruise control","cubbyhole","fishing pole",
+                 "heart and soul","Old King Cole","pigeonhole",
+                 "rock and roll","self-control","starring role",
+                 "sugar bowl","swimming hole","toliet bowl",
+                 "Tootsie roll","totem pole".\n");        
+        }
+}   else if (rhyme_vowels === "OLE_iv"); ["OLE","OLE_ii","OLE_iii","OLE_iv"]; {
+        std::cout << "OLE_iv"; {
+        print=(" "ace in the hole","body and soul","Hollywood bowl",
+                 "out of control","remote control".\n");
+        }
 }
-// INCOMPLETE CROSS REFERENCE!
-if (rhyme_vowels == "OAM"); {
-       std::cout << "OME_1"; {
-       print=(PULL OME_1 FILE);
-       }
+
+1. {they still lookin} {for that} {recipe}, {grandmas special} {only one i know} {in the} {kitchen} {always cookin} necessity}
+2. keep searching for that 
+
+
+
+
+
+if (rhyme_vowels == "OAM"); ["OME_1","OME_1_ii","OME_1_iii"]; {
+          std::cout << "OME_1"; {
+          print=(" "chrome","comb","dome","foam","Gnome",
+                    "home","poem","rome","Rome".\n");
+          }
+}       else if (rhyme_vowels == "OAM"); ["OME_1","OME_1_ii","OME_1_iii"] {
+          std::cout << "OME_1_ii"; {
+          print=(" "Stockholm","syndrome".\n");
+          }
+}       else if (rhyme_vowels == "OAM"); ["OME_1","OME_1_ii","OME_1_iii"]; {
+          std::cout << "OME_1_iii"; {
+          print=(" "Astrodome","broken home","foster home","home sweet home",
+                    "honeycomb","metronome","mobile home","palindrome",
+                    "shaving foam","Superdome".\n");
+          }
 }
+
 // INCOMPLETE CROSS REFERENCE!
 if (rhyme_vowels == "OAR"); {
        std::cout << "ORE"; {
@@ -632,7 +674,7 @@ if (rhyme_vowels == "ODY_2");  ["ODY_2","ODY_3",ODY_4"]; {
           print=("everybody", "heavenly body" .\n");
           }
 }
-
+// incomplete file cross reference
 if (rhyme_vowels == "OE_1"); {  
         std::cout << "O"; {
         print=(" "beau","blow","bow","crow","doe",
@@ -644,12 +686,61 @@ if (rhyme_vowels == "OE_1"); {
                  "whoa","woe".\n");
         }
 }
-// incomplete cross reference
-if (rhyme_vowels == "OE_2"); {
-        std::cout << "EW"; {
-        print=(" print EW")
+
+if (rhyme_vowels === "OE_2"); ["OE_2_EW","OE_2_EW_ii","OE_2_EW_iii","OE_2_EW_iv","OE_2_EW_v","OE_2_EW_vi"]; {
+      std::cout << "EW"; {
+      print=(" "blew","blue","boo","brew","chew","clue"
+                "crew","cue","dew","do","drew","due","ewe",
+                "few","flew","flu","glue","gnu","goo","grew"
+                "hue","knew","mew","moo","new","pew","pooh",
+                "rue","screw","shoe","slew","stew","sue","threw",
+                "through","to","too","true","two","view","who",
+                "whoo","you","zoo".\n");
+      }
+ }  else if (rhyme_vowels === "OE_2"); ["OE_2_EW","OE_2_EW_ii","OE_2_EW_iii","OE_2_EW_iv","OE_2_EW_v","OE_2_EW_vi"]; {
+       std::cout << "OE_2_EW_ii"; {
+       print=(" "ado","ah-choo","anew","bamboo","boo-boo"
+               "boohoo","brand-new","breakthrough","canoe","cashew",
+               "choo-choo","construe","corkscrew","cuckoo","curfew",
+               "debut","dog-doo","drive-through","goo-goo","hairdo",
+               "horseshoe","how-to","into","IQ","kazoo",
+               "kung fu","miscue","misdo","muumuu","on cue",
+               "on view","outdo","outgrew","past due","Peru"
+               "PU","pursue","redo","renew","review",
+               "revue","Says who","see-through","shampoo","snafu",
+               "subdue","taboo","tattoo","thank you","true blue",
+               "tutu","undo","unscrew","unto","untrue",
+               "voodoo","who's who","withdrew","world-view","yoo-hoo".\n");
+       }
+}   else if (rhyme_vowels === "OE_2"); ["OE_2_EW","OE_2_EW_ii","OE_2_EW_iii","OE_2_EW_iv","OE_2_EW_v","OE_2_EW_vi"]; {
+        std::cout << "OE_2_EW_iii"; {
+        print=(" "avenue","ballyhoo","barbecue",
+                "bird's-eye view","black and blue","book review",
+                "buckaroo","bugaboo","caribou",
+                "cockatoo","countersue","curlicue",
+                "i love you","impromptu","interview",
+                "irish stew","jujitsu","kangaroo",
+                "Malibu","misconstrue","navy blue",
+                "no can do","Oahu","overdo",
+                "overdue","peek-a-boo","point of view",
+                "postage due","quite a few","rendezvous",
+                "residue","revenue","stinkaroo",
+                "super Glue","switcheroo","through and through",
+                "Timbuktu","toodle-oo","tried and true",
+                "two by two","Waterloo","well-to-do",
+                "whoop-de-doo".\n");
         }
-}
+}   else if (rhyme_vowels === "OE_2"); ["OE_2_EW","OE_2_EW_ii","OE_2_EW_iii","OE_2_EW_iv","OE_2_EW_v","OE_2_EW_vi"]; {
+        std::cout << "OE_2_EW_iv"; {
+        print=(" "catch-22","hullabaloo","out of the blue",
+                 "red, white, and blue","skeleton crew","Winnie the Pooh".\n");
+        }
+ }  else if (rhyme_vowels === "OE_2"); ["OE_2_EW","OE_2_EW_ii","OE_2_EW_iii","OE_2_EW_iv","OE_2_EW_v","OE_2_EW_vi"]; {
+        std::cout << "EW_v" {
+        print=(" "cock-a-doodle-doo","panoramic view".\n"):
+        }
+ }
+
 // incomplete cross reference
 if (rhyme_vowels == "OES_1"); {
         std::cout << "USE"; {
