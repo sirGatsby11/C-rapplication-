@@ -285,7 +285,7 @@ if (rhyme_vowels == "OAL"); ["OLE","OLE_ii","OLE_iii","OLE_iv"]; {
         }
 }
 
-1. {they still lookin} {for that} {recipe}, {grandmas special} {only one i know} {in the} {kitchen} {always cookin} necessity}
+1. {they still lookin} {for that} {recipe}, {grandmas special} {necssity} {only one i know} {in the} {kitchen} {always cookin} {busybody is a busy bee that body builds with boulders on the back of atlas, at last he get a heavy favor from young Icecules, cooler brother of old ass hercules,  }
 2. keep searching for that 
 
 
@@ -310,17 +310,85 @@ if (rhyme_vowels == "OAM"); ["OME_1","OME_1_ii","OME_1_iii"]; {
 }
 
 // INCOMPLETE CROSS REFERENCE!
-if (rhyme_vowels == "OAR"); {
+if (rhyme_vowels == "OAR"); ["ORE","ORE_ii","ORE_iii","ORE_iv"]; {
        std::cout << "ORE"; {
-       print=(PULL ORE FILE);
+       print=(" "boar","bore","chore","core","corps",
+                "door","drawer","floor","for","flour",
+                "gore","lore","more","nor","oar",
+                "or","poor","pore","pour","roar",
+                "snore","soar","score","shore","sore",
+                "store","swore","tore","war","wore",
+                "your".\n");
        }
+}    else (rhyme_vowels === "ORE_ii"); ["ORE","ORE_ii","ORE_iii","ORE_iv"]; {
+        std::cout << "ORE"; {
+        print=(" "abhor","adore","ashore","before","cold sore",
+                "cold war","condor","decor","downpour","drugstore",
+                "encore","explore","eyesore","folklore","galore",
+                "hard-core","hoped-for","ignore","indoor","mentor",
+                "next-door","no more","outdoor","outscore","Peace Corps",
+                "postwar","rapport","restore","seashore","senor",
+                "ten-four","therefore","trapdoor","uproar".\n"); {
+       }
+} else if (rhyme_vowels === "ORE_iii"); ["ORE","ORE_ii","ORE_iii","ORE_iv"] {
+        std::cout << "ORE"; {
+        print=(" "all shore","antiwar","anymore","apple core",
+                 "Baltimore","blood and gore","carnivore","civil war",
+                 "corridor","dinosaur","door-to-door","Ecuablor",
+                 "evenmore","furthermore","Marine Corps","matador","metaphor",
+                 "nevermore","por favor","reservoir","rich or poor","saddle sore",
+                 "ship-to-shore","Singapore","sophomore","Theodore","troubadour",
+                 "tug of war","two-by-four","underscore".\n");
+        }
+}  else if (rhyme_vowels === "ORE_iv"); ["ORE","ORE_ii","ORE_iii","ORE_iv"] {
+        std::cout << "ORE"; {
+        print=(" "forevermore","titanosaur" .\n");
+        }
 }
+
+
+// \* syntax: timber
+// sonic percieved as ten-four 
+// applied in: simple syntax,compound sentences,complex sentences,
+// SS-coming down yelling out, TIMBER.
+//  CS-for every riggid tree in the forest, there's yet another yelling out, TIMBER since .
+//  XCS- timeless saying, for every tree in the forest. is there yet another yelling out after; Timber since the traditional cliche // clause's are taken and spoken for!
+// tango cross reference ++ algorithim stucture
+// */
+
+
 // INCOMPLETE CROSS REFERENCE!
-if (rhyme_vowels == "OARD"); {
+if (rhyme_vowels == "OARD"); ["ORD_1","ORD_1_ii","ORD_1_iii","ORD_1_iv"]; {
        std::cout << "ORD_1"; {
-       print=(PULL ORD_1 FILE);
+       print=(" "board","bored","chord","cord",
+                "floored","Ford","gourd","hoard",
+                "lord","poured","roared","scored",
+                "snored","soared","stored","sword",
+                "ward","warred".\n");
        }
+} else if (rhyme_vowels == "OARD"); ["ORD","ORD_ii","ORD_iii","ORD_1_iv"]; {
+        std::cout << "ORD_1_ii"); {
+        print=(" "abhorred","aboard","adored","afford","award",
+                "backboard","billboard","blackboard","cardboard","chalkboard",
+                "dashboard","discord","explored","fjord","ignored",
+                "keyboard","landlord","outscored","record","restored",
+                "reward","rip cord","scoreboard","skateboard","slumlord",
+                "surfboard","toward","washboard".\n");
+        }
+}   else if (rhyme_vowels == "OARD"); ["ORD_1","ORD_1_ii","ORD_1_iii","ORD_1_iv"]; {
+        std::cout << "ORD_1_iii"; {
+        print=(" "all aboard","boogieboard","checkerboard","diving board",
+                     "harpsichord","overboard","room and board","smorgasbord",
+                     "sounding board","spinal board","tape-record","unexplored".\n");
+        }
+}   else if (rhyme_vowels == "OARD"); ["ORD","ORD_ii","ORD_iii","ORD_1_iv"]; {
+        std::cout << "ORD_1_iv"; {
+        print=(" "across the board","bulletin board","stiff as baord".\n");
+        }
 }
+
+
+
 // INCOMPLETE CROSS REFERENCE!
 if (rhyme_vowels == "OARDER"); {
        std::cout << "ORDER"; {
