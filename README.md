@@ -616,11 +616,43 @@ if (rhyme_vowels == "OCKET"); ["OCKET","OCKET_ii","OCKET_iii"]; {
         }
 }
 // incomplete cross reference file
-if (rhyme_vowels == "OCKS"); {
+if (rhyme_vowels == "OCKS"); ["OX","OX_ii","OX_iii","OX_iv"]; {
         std::cout << "OX"; {
-        print=(OX file);
+        print=(" "blocks","box","clocks","docks","flocks",
+                "fox","gawks","hawks","jocks","knocks",
+                "locks","mocks","ox","pox","rocks",
+                "shocks","smocks","socks","sox","squaks",
+                "squawks","stocks","talks","walks","woks",
+                .\n");
         }
-}
+} else if (rhyme_vowels == "OCKS"); ["OCKS","OCKS_ii","OCKS_iii","OCKS_iv"];
+        std::cout << "OX_ii"; ["OX","OX_ii","OX_iii","OX_iv"]; {
+        print=(" "cashbox","crosswalks","deadlocks","detox","Fort Knox",
+                "jaywalks","knee socks","lunchbox",",mailbox","Mohawks",
+                "outfox","peacocks","Reeboxs","roadblocks","sandblocks",
+                "shamrocks","sleepwalks","soap box","sweat socks","ticktocks",
+                "toy box","unlocks","Xerox".\n");
+         }
+}   else if (rhyme_vowels == "OCKS"); ["OX","OX_ii","OX_iii","OX_iv"]; {
+        std::cout << "OX_iii"; {
+        print=(" "aftershocks","chatterbox","chickenpox",
+                 "Goldlocks",",music box","orthodox",
+                "paradox","shadowbox","stumbling box",
+                "tomahawks".\n");
+        }
+} else if (rhyme_vowels == "OCKS");["OX","OX_ii","OX_iii","OX_iv"]; {
+        std::cout << "OX_iv"; {
+        print=(" "jack-in-the-box"."Pandora's box","unorthodox".\n");
+        }
+} 
+        
+        
+        
+// outfox the peacocks in some old reeboxx. (simple sents. chorus)
+    outfox the pictured' peacocks, while in the same old G-unit reeboks, (compound sents hooks/ bridges)
+    outfoxing the poster painting pictured' peacocks, while in the same old G-Unit reeboks,
+    Favorite add aquired by addidas are Jeff & Will #FFFFFF, (complex sents verses.3/4++4/4)
+
 // incomplete cross reference file
 if (rhyme_vowels == "OCKEY"); {
         std::cout << "AWKY"; {
