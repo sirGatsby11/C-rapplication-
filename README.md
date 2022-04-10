@@ -242,11 +242,11 @@ if (rhyme_vowels == "OAKS"); ["OKES","OKES_ii","OKES_iii"]; {
                 "folks","hoax","jokes","oaks","pokes",
                 "smokes","spokes","stokes","yolks".\n");
        }
-}   else if (rhyme_vowels === "OAKS_ii"); ["OKES","OKES_ii","OKES_iii"]; {
+}   else if (rhyme_vowels === "OAKS"); ["OKES","OKES_ii","OKES_iii"]; {
         std::cout << "OKES_ii"; {
         print=(" "provokes".\n");
         }
-}   else if (rhyme_vowels === "OAKS_iii"); ["OKES","OKES_ii","OKES_iii"]; {
+}   else if (rhyme_vowels === "OAKS"); ["OKES","OKES_ii","OKES_iii"]; {
         std::cout << "OKES_iii"; {
         print=(" "artichoke","Diet Coke".\n");
         }
@@ -260,7 +260,7 @@ if (rhyme_vowels == "OAL"); ["OLE","OLE_ii","OLE_iii","OLE_iv"]; {
                 "sole","soul","stole","stroll","toll",
                 "troll","whole".\n");
        }
-}   else if (rhyme_vowels === "OLE_ii"); ["OLE","OLE_ii","OLE_iii","OLE_iv"]; {
+}   else if (rhyme_vowels === "OAL"); ["OLE","OLE_ii","OLE_iii","OLE_iv"]; {
         std::cout << "OLE_ii"; {
         print=(" "cajole","charcoal","console","control","Creole",
                   "drum roll","egg roll","enroll","extol","fishbowl",
@@ -269,7 +269,7 @@ if (rhyme_vowels == "OAL"); ["OLE","OLE_ii","OLE_iii","OLE_iv"]; {
                   "porthole","pothole","Rose bowl","steamroll","tadpole",
                   "unroll".\n");
         }
-}   else if (rhyme_vowels === "OLE_iii"); ["OLE","OLE_ii","OLE_iii","OLE_iv"]; {
+}   else if (rhyme_vowels === "OAL"); ["OLE","OLE_ii","OLE_iii","OLE_iv"]; {
         std::cout << "OLE_iii"; {
         print=(" "buttonhole","camisole","casserole",
                  "cruise control","cubbyhole","fishing pole",
@@ -278,7 +278,7 @@ if (rhyme_vowels == "OAL"); ["OLE","OLE_ii","OLE_iii","OLE_iv"]; {
                  "sugar bowl","swimming hole","toliet bowl",
                  "Tootsie roll","totem pole".\n");        
         }
-}   else if (rhyme_vowels === "OLE_iv"); ["OLE","OLE_ii","OLE_iii","OLE_iv"]; {
+}   else if (rhyme_vowels === "OAL"); ["OLE","OLE_ii","OLE_iii","OLE_iv"]; {
         std::cout << "OLE_iv"; {
         print=(" "ace in the hole","body and soul","Hollywood bowl",
                  "out of control","remote control".\n");
@@ -309,7 +309,6 @@ if (rhyme_vowels == "OAM"); ["OME_1","OME_1_ii","OME_1_iii"]; {
           }
 }
 
-// INCOMPLETE CROSS REFERENCE!
 if (rhyme_vowels == "OAR"); ["ORE","ORE_ii","ORE_iii","ORE_iv"]; {
        std::cout << "ORE"; {
        print=(" "boar","bore","chore","core","corps",
@@ -320,8 +319,8 @@ if (rhyme_vowels == "OAR"); ["ORE","ORE_ii","ORE_iii","ORE_iv"]; {
                 "store","swore","tore","war","wore",
                 "your".\n");
        }
-}    else (rhyme_vowels === "ORE_ii"); ["ORE","ORE_ii","ORE_iii","ORE_iv"]; {
-        std::cout << "ORE"; {
+}    else (rhyme_vowels === "OAR"); ["ORE","ORE_ii","ORE_iii","ORE_iv"]; {
+        std::cout << "ORE_ii"; {
         print=(" "abhor","adore","ashore","before","cold sore",
                 "cold war","condor","decor","downpour","drugstore",
                 "encore","explore","eyesore","folklore","galore",
@@ -330,8 +329,8 @@ if (rhyme_vowels == "OAR"); ["ORE","ORE_ii","ORE_iii","ORE_iv"]; {
                 "postwar","rapport","restore","seashore","senor",
                 "ten-four","therefore","trapdoor","uproar".\n"); {
        }
-} else if (rhyme_vowels === "ORE_iii"); ["ORE","ORE_ii","ORE_iii","ORE_iv"] {
-        std::cout << "ORE"; {
+} else if (rhyme_vowels === "OAR"); ["ORE","ORE_ii","ORE_iii","ORE_iv"] {
+        std::cout << "ORE_iii"; {
         print=(" "all shore","antiwar","anymore","apple core",
                  "Baltimore","blood and gore","carnivore","civil war",
                  "corridor","dinosaur","door-to-door","Ecuablor",
@@ -340,8 +339,8 @@ if (rhyme_vowels == "OAR"); ["ORE","ORE_ii","ORE_iii","ORE_iv"]; {
                  "ship-to-shore","Singapore","sophomore","Theodore","troubadour",
                  "tug of war","two-by-four","underscore".\n");
         }
-}  else if (rhyme_vowels === "ORE_iv"); ["ORE","ORE_ii","ORE_iii","ORE_iv"] {
-        std::cout << "ORE"; {
+}  else if (rhyme_vowels === "OAR"); ["ORE","ORE_ii","ORE_iii","ORE_iv"] {
+        std::cout << "ORE_iv"; {
         print=(" "forevermore","titanosaur" .\n");
         }
 }
@@ -386,7 +385,6 @@ if (rhyme_vowels == "OARD"); ["ORD_1","ORD_1_ii","ORD_1_iii","ORD_1_iv"]; {
         }
 }
 
-// INCOMPLETE CROSS REFERENCE!
 if (rhyme_vowels == "OARDER"); ["ORDER","ORDER_iii","ORDER_iv"]; {
        std::cout << "ORDER"; {
        print=(" "border","border","courter","hoarder",
@@ -405,26 +403,81 @@ if (rhyme_vowels == "OARDER"); ["ORDER","ORDER_iii","ORDER_iv"]; {
                  "out of order","tape recorder".\n");
         }
 } 
-
-
-// INCOMPLETE CROSS REFERENCE!
-if (rhyme_vowels == "OARED"); {
+                
+if (rhyme_vowels == "OARED"); ["ORD_1","ORD_1_ii","ORD_1_iii","ORD_1_iv"]; {
        std::cout << "ORD_1"; {
-       print=(PULL ORD_1 FILE);
+       print=(" "board","bored","chord","cord",
+                "floored","Ford","gourd","hoard",
+                "lord","poured","roared","scored",
+                "snored","soared","stored","sword",
+                "ward","warred".\n");
        }
+} else if (rhyme_vowels == "OARED"); ["ORD","ORD_ii","ORD_iii","ORD_1_iv"]; {
+        std::cout << "ORD_1_ii"); {
+        print=(" "abhorred","aboard","adored","afford","award",
+                "backboard","billboard","blackboard","cardboard","chalkboard",
+                "dashboard","discord","explored","fjord","ignored",
+                "keyboard","landlord","outscored","record","restored",
+                "reward","rip cord","scoreboard","skateboard","slumlord",
+                "surfboard","toward","washboard".\n");
+        }
+}   else if (rhyme_vowels == "OARED"); ["ORD_1","ORD_1_ii","ORD_1_iii","ORD_1_iv"]; {
+        std::cout << "ORD_1_iii"; {
+        print=(" "all aboard","boogieboard","checkerboard","diving board",
+                     "harpsichord","overboard","room and board","smorgasbord",
+                     "sounding board","spinal board","tape-record","unexplored".\n");
+        }
+}   else if (rhyme_vowels == "OARED"); ["ORD","ORD_ii","ORD_iii","ORD_1_iv"]; {
+        std::cout << "ORD_1_iv"; {
+        print=(" "across the board","bulletin board","stiff as baord".\n");
+        }
 }
-// INCOMPLETE CROSS REFERENCE!
-if (rhyme_vowels == "OARSE"); {
+
+1. Ask to lord for a favor, according to the tabloids the next day the savior said for it to be hailing! bricks from chicks, that might be guyanese, aside her bestfriend that's filiphina not chinese, pray to her everday like im on my knees| what is worship,  
+    metrologist having a hay day, i do it that way, just like how i say it bae,
+
+if (rhyme_vowels == "OARSE"); ["ORSE","ORSE_ii","ORSE_iii","ORSE_iv"]; {
        std::cout << "ORSE"; {
-       print=(PULL ORSE FILE);
+       print=(" "coarse","course","force","hoarse","horse",
+                "source".\n");
+      }
+}   else if (rhyme_vowels == "OARSE"); ["ORSE","ORSE_ii","ORSE_iii","ORSE_iv"]; {
+        std::cout << "OARSE"); {
+        print=(" "air force","brute force","clotheshore","crash course",
+                 "dark horse","divorce","endorse","enforce",
+                 "golf course","main course","of course","racehorse",
+                 "remorse","resource","task force","work force".\n");
+        }
+}   else if (rhyme_vowels == "OARSE"); ["ORSE","ORSE_ii","ORSE_iii","ORSE_iv"]; {
+        std::cout << "OARSE"; {
+        print=("
+                "charley horse","driving force","reinforce",
+                "rocking horse","show of force".\n);
+         }
+}   else if (rhyme_vowels == "ORSE"); ["ORSE","ORSE_ii","ORSE_iii","ORSE_iv"]; {                
+        std::cout << "OARSE"; {       
+        print=(" "collision course","matter of course","obstacle course".\n");
        }
 }
-// INCOMPLETE CROSS REFERENCE!
-if (rhyme_vowels == "OAST"); {
+
+if (rhyme_vowels == "OAST"); ["OST","OST_ii","OST_iii"]; {
        std::cout << "OST_1"; {
-       print=(PULL OST_1 FILE);
+       print=(" "boast","coast","ghost","grossed","host",
+                "most","post","roast","toast".\n");
        }
+}   else if (rhyme_vowels == "OAST"); ["OST","OST_ii","OST_iii"]; {
+        std::cout << "OST_ii"; {
+        print=(" "almost","bedpost","engrossed","goalpost","guidepost",
+                  "outgrossed","outpost","pot roast","signpost",
+                  "topmost","utmost".\n");
+        }
 }
+    else if (rhyme_vowels == "OAST"); ["OST","OST_ii","OST_iii"]; {
+        std::cout << "OST_iii"; {
+        print=(" "coast-to-coast","diagnosed","hitching post","innermost",
+                "parcel post","trading post","whipping post".\n");
+        }
+}       
 // INCOMPLETE CROSS REFERENCE!
 if (rhyme_vowels == "OAT"); {
        std::cout << "OTE"; {
@@ -455,16 +508,16 @@ if (rhyme_vowels == "OB"); ["OB","OB_ii","OB_iii","OB_iv"]; {
                  "job","knob","lob","mob","rob",
                  "slob","snob","sob","swab","throb".\n");
        }
-}   else if (rhyme_vowels == "OB_ii"); ["OB","OB_ii","OB_iii","OB_iv"]; {
+}   else if (rhyme_vowels == "OB"); ["OB","OB_ii","OB_iii","OB_iv"]; {
         std::cout << "OB_ii"; {
         print=(" "con job","corncob","doorknob","heartthrob",
                   "hobnob","snow job".\n");
         }
-}   else if (rhyme_vowels == "OB_iii");["OB","OB_ii","OB_iii","OB_iv"]; {
+}   else if (rhyme_vowels == "OB");["OB","OB_ii","OB_iii","OB_iv"]; {
         std::cout << "OB_iii"; {
         print=(" "cotton swab","inside job","shish kebab".\n");
         }
-}  else if (rhyme_vowels == "OB_iv"); ["OB","OB_ii","OB_iii","OB_iv"]; {
+}  else if (rhyme_vowels == "OB"); ["OB","OB_ii","OB_iii","OB_iv"]; {
         std::cout << "OB_iv";{
         print=(" "corn on the cob","thingamabob".\n");
         }
@@ -511,7 +564,7 @@ if (rhyme_vowels == "OBE"); ["OBE","OBE_ii"]; {
         print=(" "globe","job","lobe",
                 "probe","robe".\n");
         }
-}  else if (rhyme_vowels == "OBE_ii"); ["OBE","OBE_ii"]; {
+}  else if (rhyme_vowels == "OBE"); ["OBE","OBE_ii"]; {
         std::cout << "OBE_ii"; {
         print=(" "bathrobe","disrobe","earlobe",
                  "space probe","wardrobe".\n");        
@@ -522,7 +575,7 @@ if (rhyme_vowels == "OBLE"); ["OBLE","OBLE_iii"]; {
         std::cout << "OBLE"; {
         print=(" "global","Mobil","mobile","noble".\n");
         }
-}   else if (rhyme_vowels == "OBLE_iii"); {
+}   else if (rhyme_vowels == "OBLE"); ["OBLE","OBLE_iii"]; {
       std::cout << "OBLE_iii"; {
       print=(" "Chernobyl","immobile".\n");      
         }
@@ -532,17 +585,17 @@ if (rhyme_vowels == "OCAL"); ["OCAL","OCAL_ii"]; {
       std::cout << "OCAL"; {
       print=(" "focal","local","vocal","yokel".\n");
       }
-}  else if (rhyme_vowels == "OCAL_ii"); {
+}  else if (rhyme_vowels == "OCAL_ii"); ["OCAL","OCAL_ii"]; {
         std::cout << "OCAL_ii"; {
         print=(" "bifocal".\n");
       }
 }
 
-if (rhyme_vowels == "OCIOUS"); ["OCIOUS","OCIOUS OCIOUS_Xiii"]; {
+if (rhyme_vowels == "OCIOUS"); ["OCIOUS","OCIOUS_Xiii"]; {
         std::cout << "OCIOUS"; {
         print=(" "atrocious","ferocious","precocious".\n") 
        }
-}  else if (rhyme_vowels == "OCIOUS_"); {
+}  else if (rhyme_vowels == "OCIOUS");["OCIOUS","OCIOUS_Xiii"]; {
         std::cout << "OCIOUS_Xiii"; {
         print=(" "supercalifragilisticexpialidotious".\n");
        } 
@@ -624,17 +677,17 @@ if (rhyme_vowels == "OCKET"); ["OCKET","OCKET_ii","OCKET_iii"]; {
         std::cout << "OCKET"; {
         print=("docket","locket","pocket","rocket","socket".\n);
         }
-}   else if (rhyme_vowels == "OCKET_ii"); ["OCKET","OCKET_ii","OCKET_iii"]; {
-        std::cout << "OCKET"; {
+}   else if (rhyme_vowels == "OCKET"); ["OCKET","OCKET_ii","OCKET_iii"]; {
+        std::cout << "OCKET_ii"; {
         print=(" "light socket","pickpocket","skyrocket".\n");        
         }
 } 
-      else if (rhyme_vowels == "OCKET_iii"); ["OCKET","OCKET_ii","OCKET_iii"]; {
-        std::cout << "OCKET"; {
+      else if (rhyme_vowels == "OCKET"); ["OCKET","OCKET_ii","OCKET_iii"]; {
+        std::cout << "OCKET_iii"; {
         print=(" "Davy Crockett".\n");
         }
 }
-// incomplete cross reference file
+
 if (rhyme_vowels == "OCKS"); ["OX","OX_ii","OX_iii","OX_iv"]; {
         std::cout << "OX"; {
         print=(" "blocks","box","clocks","docks","flocks",
@@ -672,52 +725,82 @@ if (rhyme_vowels == "OCKS"); ["OX","OX_ii","OX_iii","OX_iv"]; {
     outfoxing the poster painting pictured' peacocks, while in the same old G-Unit reeboks,
     Favorite add aquired by addidas are Jeff & Will #FFFFFF, (complex sents verses.3/4++4/4)
 
-// incomplete cross reference file
-if (rhyme_vowels == "OCKEY"); {
+if (rhyme_vowels == "OCKY"); ["AWKY","AWKY_ii","AWKY_iii"]; {
         std::cout << "AWKY"; {
-        print=(AWKY file);
+        print=(" "cocky","gawky","hockey",
+        "jockey","rocky","stocky".\n");
         }
-}
-// incomplete cross reference file
-if (rhyme_vowels == "OCKY"); {
-        std::cout << "AWKY"; {
-        print=(AWKY file);
+}   else if (rhyme_vowels == "OCKY");  ["AWKY","AWKY_ii","AWKY_iii"]; {
+        std::cout << "AWKY_ii"; {
+        print=(" "disc jockey","ice hockey","Milwaukee".\n");
         }
-}
+}   else if (rhyme_vowels == "OCKY");  ["AWKY","AWKY_ii","AWKY_iii"]; {
+        std::cout << "AWKY_iii"; {
+        print=(" "Jabberwocky","teriyaki","walkie-talkie" .\n") 
+        }
+ }
+ // awky --> ski   teriyaki sauce, off the kawoasaki, pause! now lets contniue  
+
 if (rhyme_vowels == "OCO"); {
         std::cout << "OCO"; {
         print=(" "cocoa","loco".\n");
         }
 }
+
 if (rhyme_vowels == "OCRACY"); ["OCRACY","OCRACY_V"]; {
         std::cout << "OCRACY"; {
         print=("autocracy","bureaucracy","democracy","hypocrisy");
         }
-}
-      else if (rhyme_vowels == "OCRACY"); ["OCRACY","OCRACY_V"]; {
+}   else if (rhyme_vowels == "OCRACY"); ["OCRACY","OCRACY_V"]; {
         std::cout << "OCRACY_V"; {
         print=(" "aristocracy".\n");
         }
 }
-// incomplete cross reference
-if (rhyme_vowels == "OD"); {
+
+if (rhyme_vowels == "OD"); ["AWED","AWED_ii","AWED_iii"]; {
         std::cout << "awed"; {
-        print=(" print awed")
+        print=(" "awed","broad","Claude","clawed",
+                 "clod","flawed","fraud","gnawed",
+                 "God","mod","nod","odd","pawed","plod",
+                 "pod","quad","rod","sawed",
+                 "squad","Todd","trod","wad",
+                 .\n")
+        }
+}   else if ("rhyme_vowels == "OD"); ["AWED","AWED_ii","AWED_iii"]; {
+        std::cout << "awed"; {
+        print=(" "abroad","applaud","Cape cod","facade",
+                  "hot rod","outlawed","pea pod","seesawed",
+                  "slipshod","spit-wad","tightwad","tripod",
+                 "vice squad".\n");
+        }
+}   else if (rhyme_vowels == "OD");["AWED","AWED_ii","AWED_iii"]; {
+        std::cout << "awed"; {
+        print=(" "act of God","cattle prod","firing squad","fishing rod",
+                "golden rod","hemmed and hawed","land of Nod","lightning rod",
+                "promenade","riot squad".\n");
         }
 }
-// incomplete cross reference
-if (rhyme_vowels == "ODA"); {
+
+if (rhyme_vowels == "ODA"); ["OTA","OTA_ii","OTA_iii"]; {
         std::cout << "OTA"; {
-        print=(" print OTA")
+        print=(" "quota","soda".\n")
+        }
+}   else if (rhyme_vowels == "OTA"); {
+        std::cout << "OTA_ii"; {
+        print=(" "iota","pagoda","ricotta","Toyota".\n");
+        }
+}   else if (rhyme_vowels == "OTA"); {
+        std::cout << "OTA_iii"; {
+        print=(" "Minnesota","North Dakota","South Dakota".\n");
         }
 }
+
 if (rhyme_vowels == "ODDLE"); ["ODDLE","ODDLE_iv"]; {
         std::cout << "ODDLE"; {
         print=(" "bottle","coddle","dawdle","model","throttle",
                  "toddle","waddle".\n"
         }
-}
-      else if (rhyme_vowels == "ODDLE"); ["ODDLE","ODDLE_iv"]; {
+}   else if (rhyme_vowels == "ODDLE"); ["ODDLE","ODDLE_iv"]; {
         std::cout << "ODDLE"; {
         print=(" "Aristotle".\n");        
         }
@@ -772,9 +855,9 @@ if (rhyme_vowels == "ODIOUS"); ["ODIOUS","ODIOUS_iii"]; {
        }    
 }
      
-if (rhyme_vowels == "ODY_2");  ["ODY_2","ODY_3",ODY_4"]; {
+if (rhyme_vowels == "ODY");  ["ODY","ODY_iii",ODY_iv"]; {
 // mono,duples,triples
-          std::cout << "ODY_2\n"; { "
+          std::cout << "ODY\n"; { "
           print=("Audi", " bawdy", "body", "Dotty",
           "gaudy", " haughty", "knotty", "naughty",
           "potty", " Saudi", "Scottie", "shoddy",
@@ -782,13 +865,13 @@ if (rhyme_vowels == "ODY_2");  ["ODY_2","ODY_3",ODY_4"]; {
           "karate", "nobody", "somebody".\n");
        }
 }
-    else if (rhyme_vowels === "ODY_3");  ["ODY_2","ODY_3",ODY_4"]; {
+    else if (rhyme_vowels === "ODY_iii");  ["ODY_2","ODY_3",ODY_4"]; {
           std::cout << "ODY_3\n"; { "
           print=("antibody", "anybody", "busybody", 
            "student body".\n");
        } 
 }
-    else if (rhyme_vowels === "ODY_4"); ["ODY_2","ODY_3",ODY_4"]; {
+    else if (rhyme_vowels === "ODY_iv"); ["ODY_2","ODY_3",ODY_4"]; {
           std::cout << "ODY_4\n"; {"
           print=("everybody", "heavenly body" .\n");
           }
@@ -806,7 +889,7 @@ if (rhyme_vowels == "OE_1"); {
         }
 }
 
-if (rhyme_vowels === "OE_2"); ["OE_2_EW","OE_2_EW_ii","OE_2_EW_iii","OE_2_EW_iv","OE_2_EW_v","OE_2_EW_vi"]; {
+if (rhyme_vowels === "OE_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
       std::cout << "EW"; {
       print=(" "blew","blue","boo","brew","chew","clue"
                 "crew","cue","dew","do","drew","due","ewe",
@@ -816,8 +899,8 @@ if (rhyme_vowels === "OE_2"); ["OE_2_EW","OE_2_EW_ii","OE_2_EW_iii","OE_2_EW_iv"
                 "through","to","too","true","two","view","who",
                 "whoo","you","zoo".\n");
       }
- }  else if (rhyme_vowels === "OE_2"); ["OE_2_EW","OE_2_EW_ii","OE_2_EW_iii","OE_2_EW_iv","OE_2_EW_v","OE_2_EW_vi"]; {
-       std::cout << "OE_2_EW_ii"; {
+ }  else if (rhyme_vowels === "OE_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
+       std::cout << "EW_ii"; {
        print=(" "ado","ah-choo","anew","bamboo","boo-boo"
                "boohoo","brand-new","breakthrough","canoe","cashew",
                "choo-choo","construe","corkscrew","cuckoo","curfew",
@@ -831,8 +914,8 @@ if (rhyme_vowels === "OE_2"); ["OE_2_EW","OE_2_EW_ii","OE_2_EW_iii","OE_2_EW_iv"
                "tutu","undo","unscrew","unto","untrue",
                "voodoo","who's who","withdrew","world-view","yoo-hoo".\n");
        }
-}   else if (rhyme_vowels === "OE_2"); ["OE_2_EW","OE_2_EW_ii","OE_2_EW_iii","OE_2_EW_iv","OE_2_EW_v","OE_2_EW_vi"]; {
-        std::cout << "OE_2_EW_iii"; {
+}   else if (rhyme_vowels === "OE_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
+        std::cout << "EW_iii"; {
         print=(" "avenue","ballyhoo","barbecue",
                 "bird's-eye view","black and blue","book review",
                 "buckaroo","bugaboo","caribou",
@@ -849,12 +932,12 @@ if (rhyme_vowels === "OE_2"); ["OE_2_EW","OE_2_EW_ii","OE_2_EW_iii","OE_2_EW_iv"
                 "two by two","Waterloo","well-to-do",
                 "whoop-de-doo".\n");
         }
-}   else if (rhyme_vowels === "OE_2"); ["OE_2_EW","OE_2_EW_ii","OE_2_EW_iii","OE_2_EW_iv","OE_2_EW_v","OE_2_EW_vi"]; {
-        std::cout << "OE_2_EW_iv"; {
+}   else if (rhyme_vowels === "OE_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
+        std::cout << "EW_iv"; {
         print=(" "catch-22","hullabaloo","out of the blue",
                  "red, white, and blue","skeleton crew","Winnie the Pooh".\n");
         }
- }  else if (rhyme_vowels === "OE_2"); ["OE_2_EW","OE_2_EW_ii","OE_2_EW_iii","OE_2_EW_iv","OE_2_EW_v","OE_2_EW_vi"]; {
+ }  else if (rhyme_vowels === "OE_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
         std::cout << "EW_v" {
         print=(" "cock-a-doodle-doo","panoramic view".\n"):
         }
@@ -1446,37 +1529,18 @@ if (rhyme_vowels == "OLLEY");["OLLY","OLLY_ii","OLLY_iii"]; {
             print=(allow file);
             } 
   }
-  if (rhyme_vowels == "OLLEY");["OLLY","OLLY_ii","OLLY_iii"]; {
-           std::cout << "OLLY"; {
-           print=(" "Ali","collie","crawly","dolly","folly",
-                    "golly","holly","jolly","Molly","Polly",
-                    "trolley".\n");          
-           }
- }
-       else if (rhyme_vowels == "OLLY"); ["OLLY","OLLY_ii","OLLY_iii"]; {
-            std::cout << "OLLY_ii"; {
-            print=(" "by golly","finale","Svengali","tamale".\n");
-            }      
- }
-       else if (rhyme_vowels == "OLLY"); ["OLLY","OLLY_ii","OLLY_iii"]; {
-            std::cout << "OLLY_iii"; {
-            print=(" "creppy-crawly","grand finale","hot tamale","melancholy".\n");
-            }      
- }
  
- if (rhyme_vowels == "OLOGIST"); if (rhyme_vowels == "OLLEY");["OLLY","OLLY_ii","OLLY_iii"]; {
+ if (rhyme_vowels == "OLLEY");["OLLY","OLLY_ii","OLLY_iii"]; {
            std::cout << "OLLY"; {
            print=(" "Ali","collie","crawly","dolly","folly",
                     "golly","holly","jolly","Molly","Polly",
                     "trolley".\n");          
            }
- }
-       else if (rhyme_vowels == "OLLY"); ["OLLY","OLLY_ii","OLLY_iii"]; {
+ }  else if (rhyme_vowels == "OLLY"); ["OLLY","OLLY_ii","OLLY_iii"]; {
             std::cout << "OLLY_ii"; {
             print=(" "by golly","finale","Svengali","tamale".\n");
             }      
- }
-       else if (rhyme_vowels == "OLLY"); ["OLLY","OLLY_ii","OLLY_iii"]; {
+ }  else if (rhyme_vowels == "OLLY"); ["OLLY","OLLY_ii","OLLY_iii"]; {
             std::cout << "OLLY_iii"; {
             print=(" "creppy-crawly","grand finale","hot tamale","melancholy".\n");
             }      
@@ -1487,8 +1551,7 @@ if (rhyme_vowels == "OLOGIST"); ["OLOGIST","OLOGIST_iv"]; {
             print=(" "biologist","ecologist","geologist",
                      "psychologist","zoologist".\n");
             }
- }
-        else if (rhyme_vowels == "OLOGIST"); ["OLOGIST","OLOGIST_iv"]; {
+ }  else if (rhyme_vowels == "OLOGIST"); ["OLOGIST","OLOGIST_iv"]; {
             std::cout << "OLOGIST_iv"; {
             print=(" "archaeologist","dermatologist","sociologist".\n");
             }       
@@ -1502,14 +1565,12 @@ if (rhyme_vowels == "OLOGY"); ["OLOGY","OLOGY_iii","OLOGY_iv"]; {
                      "psychology","technology","zoology"
                     .\n");
             }
-}
-        else if (rhyme_vowels == "OLOGY"); ["OLOGY","OLOGY_iii","OLOGY_iv"]; {
+}   else if (rhyme_vowels == "OLOGY"); ["OLOGY","OLOGY_iii","OLOGY_iv"]; {
             std::cout << "OLOGY_iii"; {
             print=(" "archaeology","criminology","dermatology",
                      "sociology","terminology".\n");
             }
- }
-        else if (rhyme_vowels == "OLOGY"); ["OLOGY","OLOGY_iii","OLOGY_iv"]; {
+ } else if (rhyme_vowels == "OLOGY"); ["OLOGY","OLOGY_iii","OLOGY_iv"]; {
             std::cout << "OLOGY_iv"; {
             print=(" "meteorology".\n");
             }
@@ -1525,13 +1586,11 @@ if (rhyme_vowels == "OLOGY"); ["OLOGY","OLOGY_iii","OLOGY_iv"]; {
             std::cout << "OLT"; {
             print=(" "bolt","colt","dolt","jolt".\n");
             }
- }
-        else if (rhyme_vowels == "OLT_ii"); {
+ }   else if (rhyme_vowels == "OLT_ii"); {
             std::cout << "OLT"; {
             print=(" "deadbolt","revolt".\n");
             }
- }
-        else if (rhyme_vowels == "OLT_iii"); ["OLT","OLT_ii","OLT_iii"]; {
+ }   else if (rhyme_vowels == "OLT_iii"); ["OLT","OLT_ii","OLT_iii"]; {
             std::cout << "OLT_iii"; {
             print=("lightning bolt");
             }
@@ -1541,8 +1600,7 @@ if (rhyme_vowels == "OLOGY"); ["OLOGY","OLOGY_iii","OLOGY_iv"]; {
             std::cout << "OLVE"; {
             print=(" "solve".\n");
             }
- }
-        else if (rhyme_vowels == "OLVE"); ["OLVE","OLVE_ii"]; {
+ }    else if (rhyme_vowels == "OLVE"); ["OLVE","OLVE_ii"]; {
             std::cout << "OLVE"; {
             print=(" "dissolve","evolve","involve","resolve","revolve".\n");
             }       
@@ -1552,30 +1610,29 @@ if (rhyme_vowels == "OLOGY"); ["OLOGY","OLOGY_iii","OLOGY_iv"]; {
             std::cout << "OLY"; {
             print=(" "goalie","holey","holy".\n");
             }
- }
-       else if (rhyme_vowels == "OLY_ii"); ["OLY","OLY_ii","OLY_iii"]; {
+ }    else if (rhyme_vowels == "OLY_ii"); ["OLY","OLY_ii","OLY_iii"]; {
             std::cout << "OLY_ii"; {
             print=(" "slowly","soley","wholly".\n");
             }      
  }
-        else if (rhyme_vowels == "OLY_iii"); ["OLY","OLY_ii","OLY_iii"]; {
+      else if (rhyme_vowels == "OLY_iii"); ["OLY","OLY_ii","OLY_iii"]; {
             std::cout << "OLY_iii"; {
             print=(" "guacamole","ravioli","roly-poly".\n");
             }
-        }
+ }
         
 if (rhyme_vowels == "OM"); ["OM","OM_ii","OM_iii"]; {
             std::cout << "OM"; {
             print=(" "balm","bomb","calm","Guam","mom",
                       "palm","prom","psalm","qualm","tom".\n");
             }
+ }
          else if (rhyme_vowels == "OM_ii"); ["OM","OM_ii","OM_iii"]; {
             std::cout << "OM_ii"; {
             print=(" "A-bomb","dive-bomb","embalm","fire bomb","pompom"
-                      "sitcom","time bomb","tom-tom","wigwam"
-                    .\n");            
-}
-        else if (rhyme_vowels == "OM_iii"); ["OM","OM_ii","OM_iii"]; {
+                      "sitcom","time bomb","tom-tom","wigwam".\n");            
+            }
+}    else if (rhyme_vowels == "OM_iii"); ["OM","OM_ii","OM_iii"]; {
             std::cout << "OM_iii"; {
             print=(" "intercom","peeping tom","supermom","Vietnam".\n");
             }
@@ -1585,13 +1642,11 @@ if (rhyme_vowels == "OMA"); ["OMA","OMA_ii","OMA_iii"]; {
            std::cout << "OMA"; {
            print=(" "coma".\n");
            }
-}
-        else if (rhyme_vowels == "OMA_ii"); {
+}    else if (rhyme_vowels == "OMA_ii"); {
            std::cout << "OMA_ii"; {
            print=(" "aroma","diploma".\n");
         }
-}
-        else if (rhyme_vowels == "OMA_iii"); {
+}    else if (rhyme_vowels == "OMA_iii"); {
            std::cout << "OMA_iii"; {
            print=(" "Oklahoma".\n");
            }
@@ -1603,39 +1658,52 @@ if (rhyme_vowels == "OMB_1"); ["OME_1","OME_1_ii","OME_1_iii"]; {
                     "home","poem","rome","Rome"
                    .\n");
           }
-}
-        else if (rhyme_vowels == "OMB_1"); ["OME_1","OME_1_ii","OME_1_iii"] {
+}   else if (rhyme_vowels == "OMB_1"); ["OME_1","OME_1_ii","OME_1_iii"] {
           std::cout << "OME_1_ii"; {
           print=(" "Stockholm","syndrome".\n");
           }
-}
-        else if (rhyme_vowels == "OMB_1"); ["OME_1","OME_1_ii","OME_1_iii"]; {
+}   else if (rhyme_vowels == "OMB_1"); ["OME_1","OME_1_ii","OME_1_iii"]; {
           std::cout << "OME_1_iii"; {
           print=(" "Astrodome","broken home","foster home","home sweet home",
                     "honeycomb","metronome","mobile home","palindrome",
                     "shaving foam","Superdome".\n");
           }
 }
+
 // incomplete files cross reference
-if (rhyme_vowels == "OMB_2"); [] {
+if (rhyme_vowels == "OMB_2"); ["OOM","OOM_ii","OOM_iii"]; {
        std::cout << "OOM"; {
-       print=("");
+       print=(" "bloom","boom","broom","doom",
+                "vroom","flume","gloom","groom",
+                "loom","plume","room","tomb",
+                "whom","womb","zoom".\n");
        }
+}   else if (rhyme_vowels == "OMB_2"); ["OOM","OOM_ii","OOM_iii"]; {
+        std::cout << "OOM_ii"; {
+        print=(" "assume","bathroom","bridegroom","classroom",
+                "consume","costume","courtroom","entomb",
+                "exhume","heirloom","hoomroom","leg room",
+                "mushroom","perfume","presume","rest room".\n");
+        }
 }
+     else if (rhyme_vowels == "OMB_2"); ["OOM","OOM_ii","OOM_iii"]; {
+         std::cout << "OOM_iii"; {
+         print=(" "baby boom","bride and groom","elbow room","gloom and doom",                                      
+                  "locker room","love in bloom","powder room","smoke-filled room",
+                  "sonic boom".\n");         
+         }
+}   
 
 if (rhyme_vowels == "OME_1"); ["OME_1","OME_1_ii","OME_1_iii"]; {
           std::cout << "OME_1"; {
           print=(" "chrome","comb","dome","foam","Gnome",
-                    "home","poem","rome","Rome"
-                   .\n");
+                    "home","poem","rome","Rome".\n");
           }
-}
-        else if (rhyme_vowels == "OMB_1"); ["OME_1","OME_1_ii","OME_1_iii"] {
+}   else if (rhyme_vowels == "OMB_1"); ["OME_1","OME_1_ii","OME_1_iii"] {
           std::cout << "OME_1_ii"; {
           print=(" "Stockholm","syndrome".\n");
           }
-}
-        else if (rhyme_vowels == "OMB_1"); ["OME_1","OME_1_ii","OME_1_iii"]; {
+}   else if (rhyme_vowels == "OMB_1"); ["OME_1","OME_1_ii","OME_1_iii"]; {
           std::cout << "OME_1_iii"; {
           print=(" "Astrodome","broken home","foster home","home sweet home",
                     "honeycomb","metronome","mobile home","palindrome",
@@ -1654,13 +1722,11 @@ if (rhyme_vowels == "OMIC"); ["OMIC","OMIC_ii","OMIC_iii"]; {
         std::cout << "OMIC"; {
         print=(" "comic".\n");
         }
-}
-        else if (rhyme_vowels == "OMIC"); ["OMIC","OMIC_ii","OMIC_iii"]; {
+}    else if (rhyme_vowels == "OMIC"); ["OMIC","OMIC_ii","OMIC_iii"]; {
         std::cout << "OMIC_ii"; {
         print=(" "atomic".\n");        
         }
-}
-        else if (rhyme_vowels == "OMIC"); ["OMIC","OMIC_ii","OMIC_iii"]; {
+}    else if (rhyme_vowels == "OMIC"); ["OMIC","OMIC_ii","OMIC_iii"]; {
         std::cout << "OMIC_iii"; {
         print=(" "astronomic","economic","stand-up comic".\n");
         }
@@ -1670,8 +1736,7 @@ if (rhyme_vowels == "OMINATION"); ["OMINATION","OMINATION_ii"]; {
         std::cout << "OMINATION"; {
         print=("domination","nomination);
         }
-}
-        else if (rhyme_vowels == "OMINATION"); ["OMINATION","OMINATION_ii"]; {
+}   else if (rhyme_vowels == "OMINATION"); ["OMINATION","OMINATION_ii"]; {
             std::cout << "OMINATION"; {
             print=("abomination","denomination");
         }      
@@ -1681,13 +1746,11 @@ if (rhyme_vowels == "OMMY"); ["OMMY", "OMMY_ii","OMMY_iii"]; {
             std::cout << "OMMY"; {
             print=("mommy","swami","Tommy");
         }
-}
-        else if (rhyme_vowels == "OMMY_ii") ["OMMY","OMMY_ii","OMMY_iii"]; {
+}  else if (rhyme_vowels == "OMMY_ii") ["OMMY","OMMY_ii","OMMY_iii"]; {
             std::cout << "OMMY_ii"; {
             print=("pastrami","tsuanami");
         }
-}
-        else if (rhyme_vowels == "OMMY_iii"); ["OMMY","OMMY_ii","OMMY_iii"]; {
+}  else if (rhyme_vowels == "OMMY_iii"); ["OMMY","OMMY_ii","OMMY_iii"]; {
             std::cout << "OMMY_iii"; {
             print=("origami");       
         }
@@ -1699,11 +1762,32 @@ if (rhyme_vowels == "OMMY"); ["OMMY", "OMMY_ii","OMMY_iii"]; {
                      "swamp","tromp","whomp".\n");
         }
  }
+ 
  // incomplete reference
- if (rhyme_vowels == "ON_1"); {
+ if (rhyme_vowels == "ON_1"); ["AWN","AWN_ii","AWN_iii","AWN_iv"]; {
         std::cout << "AWN"; {
-        print=(incomplete file cross reference);       
+        print=(" "con","dawn","don","drawn",
+                 "fawn","gone","John","lawn",
+                 "on","pawn","Ron","spawn","swan",
+                 "yawn".\n");       
         }    
+ }  else if (rhyme_vowels == "ON_1"); ["AWN","AWN_ii","AWN_iii","AWN_iv"]; {
+        std::cout << "AWN_ii"; {
+        print=(" "Antoine","baton","bon-bon","Cezanne","chiffon",
+                 "coupon","doggone","Don Juan","ex-con","Iran",
+                 "long gone","pecan","python","run-on","Saigon",
+                 "salon","Szechwan","Taiwan","Tucson","upon",
+                 "withdrawn","won ton","Yukon","Yvonne".\n");
+        }
+ }  else if (rhyme_vowels "ON_1"); ["AWN","AWN_ii","AWN_iii","AWN_iv"]; {
+        std::cout << "AWN_iii"; {
+        print=(" "Amazon","Audubon","Avalon","Babylon",
+                "crack of dawn","decathlon","Genghis Khan","hanger-on",
+                "hexagon","leprechaun","liaison","marathon",
+                "Mazatlan","","","",
+                
+                .\n");
+        }
  }
  
 // incomplete reference
@@ -1729,8 +1813,7 @@ if (rhyme_vowels == "OMMY"); ["OMMY", "OMMY_ii","OMMY_iii"]; {
             std::cout << "ONA_ii"; {
             print=(" "kimono".\n");
          } 
-  }
-      else if (rhyme_vowels == "ONA_iii"); ["ONA","ONA_ii","ONA_iii"]; {
+  }  else if (rhyme_vowels == "ONA_iii"); ["ONA","ONA_ii","ONA_iii"]; {
             std::cout << "ONA_iii"; {
             print=(" "Arizona","Barcelona".\n");      
          }   
@@ -1748,14 +1831,12 @@ if (rhyme_vowels == "OND"); ["OND","OND_ii","OND_iii"]; {
                    "fawned","fond","pawned","pond","wand",
                     "yawned".\n");
             }
-}
-       else if (rhyme_vowels == "OND_ii"); ["OND","OND_ii","OND_iii"]; {
+}   else if (rhyme_vowels == "OND_ii"); ["OND","OND_ii","OND_iii"]; {
             std::cout << "OND_ii"; {
             print=(" "beyond","doggoned","fishpond","James Bond",
                     "respond" .\n");
             }
-}
-        else if (rhyme_vowels == "OND_iii"); ["OND","OND_ii","OND_iii"]; {
+}   else if (rhyme_vowels == "OND_iii"); ["OND","OND_ii","OND_iii"]; {
             std::cout << "OND_iii"; {
             print=(" "correspond","magic wand","vagabond".\n");           
             } 
@@ -1768,6 +1849,7 @@ if (rhyme_vowels === "ONDER"); {
                     "wander","yonder".\n"):
             }
 }
+
 if (rhyme_vowels === "ONDS"); ["ONS","ONS_ii","ONS_iii"]; {
             std::cout << "ONS" {
             print=(" "blondes","bonds","bronze","odds",
@@ -1775,20 +1857,20 @@ if (rhyme_vowels === "ONDS"); ["ONS","ONS_ii","ONS_iii"]; {
                     "Hans","lawns","pawns","ponds",
                     "swans","wands","yawns".\n");
             }
-}
-    else if ("rhyme_vowels === "ONS_ii"); ["ONS","ONS_ii","ONS_iii"]; {
+}  else if ("rhyme_vowels === "ONS_ii"); ["ONS","ONS_ii","ONS_iii"]; {
             std::cout << "ONS_ii" {
             print=(" "batons","ex-cons","icons",
                   "long johns","morons","neutrons",
                  "pecans","pythons","responds".\n");
-    }
-}
-    else if ("rhyme_vowel === ONS_iii"); ["ONS","ONS_ii","ONS_iii"]; {
+        }
+}   else if ("rhyme_vowel === ONS_iii"); ["ONS","ONS_ii","ONS_iii"]; {
             std::cout << "ONS_iii"; {
             print=(" "Amazons","corresponds","leprechauns","marathons",
                      "paragons","pros and cons","vagabonds".\n");
-            }
-if (rhyme_vowel === ONE_1); ["ONE1","ONE1_ii","ONE1_iii_"]; {
+        }
+ }
+ 
+if (rhyme_vowel === ONE_1); ["ONE_1","ONE_1_ii","ONE_1_iii_"]; {
             std::cout << "ONE_1";
             print=(" "blown","bone","cone",
                      "drone","flown","groan",
@@ -1799,9 +1881,8 @@ if (rhyme_vowel === ONE_1); ["ONE1","ONE1_ii","ONE1_iii_"]; {
                      "stone","throne","thrown",
                      "tone","zone".\n");
         }             
- }
-        else (rhyme_vowels === ("ONE1_ii"); ["ONE1","ONE1_ii","ONE1_iii"]; {
-              std::cout << "ONE1_ii"; 
+ }  else (rhyme_vowels === ("ONE_1_ii"); ["ONE_1","ONE1_ii","ONE_1_iii"]; {
+              std::cout << "ONE_1_ii"; 
               print=("alone","backbone","birthstone","car phone",
                       "cologne","condone","cyclone","dethrone"
                       "dial tone","disown","end zone","full-blown",
@@ -1811,9 +1892,9 @@ if (rhyme_vowel === ONE_1); ["ONE1","ONE1_ii","ONE1_iii_"]; {
                       "postpone","Ramon","rhinestone","sno-cone",
                       "T-bone","time zone","tombstone","trombone","unknown",
                       "war zone","well-known","wishbone","windblown","mind blown".\n");
-    }
-}   else (rhyme_vowels === "ONE1_iii"); ["ONE1","ONE1_ii","ONE1_iii"]; {
-                 std::cout << "ONE1_iii"; 
+        }
+}   else (rhyme_vowels === "ONE_1_iii"); ["ONE_1","ONE_1_ii","ONE_1_iii"]; {
+                 std::cout << "ONE_1_iii"; 
                  print=(" "baritone","buffer zone","chaperon",
                         "cobblestone","combat zone","crazy bone",
                         "doggie bone","funny bone","ice cream cone",
@@ -1822,9 +1903,8 @@ if (rhyme_vowel === ONE_1); ["ONE1","ONE1_ii","ONE1_iii_"]; {
                         "telephone","twilight zone","xylophone","Yellowstone"
                         .\n");
         }
-}
-            else (rhyme_vowels === "ONE1_iv"); ["ONE1","ONE1_ii","ONE1_iii","ONE1_iv"]; {
-                std::cout << "ONE1_iv"; {
+}    else (rhyme_vowels === "ONE_1_iv"); ["ONE_1","ONE_1_ii","ONE_1_iii","ONE_1_iv"]; {
+                std::cout << "ONE_1_iv"; {
                 print=(" "accident prone".\n");
          }
 }
