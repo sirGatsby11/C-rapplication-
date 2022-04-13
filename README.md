@@ -1961,40 +1961,60 @@ if (rhyme_vowels == "OMMY"); ["OMMY", "OMMY_ii","OMMY_iii"]; {
         print=(" "Amazon","Audubon","Avalon","Babylon",
                 "crack of dawn","decathlon","Genghis Khan","hanger-on",
                 "hexagon","leprechaun","liaison","marathon",
-                "Mazatlan","","","",
-                
-                .\n");
+                "Mazatlan","octagon","off and on","overdrawn",
+                "paragon","parmesan","pentagon","pro and con","silicon",
+                "talkathon","woebegone".\n");
+        }
+ }  else if (rhyme_vowels == "ON_1"); ["AWN","AWN_ii","AWN_iii","AWN_iv"]; {
+        std::cout << "AWN_iv"; {
+        print=(" "phenomenon","Saskatchewan".\n");
         }
  }
- 
-// incomplete reference
- if (rhyme_vowels == "ON_2"); {
+    
+ if (rhyme_vowels == "ON_2"); ["UN","UN_ii","UN_iii","UN_iv"]; {
         std::cout << "UN"; {
-        print=(incomplete file cross reference);       
+        print=(" "bun","done","fun","gun","hon",
+                 "Hun","none","nun","one","pun",
+                 "run","shun","son","spun","stun",
+                 "sun","ton","won".\n");       
         }    
- }
- 
-  // incomplete reference
- if (rhyme_vowels == "ON_1"); {
-        std::cout << "AWN"; {
-        print=(incomplete file cross reference);       
-        }    
- }
+ }  else if (rhyme_vowels == "ON_2"); ["UN","UN_ii","UN_iii","UN_iv"]; {
+        std::cout << "UN"; {
+        print=(" "all done","begun","blowgun","dog run","grandson",
+                 "hired gun","home run","homespun","no one","outdone",
+                 "outrun","redone","rerun","shotgun","someone",
+                 "top gun","trial run","undone","well done".\n");
+        }
+ }  else if (rhyme_vowels == "ON_2"); ["UN","UN_ii","UN_iii","UN_iv"]; {
+        std::cout << "UN"; {
+        print=(" "Air Force One","all or none","anyone","everyone",
+                "hit-and-run","hole in one","honeybun","hot dog bun",
+                "jump the gun","native son","number one","one by one",
+                "9-1-1","overdone","underdone".\n");
+        }
+ }  else if (rhyme_vowels == "ON_2"); ["UN","UN_ii","UN_iii","UN_iv"]; {
+        std::cout << "UN"; {
+        print=(" "fun in the sun","hamburger bun","over and done","prodigal son".\n");
+        }
+ }  else if (rhyme_vowels == "ON_2"); ["UN","UN_ii","UN_iii","UN_iv"]; {
+        std::cout << "UN" {
+        print=(" "Attila the hun".\n");
+        }
+}
  
  if (rhyme_vowels == "ONA"); ["ONA","ONA_ii","ONA_iii"]; {
             std::cout << "ONA"; {
             print=("Jonah","Mona");       
         }    
- }
-      else if (rhyme_vowels == "ONA_ii"); ["ONA","ONA_ii","ONA_iii"]; {
+}   else if (rhyme_vowels == "ONA_ii"); ["ONA","ONA_ii","ONA_iii"]; {
             std::cout << "ONA_ii"; {
             print=(" "kimono".\n");
          } 
-  }  else if (rhyme_vowels == "ONA_iii"); ["ONA","ONA_ii","ONA_iii"]; {
+}   else if (rhyme_vowels == "ONA_iii"); ["ONA","ONA_ii","ONA_iii"]; {
             std::cout << "ONA_iii"; {
             print=(" "Arizona","Barcelona".\n");      
          }   
-  }
+}
            
 if (rhyme_vowels == "ONCHO"); {
             std::cout << "ONCHO"; {
