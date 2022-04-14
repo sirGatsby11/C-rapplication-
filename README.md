@@ -1701,7 +1701,7 @@ if (rhyme_vowels == "OLLEY");["OLLY","OLLY_ii","OLLY_iii"]; {
             }      
  }
  // incomplete file cross reference
-  if (rhyme_vowels == "OLLOW"); {
+  if (rhyme_vowels == "OL); {
             std::cout << "ALLOW_2" {
             print=(allow file);
             } 
