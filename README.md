@@ -85,7 +85,31 @@ if (rhyme_vowels == "O_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
                "subdue","taboo","tattoo","thank you","true blue",
                "tutu","undo","unscrew","unto","untrue",
                "voodoo","who's who","withdrew","world-view","yoo-hoo".\n");
-       }
+               
+               // 10 word subject orientated objective accomplishing or failing
+               // incomplete to complete Sonnets of 12 standardPatternCount 
+               
+               // 1. {ID} {is}, {or} {is not} {IQ} | {speak} {out of turn} {so taboo} |  
+               // {10 for 10} {he's it} {an thats} {A} {big 10-4} | {over and out} {once i scored} {that big}               
+                  {6} {fig}ure}
+               // 2. birds eye view of that avenue | 
+               i like dat(that), you like hat(that), they like flat(that) | 
+               quick i love you from the irish stew |
+               no need to misconstrue the lady of the night(white) in the navy blue |
+              //  3. she redirect rawson, gave em the globe couldnt see em as the average joe 
+                  so let me go, couldnt see that point of view, traditions out the window two by two, |
+              //  4. i like flat(that), you like dat(that), they like hat(that) |
+                  
+                  
+                  1. back to the days, when piegons flew with a message | 
+                  in these mad evil times, we still with the renissance | 
+                 
+                  
+                  
+                  
+                  
+                  
+}
 }   else if (rhyme_vowels === "O_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
         std::cout << "EW_iii"; {
         print=(" "avenue","ballyhoo","barbecue",
