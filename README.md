@@ -102,8 +102,9 @@ if (rhyme_vowels == "O_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
                   
                   
                   1. back to the days, when piegons flew with a message | 
-                  in these mad evil times, we still with the renissance | 
-                 
+                  taken no lost in these mad evil times, we still with the renissance | 
+                 she looking abstract on the weeknd in france, 14th thru the 17th, we quartined for a century, 
+                 2. 
                   
                   
                   
@@ -1361,7 +1362,7 @@ if (rhyme_vowels == "OKE\n"; ["OKE","OKE_ii","OKE_iii"]; {
    1. {prayers answered} {from a queen} {from the chi}, 
    2. theres cancer {from the mean} {a bit shy}
    3. 
-   4.   betta know ya worth, 
+   4.   betta know ya worth, lemme ask about the complaint in a pettysburg address, the media
 
   std::cout << "           _____ "
   std::cout << "          | |   \ "
@@ -1696,9 +1697,11 @@ if (rhyme_vowels == "OLL_2"); ["ALL","ALL_ii:","ALL_iii","ALL_iv"]; {
 // incomplete cross reference
  if (rhyme_vowels == "OLLAR"); {
            std::cout << "ALLER"; {
-           print=(".\n");
+           print=(" "brawler","caller","collar","dollar","holler",
+                    "scholar","smaller","squalor","smaller","squalor",
+                    "taller".\n");
             }
- }     
+ }    else if (rhyme_vowels == "OLLAR"); ["ALLER","ALLER_ii","ALLER_iii",] 
  
  if (rhyme_vowels == "OLLER"); {
            std::cout << "OLAR"; {
@@ -1871,7 +1874,6 @@ if (rhyme_vowels == "OMB_1"); ["OME_1","OME_1_ii","OME_1_iii"]; {
           }
 }
 
-// incomplete files cross reference
 if (rhyme_vowels == "OMB_2"); ["OOM","OOM_ii","OOM_iii"]; {
        std::cout << "OOM"; {
        print=(" "bloom","boom","broom","doom",
@@ -1964,7 +1966,6 @@ if (rhyme_vowels == "OMMY"); ["OMMY", "OMMY_ii","OMMY_iii"]; {
         }
  }
  
- // incomplete reference
  if (rhyme_vowels == "ON_1"); ["AWN","AWN_ii","AWN_iii","AWN_iv"]; {
         std::cout << "AWN"; {
         print=(" "con","dawn","don","drawn",
@@ -2129,9 +2130,186 @@ if (rhyme_vowel === ONE_1); ["ONE_1","ONE_1_ii","ONE_1_iii_"]; {
                 print=(" "accident prone".\n");
          }
 }
+    
+if (rhyme_vowels == "ONE_2"); ["AWN","AWN_ii","AWN_iii","AWN_iv"]; {
+        std::cout << "AWN"; {
+        print=(" "con","dawn","don","drawn",
+                 "fawn","gone","John","lawn",
+                 "on","pawn","Ron","spawn","swan",
+                 "yawn".\n");       
+        }    
+ }  else if (rhyme_vowels == "ONE_2"); ["AWN","AWN_ii","AWN_iii","AWN_iv"]; {
+        std::cout << "AWN_ii"; {
+        print=(" "Antoine","baton","bon-bon","Cezanne","chiffon",
+                 "coupon","doggone","Don Juan","ex-con","Iran",
+                 "long gone","pecan","python","run-on","Saigon",
+                 "salon","Szechwan","Taiwan","Tucson","upon",
+                 "withdrawn","won ton","Yukon","Yvonne".\n");
+        }
+ }  else if (rhyme_vowels "ONE_2"); ["AWN","AWN_ii","AWN_iii","AWN_iv"]; {
+        std::cout << "AWN_iii"; {
+        print=(" "Amazon","Audubon","Avalon","Babylon",
+                "crack of dawn","decathlon","Genghis Khan","hanger-on",
+                "hexagon","leprechaun","liaison","marathon",
+                "Mazatlan","octagon","off and on","overdrawn",
+                "paragon","parmesan","pentagon","pro and con","silicon",
+                "talkathon","woebegone".\n");
+        }
+ }  else if (rhyme_vowels == "ONE_2"); ["AWN","AWN_ii","AWN_iii","AWN_iv"]; {
+        std::cout << "AWN_iv"; {
+        print=(" "phenomenon","Saskatchewan".\n");
+        }
+ }
+          
+    
+if (rhyme_vowels == "ONE_3"); ["UN","UN_ii","UN_iii","UN_iv"]; {
+        std::cout << "UN"; {
+        print=(" "bun","done","fun","gun","hon",
+                 "Hun","none","nun","one","pun",
+                 "run","shun","son","spun","stun",
+                 "sun","ton","won".\n");       
+        }    
+ }  else if (rhyme_vowels == "ONE_3"); ["UN","UN_ii","UN_iii","UN_iv"]; {
+        std::cout << "UN"; {
+        print=(" "all done","begun","blowgun","dog run","grandson",
+                 "hired gun","home run","homespun","no one","outdone",
+                 "outrun","redone","rerun","shotgun","someone",
+                 "top gun","trial run","undone","well done".\n");
+        }
+ }  else if (rhyme_vowels == "ONE_3"); ["UN","UN_ii","UN_iii","UN_iv"]; {
+        std::cout << "UN"; {
+        print=(" "Air Force One","all or none","anyone","everyone",
+                "hit-and-run","hole in one","honeybun","hot dog bun",
+                "jump the gun","native son","number one","one by one",
+                "9-1-1","overdone","underdone".\n");
+        }
+ }  else if (rhyme_vowels == "ONE_3"); ["UN","UN_ii","UN_iii","UN_iv"]; {
+        std::cout << "UN"; {
+        print=(" "fun in the sun","hamburger bun","over and done","prodigal son".\n");
+        }
+ }  else if (rhyme_vowels == "ONE_3"); ["UN","UN_ii","UN_iii","UN_iv"]; {
+        std::cout << "UN" {
+        print=(" "Attila the hun".\n");
+        }
+}
+ 
+if (rhyme_vowels == "ONE_4"); ["ONY","ONY_ii","ONY_iii","ONY_iv"]; {
+        std::cout << "ONY"; {
+        print=(" ,"bony","crony","phony","pony",
+                "Sony","stony","Tony".\n");
+        )
+}   else if (rhyme_vowels == "ONE_4"); ["ONY","ONY_ii","ONY_iii","ONY_iv"]; {
+        std::cout << "ONY"; {
+        print=(" "baloney","shoshone".\n");
+        }
+}   else if (rhyme_vowels == "ONE_4"); ["ONY","ONY_ii","ONY_iii","ONY_iv"]; {
+        std::cout << "ONY" {
+        print=(" "abalone","almony","ceremony","macaroni","matrimony",
+                "minestone","pepperoni","rigatoni","sanctimony","testimony".\n");
+        }
+}   else if (rhyme_vowels == "ONE_4"); ["ONY","ONY_ii","ONY_iii","ONY_iv"]; {
+        std::cout << "ONY" {
+        print=(" "phony-baloney".\n");
+        }
+}
+    
+if (rhyme_vowels === "OO"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
+       std::cout << "EW"; {
+       print=(" "blew","blue","boo","brew",
+                "chew","clue","crew","cue",
+                "dew","do","drew","due",
+                "ewe","few","flew","flu",
+                "glue","gnu","goo","grew",
+                "hue","knew","mew","moo",
+                "new","pew","pooh","rue",
+                "screw","shoe","slew","stew",
+                "sue","threw","through","to",
+                "too","true","two","view",
+                "who","woo","you","zoo".\n");
+       }
+}   else if (rhyme_vowels === "OO"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
+       std::cout << "EW_ii"; {
+       print=(" "ado","ah-choo","anew","bamboo","boo-boo"
+               "boohoo","brand-new","breakthrough","canoe","cashew",
+               "choo-choo","construe","corkscrew","cuckoo","curfew",
+               "debut","dog-doo","drive-through","goo-goo","hairdo",
+               "horseshoe","how-to","into","IQ","kazoo",
+               "kung fu","miscue","misdo","muumuu","on cue",
+               "on view","outdo","outgrew","past due","Peru"
+               "PU","pursue","redo","renew","review",
+               "revue","Says who","see-through","shampoo","snafu",
+               "subdue","taboo","tattoo","thank you","true blue",
+               "tutu","undo","unscrew","unto","untrue",
+               "voodoo","who's who","withdrew","world-view","yoo-hoo".\n");
+       }
+}   else if (rhyme_vowels === "OO"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
+        std::cout << "EW_iii"; {
+        print=(" "avenue","ballyhoo","barbecue",
+                "bird's-eye view","black and blue","book review",
+                "buckaroo","bugaboo","caribou",
+                "cockatoo","countersue","curlicue",
+                "i love you","impromptu","interview",
+                "irish stew","jujitsu","kangaroo",
+                "Malibu","misconstrue","navy blue",
+                "no can do","Oahu","overdo",
+                "overdue","peek-a-boo","point of view",
+                "postage due","quite a few","rendezvous",
+                "residue","revenue","stinkaroo",
+                "super Glue","switcheroo","through and through",
+                "Timbuktu","toodle-oo","tried and true",
+                "two by two","Waterloo","well-to-do",
+                "whoop-de-doo".\n");
+        }
+}   else if (rhyme_vowels === "OO"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
+        std::cout << "EW_iv"; {
+        print=(" "catch-22","hullabaloo","out of the blue",
+                 "red, white, and blue","skeleton crew","Winnie the Pooh".\n");
+        }
+ }  else if (rhyme_vowels === "OO"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
+        std::cout << "EW_v" {
+        print=(" "cock-a-doodle-doo","panoramic view".\n"):
+        }
+ }
+    
+if (rhyme_vowels === "OO"); {
+        std::cout << "OOCH"; {
+        print=(" "mooch","pooch","smooch".\n");
+ }
+        }  
 
-
+ if (rhyme_vowels === "OOD_1"); {
+            std::cout << "UDE"; {
+            print=(" "booed","brewed","brood","chewed","crewed",
+                "crude","cued","dude","fued","food",
+                "glued","hued","mewed","mood","mooed",
+                "nude","poohed","prude","rude","rued",
+                "shrewd","spewed","stewed","sued","viewed",
+                "wooed".\n);
+          }
+    }   else if (rhyme_vowels === "OOD_1"); {
+            std::cout << "UDE"; {
+            print=(" "allude","boo-hooed","conclude","construed",
+                    "delude","dog food","elude","exclude",
+                    "exude","fast food","include","intrude",
+                    "protude","pursued","renewed","reviewed",
+                    "Saint Jude","seafood","seclude","shampooed"
+                    "soul food","subdued","tattooed","unglued".\n");
+         }
+ }      else if (rhyme_vowels === "OOD_1"); {
+            std::cout << "UDE"; {
+            print=(" "altitude","aptitude","attitude","baby food",
+                    "ballyhooed","barbecued","family fued","gratitude",
+                    "interlude","interviewed","in the mood","latitude",
+                    "longtitude","misconstrued","multitude","rendezvoused",
+                    "solitude",.\n");
+         }
+ }
+        
+ 
+    
+    
+    
+    
 variable =(consonants) {mono,dupples,triples}
 variable =(IPA
-
-}
+    
