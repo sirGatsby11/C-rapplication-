@@ -2276,6 +2276,8 @@ if (rhyme_vowels === "OO"); {
         print=(" "mooch","pooch","smooch".\n");
  }
         }  
+    
+    // Incomplete files cross reference
 
  if (rhyme_vowels === "OOD_1"); {
             std::cout << "UDE"; {
@@ -2301,11 +2303,57 @@ if (rhyme_vowels === "OO"); {
                     "ballyhooed","barbecued","family fued","gratitude",
                     "interlude","interviewed","in the mood","latitude",
                     "longtitude","misconstrued","multitude","rendezvoused",
-                    "solitude",.\n");
+                    "solitude".\n");
          }
- }
+ }      else if (rhyme_vowels === "OOD_1"); ["UD","UD_ii,"UD_iii"]; {
+            std::cout << "UDE"; {
+            print=(" "blood","bud","crud","dud",
+                    "flood","mud","scud","spud",
+                    "thud".\n");
+         }
+ }      else if (rhyme_vowels === "OOD_1"); ["UD","UD_ii","UD_iii"]; {
+            std::cout << "UDE_ii"; {
+            print=(" "blue blood","flash flood","Milk Dud","rosebud","taste bud".\n");
+          }
+ }       else if (rhyme_vowels === "OOD_1"); ["UD","UD_ii","UD_iii"];{
+            std::cout << "UDE_iii"; {
+            print=(" "creeping crud","flesh and blood".\n");
+           }   
+ }       else if (rhyme_vowels === "OOD_2"); ["UD","UD_ii","UD_iii"]; {
+            std::cout << "UD"; {
+            print=(" "booed","brewed","brood","chewed",
+                     "crude","cued","dude","food","glued",
+                    "hued","mewed","mood","mooed","nude",
+                    "poohed","prude","rude","rued","shrewed",
+                    "spewed","stewed","sued","viewed","wooed".\n");
+           }
+ }        else if (rhyme_vowels === "OOD_2"); ["UD","UD_ii","UD_iii"]; {
+            std::cout << "UD"; {
+            print=(" "allude","boo-hooed","conclude","construed","delude",
+                     "dog food","elude","exclude","exude","fast food",
+                    "include","intrude","protrude","pursued","renewed",
+                    "reviewed","Saint Jude","seafood","seclude","shampooed",
+                    "soul food","subdued","tattooed","unglued".\n");
+    // lifestyle old school jockey thats been forced into retirment with the buck of a stallion, 
+    // forever in the crane robe mindset, silk sheets, 
+            }       
+    }    else if (rhyme_vowels === "OOD_2"); ["UD","UD_ii","UD_iii"]; {
+            std::cout << "UD_iii"; {
+            print=(" "altitude","aptitude","attitude","baby food",
+                    "ballyhooed","barbecued","family fued","gratitude",
+                    "interlude","interviewed","in the mood","latitude",
+                    "longitude","misconstrued","multitude","rendezvoused",
+                    "solitude".\n");
+            }
+    }   
+
+    // 1. {whats the} {latitude} {longitude} to the rendezvoused, turtle saying hi to Ronda we drousy its a Knockout
+        2. Hessian Procmon, 
+    
+    
         
- 
+                    
+                    
     
     
     
