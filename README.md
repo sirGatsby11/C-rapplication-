@@ -2230,7 +2230,7 @@ if (rhyme_vowels === "OO"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
 }   else if (rhyme_vowels === "OO"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
        std::cout << "EW_ii"; {
        print=(" "ado","ah-choo","anew","bamboo","boo-boo"
-               "boohoo","brand-new","breakthrough","canoe","cashew",
+                "boohoo","brand-new","breakthrough","canoe","cashew",
                "choo-choo","construe","corkscrew","cuckoo","curfew",
                "debut","dog-doo","drive-through","goo-goo","hairdo",
                "horseshoe","how-to","into","IQ","kazoo",
@@ -2279,7 +2279,7 @@ if (rhyme_vowels === "OO"); {
     
     // Incomplete files cross reference
 
- if (rhyme_vowels === "OOD_1"); {
+ if (rhyme_vowels === "OOD_1"); ["UDE","UDE_ii","UDE_iii"]; {
             std::cout << "UDE"; {
             print=(" "booed","brewed","brood","chewed","crewed",
                 "crude","cued","dude","fued","food",
@@ -2288,8 +2288,8 @@ if (rhyme_vowels === "OO"); {
                 "shrewd","spewed","stewed","sued","viewed",
                 "wooed".\n);
           }
-    }   else if (rhyme_vowels === "OOD_1"); {
-            std::cout << "UDE"; {
+ }     else if (rhyme_vowels === "OOD_1"); ["UDE","UDE_ii","UDE_iii"]; {
+            std::cout << "UDE_ii"; {
             print=(" "allude","boo-hooed","conclude","construed",
                     "delude","dog food","elude","exclude",
                     "exude","fast food","include","intrude",
@@ -2297,38 +2297,46 @@ if (rhyme_vowels === "OO"); {
                     "Saint Jude","seafood","seclude","shampooed"
                     "soul food","subdued","tattooed","unglued".\n");
          }
- }      else if (rhyme_vowels === "OOD_1"); {
-            std::cout << "UDE"; {
+ }      else if (rhyme_vowels === "OOD_1"); ["UDE","UDE_ii","UDE_iii"]; {
+            std::cout << "UDE_iii"; {
             print=(" "altitude","aptitude","attitude","baby food",
                     "ballyhooed","barbecued","family fued","gratitude",
                     "interlude","interviewed","in the mood","latitude",
                     "longtitude","misconstrued","multitude","rendezvoused",
                     "solitude".\n");
          }
- }      else if (rhyme_vowels === "OOD_1"); ["UD","UD_ii,"UD_iii"]; {
+ } 
+    
+if (rhyme_vowels === "OOD_1"); ["UD","UD_ii,"UD_iii","UD_iv"]; {
             std::cout << "UDE"; {
             print=(" "blood","bud","crud","dud",
                     "flood","mud","scud","spud",
                     "thud".\n");
          }
- }      else if (rhyme_vowels === "OOD_1"); ["UD","UD_ii","UD_iii"]; {
-            std::cout << "UDE_ii"; {
+ }      else if (rhyme_vowels === "OOD_1"); ["UD","UD_ii","UD_iii","UD_iv"]; {
+            std::cout << "UD_ii"; {
             print=(" "blue blood","flash flood","Milk Dud","rosebud","taste bud".\n");
           }
- }       else if (rhyme_vowels === "OOD_1"); ["UD","UD_ii","UD_iii"];{
-            std::cout << "UDE_iii"; {
+ }       else if (rhyme_vowels === "OOD_1"); ["UD","UD_ii","UD_iii","UD_iv"];{
+            std::cout << "UD_iii"; {
             print=(" "creeping crud","flesh and blood".\n");
            }   
- }       else if (rhyme_vowels === "OOD_2"); ["UD","UD_ii","UD_iii"]; {
-            std::cout << "UD"; {
+ }       else if (rhyme_vowels === "OOD_1"); ["UD","UD_ii","UD_iii","UD_iv"]; {
+            std::cout << "UD_iv"; {
+            print=(" "stick in the mud".\n");
+            }
+ }
+    
+if (rhyme_vowels === "OOD_2"); ["UDE","UDE_ii","UDE_iii"]; {
+            std::cout << "UDE"; {
             print=(" "booed","brewed","brood","chewed",
                      "crude","cued","dude","food","glued",
                     "hued","mewed","mood","mooed","nude",
                     "poohed","prude","rude","rued","shrewed",
                     "spewed","stewed","sued","viewed","wooed".\n");
            }
- }        else if (rhyme_vowels === "OOD_2"); ["UD","UD_ii","UD_iii"]; {
-            std::cout << "UD"; {
+ }        else if (rhyme_vowels === "OOD_2"); ["UDE","UDE_ii","UDE_iii"]; {
+            std::cout << "UDE_ii"; {
             print=(" "allude","boo-hooed","conclude","construed","delude",
                      "dog food","elude","exclude","exude","fast food",
                     "include","intrude","protrude","pursued","renewed",
@@ -2337,8 +2345,8 @@ if (rhyme_vowels === "OO"); {
     // lifestyle old school jockey thats been forced into retirment with the buck of a stallion, 
     // forever in the crane robe mindset, silk sheets, 
             }       
-    }    else if (rhyme_vowels === "OOD_2"); ["UD","UD_ii","UD_iii"]; {
-            std::cout << "UD_iii"; {
+    }    else if (rhyme_vowels === "OOD_2"); ["UDE","UDE_ii","UDE_iii"]; {
+            std::cout << "UDE_iii"; {
             print=(" "altitude","aptitude","attitude","baby food",
                     "ballyhooed","barbecued","family fued","gratitude",
                     "interlude","interviewed","in the mood","latitude",
@@ -2346,7 +2354,101 @@ if (rhyme_vowels === "OO"); {
                     "solitude".\n");
             }
     }   
+    
+ if rhyme_vowels ("OOD_3"); ["OOD_3","OOD_3_ii","OOD_3_iii,"OOD_3_iv"];{
+            std::cout << "OOD" {
+            print=(" "could","good","hood","should","stood",
+                    "wood","would".\n");
+            }        
+    }   else if rhyme_vowels === ("OOD_3"); ["OOD_3","OOD_3_ii","OOD_3_iii,"OOD_3_iv"]; {
+            std::cout << "OOD_3_ii" {
+            print=(" "childhood","deadwood","driftwood","falsehood","no-good",
+                "redwood","sainthood".\n");    
+            }
+}       else if rhyme_vowels === ("OOD_3"); ["OOD_3","OOD_3_ii","OOD_3_iii,"OOD_3_iv"]; {
+            std::cout << "OOD_3_ii" {
+            print=(" "brotherhood","fatherhood","Hollywood","likelihood","livelihood","motherhood",
+                 "neighberhood","pretty good","Robin Hood","sisterhood","understood".\n") 
+            }
+}       else if rhyme_vowels === ("OOD_3"); ["OOD_3","OOD_3_ii","OOD_3_iii,"OOD_3_iv"]; {
+            std::cout << "OOD_3_iii"; {
+            print=(" "misunderstood","Red Riding Hood","sisterhood","understood".\n");    
+            } 
+}       else if rhyme_vowels === ("OOD_3"); ["OOD_3","OOD_3_ii","OOD_3_iii,"OOD_3_iv"]; {
+            std::cout << "OOD_3_iv"; {
+            print=(" "finger-licking good".\n");
+            }        
+}
 
+if rhyme_vowels("OODLE"); ["OODLE","OODLE_ii"]; {
+            std::cout << "OODLE"; {
+            print=(" "brutal","doodle","feudal","noodle",
+                     "poodle","strudel".\n");
+            }
+}      else if ("OODLE"); ["OODLE","OODLE_ii"]; {
+            std::cout << "OODLE_ii"; { 
+            print=(" "apple strudel","Yankee Doodle".\n");
+            }
+}
+    
+if rhyme_vowels("OODY"); ["OODY","OODY_ii","OODY_iii"]; {
+            std::cout << "OODY"; {
+            print=(" "beauty","bootie","booty","cootie",
+                     "cutie","duty","fruity","Judy",
+                     "moody","snooty","Trudy"
+                    .\n");
+            }
+    }  else if rhyme_vowels === ("OODY"); ["OODY","OODY_ii","OODY_iii"]; {
+            std::cout << "OODY_ii"; {
+            print=(" "off duty".\n");
+            }
+    }   else if rhyme_vowels === (OODY); ["OODY","OODY_ii","OODY_iii"]; {
+            std::cout << "OODY_iii"; {
+            print=(" "bathing beauty","double-duty","heavy duty","Howdy Doody",
+                     "Sleeping beauty","tutti-frutti".\n");
+            }
+    }
+     
+if (rhyme_vowels === "OOED"); ["UDE","UDE_ii","UDE_iii"]; {
+            std::cout << "UDE"; {
+            print=(" "booed","brewed","brood","chewed",
+                     "crude","cued","dude","food","glued",
+                    "hued","mewed","mood","mooed","nude",
+                    "poohed","prude","rude","rued","shrewed",
+                    "spewed","stewed","sued","viewed","wooed".\n");
+           }
+ }        else if (rhyme_vowels === "OOED"); ["UDE","UDE_ii","UDE_iii"]; {
+            std::cout << "UDE_ii"; {
+            print=(" "allude","boo-hooed","conclude","construed","delude",
+                     "dog food","elude","exclude","exude","fast food",
+                    "include","intrude","protrude","pursued","renewed",
+                    "reviewed","Saint Jude","seafood","seclude","shampooed",
+                    "soul food","subdued","tattooed","unglued".\n");
+    // lifestyle old school jockey thats been forced into retirment with the buck of a stallion, 
+    // forever in the crane robe mindset, silk sheets, 
+            }       
+    }    else if (rhyme_vowels === "OOED"); ["UDE","UDE_ii","UDE_iii"]; {
+            std::cout << "UDE_iii"; {
+            print=(" "altitude","aptitude","attitude","baby food",
+                    "ballyhooed","barbecued","family fued","gratitude",
+                    "interlude","interviewed","in the mood","latitude",
+                    "longitude","misconstrued","multitude","rendezvoused",
+                    "solitude".\n");
+            }
+    }     
+    
+    
+    
+    
+   an babykhalifa in a hijab my afternoon snaker charmer you know i had to arm her, Mrs.Smith from the Weston, prewritten malware from her makes sure i keep em guessin, 
+    
+    // sample derivation sonicaly
+   1. the city ever heard about the{reaps} + bankjob cliche filled with {billians} handed down for those that eat {crepes}
+    2. thats where i learned to do my hustle had scuffle with freaks.)
+    3. thats where i learned to do my hustle had scuffle with freaks.)
+    4. thats where i learned to do my hustle had scuffle with freaks.)
+    
+    
     // 1. {whats the} {latitude} {longitude} to the rendezvoused, turtle saying hi to Ronda we drousy its a Knockout
         2. Hessian Procmon, 
     
