@@ -2437,6 +2437,28 @@ if (rhyme_vowels === "OOED"); ["UDE","UDE_ii","UDE_iii"]; {
             }
     }     
     
+if (rhyme_vowels === "OOEY"); ["EWY","EWY_ii"] {
+            std::cout << "EWY"; {
+            print=(" "buoy","chewy","dewy",
+                    "gooey","phooey","screwy".\n");    
+            }    
+ }      else if (rhyme_vowels === "OOEY") ["EWY","EWY_ii"]; {
+            std::cout << "EWY_ii";  {
+            print=(" "chop suey","mildewy".\n");
+            }
+    } 
+    
+if (rhyme_vowels === "OOF_1") ["OOF_1","OOF_1_ii"]; {
+            std::cout << "OOF_1"\ {
+            print=(" "goof","poof","proof",
+                    "roof","spoof".\n");    
+            }
+    }   else if (rhyme_vowels === "OOF_1") 
+            std::cout << "OOF_1";
+    }
+    
+    
+    
     
     
     
