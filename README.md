@@ -2453,11 +2453,92 @@ if (rhyme_vowels === "OOF_1") ["OOF_1","OOF_1_ii"]; {
             print=(" "goof","poof","proof",
                     "roof","spoof".\n");    
             }
-    }   else if (rhyme_vowels === "OOF_1") 
-            std::cout << "OOF_1";
+    }   else if (rhyme_vowels === "OOF_1_ii") 
+            std::cout << "OOF_1_ii"; {
+            print=(" "aloof","childproof","fireproof","foolproof","soundproof",
+                    .\n"); 
+            }
     }
     
+if (rhyme_vowels === "OOF_2"); {
+            std::cout << "OOF_1_ii"; {
+            print=(" "hoof","roof","woof".\n");
+            }
+    }
+
+if (rhyme_vowels === "OOFY"); {
+            std::cout << "OOFY"; {
+            print=(" "goofy","poofy","spoofy".\n");
+            }
+    }
+
+if (rhyme_vowels === "OOK_1"); ["UKE","UKE_ii","UKE_iii"]; {
+            std::cout << "OOk_1"; {
+            print=(" "duke","fluke","kook","Luke",
+                    "nuke","puke","spook".\n");          
+             }
+}       else if (rhyme_vowels === "OOK_1"); ["UKE","UKE_ii","UKE_iii"]; {
+            std::cout << "OOK_1"; {
+            print=(" "rebuke".\n");
+             }
+}       else if (rhyme_vowels === "OOK_1"); ["UKE","UKE_ii","UKE_iii"]; {
+            std::cout << "OOK_1"; {
+            print=(" "antinuke".\n");
+            }
+}       else if (rhyme_vowels === "OOK_1"); ["UKE","UKE_ii","UKE_iii"]; {
+            std::cout << "OOK_1" {
+            print=(" "goobledygook".\n");        
+            }
+}      
+   
+if (rhyme_vowels === "OOK_2"); {
+            std::cout << "OOK_2"; {
+            print=(" "book","brook","cook","crook",
+                    "hook","look","nook","rook",
+                    "shook","took".\n");
+            }
+ }      else if (rhyme_vowels === "OOK_2"); {
+            std::cout << "OOK_2"; {
+            print=(" "checkbone","fishhook","handbook","mistook","notebook",
+                      "outlook","scrapbook","textbook","unhook".\n");
+            }    
+ }      else if (rhyme_vowels === "OOK_2"); {
+            std::cout << "OOK_2"; {
+            print=(" "Captain Cook","comic book","dirty look",
+                     "donnybrook","overlook".\n");
+            }        
+ }       else if (rhyme_vowels === "OOK_2"); {
+            std::cout << "OOK_2"; {
+            print=(" "gobbledygook".\n");
+             }        
+ }
+  
+if (rhyme_vowels === "OOKIE"); {
+            std::cout << "OOK_2"; {
+            print=(" "bookie","cookie","hooky","rookie".\n");
+             }     
+ }
+ 
+ if (rhyme_vowels === "OOL") ["OOL","OOL_ii","OOL_iii","OOL_iv"]; {
+            std::cout << "OOK_2"; {
+            print=(" "cool","drool","fool","fuel",
+                     "ghoul","mule","pool","rule","school",
+                     "spool","stool","tool","yule".\n");
+             }    
+  }       else if (rhyme_vowels === "OOL") ["OOL","OOL_ii","OOL_iii","OOL_iv"]; {
+            std::cout << "OOL"; {
+            print=(" "barstool","car pool","cesspool","gag rule",
+                     "high school","home rule","mob rule","module",
+                     "preschool","tidepool","toadstool","whirlpool".\n");
+              }
+  }       else if (rhyme_vowels === "OOL") ["OOL","OOL_ii","OOL_iii","OOL_iv"]; {
+            std::cout << "OOL_iii"; {
+            print=(" "","","",
+                    .\n");          
+              }
+  }    
     
+   
     
     
     
