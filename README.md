@@ -2533,12 +2533,52 @@ if (rhyme_vowels === "OOKIE"); {
               }
   }       else if (rhyme_vowels === "OOL") ["OOL","OOL_ii","OOL_iii","OOL_iv"]; {
             std::cout << "OOL_iii"; {
-            print=(" "","","",
+            print=(" "April fool","as a rule","golden rule",
+                     "Liverpool","miniscule","molecule","overrule",
+                    "ridicule","Sunday School","super cool",
+                    "swimming pool","nobody's fool","nursey school",
                     .\n");          
               }
-  }    
+  }         else if (rhyme_vowels === "OOL"); ["OOL","OOL_ii","OOL_iii","OOL_iv"]; {
+            std::cout << "OOL_iv"; {
+            print=(" "majority rule".\n");
+              }       
+  }
     
+  if (rhyme_vowels === "OOLER"); ["OOLER","OOLER_ii"]; {
+            std::cout << "OOLER"; {
+            print=(" "cooler","crueler","drooler",
+                    "jewelwer","ruler".\n");
+               }    
+    }   else if ("rhyme_vowels === "OOLER"); ["OOLER","OOLER_ii"]; {
+            std::cout << "OOLER_ii"; {
+            print=(" "car pooler","preschooler".\n");    
+                }    
+    }
+        
+  if (rhyme_vowels === "OOM"); ["OOM","OOM_ii","OOM_iii","OOM_iv"]; {
+            std::cout << "OOM"; {
+            print=(" "bloom","boom","broom","doom","fume"
+                     "gloom","groom","loom","plume","room",
+                     "tomb","whom","womb","zoom".\n");
+                }  
+ }      else if (rhyme_vowels === "OOM"); ["OOM","OOM_ii","OOM_iii","OOM_iv"]; {
+            std::cout << "OOM_ii"; {
+            print=(" "assume","bathroom","bridegroom",
+                     "classroom","consume","courtroom",
+                     "entomb","exhume","heriloom",
+                    "homeroom","leg room","mushroom",
+                    "perfume","presume","rest room".\n");
+               }
+ }      else if (rhyme_vowels === "OOM"); ["OOM","OOM_ii","OOM_iii","OOM_iv"]; {
+            std::cout << "OOM_iii"; {
+            print=(" "baby boom","bride and groom","elbow room","gloom and doom",
+                     "locker room","love in bloom","powder room","smoke-filled room",
+                    "sonic boom".\n");
+               }
+ }
    
+    
     
     
     
