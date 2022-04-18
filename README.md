@@ -2577,9 +2577,40 @@ if (rhyme_vowels === "OOKIE"); {
                     "sonic boom".\n");
                }
  }
-   
     
+if (rhyme_vowels === "OOMER"); ["UMER","UMER_ii","UMER_iii"]; {
+            std::cout << "UMOR"; {
+            print=(" "bloomer","groomer","humor",
+                     "rumor","tumor",.\n");
+               }
+}      else if (rhyme_vowels === "OOMER"); ["UMER","UMER_ii","UMER_iii"]; {
+            std::cout << "UMOR"; {
+            print=(" "consumer","costumer","good humor","late boomer" .\n");    
+                }
+}      else if (rhyme_vowels === "UMOR");  ["UMER","UMER_ii","UMER_iii"]; {
+            std::cout << "UMOR_ii"; {
+            print=(" "consumer","costumer","good humor","late bloomer",
+                    .\n");
+            }
+}       else if (rhyme_vowels === "UMOR");  ["UMER","UMER_ii","UMER_iii"]; {
+            std::cout << "UMOR_ii"; {
+            print=(" "baby bloomer".\n");
+            }
+}   
+
+if (rhyme_vowels === "umorous"); {
+            std::cout << "UMOR_iii"; {
+            print=(" "humoruous","numerous"
+                    .\n");
+            }
+    }   
     
+    // 4/4 simple + simple + complex ("")
+    
+    1. you the goat, oh please do humor us, thank me later that shit is humorous,
+    2. fill in the blank nodes, sneeze on his story in the major parts, take my waiters numbers down, in the numerous,
+    3. act like acabus doesnt solve problems, act like i didnt show you cadillacs, hittin switches with goblins 
+    4. soultion is accountable algorithms, active in Cheyenne havent looked at adi since, hit me twice drive around than i swoop,  
     
     
     
