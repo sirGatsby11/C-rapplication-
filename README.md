@@ -2653,9 +2653,43 @@ if (rhyme_vowles === "OON"); ["OON","OON_ii","OON_iii"];{
             }
     }
     
+if (rhyme_vowels === "OOP"); {
+           std::cout << "OOP" ["OPP","OPP_ii","OPP_iii"]; {
+           print=(" "bloop","coop","coupe","droop",
+                    "dupe","goop","group","hoop",
+                    "loop","poop","scoop","sloop","snoop",
+                    "soup","stoop","swoop","troop","troupe",
+                    "whoop"
+                    .\n");
+            }
+}       else if (rhyme_vowels === "OOP"); ["OPP","OPP_ii","OPP_iii"]; {
+            std::cout << "OOP_ii"; {
+            print=(" "in-group","peer group","regroup","scout troop".\n");
+            }
+}       else if (rhyme_vowels === "OOP"); ["OPP","OPP_ii","OPP_iii"]; {
+            std::cout << "OOP_iii"; {
+            print=(" "alley oop","chicken soup","hula hoop",
+                    "inside scoop","nincompoop","pressure group".\n");
+            }
+}
     
+if (rhyme_vowels === "OOPER"); ["OOPER","OOPER_ii","OOPER_iii"]; {
+            std::cout << "OOPER"; {
+            print=(" "blooper","drooper","pooper",
+                    "scooper","snooper","stupor",
+                    "super","trooper","trouper"\n");
+            }
+}       else if (rhyme_vowels === "OOPER"); ["OOPER","OOPER_ii","OOPER_iii"]; {
+            std::cout << "OOPER"; {
+            print=(" "paratrooper","party pooper","pooper-scooper","super-duper".\n");
+             }
+}
     
-    
+if (rhyme_vowels === "OOPY"); {
+            std::cout << "OOPY"; {
+            print=(" "droopy","goopy","snoopy","soupy","whoopee".\n");
+            }
+}   
     
     
     
