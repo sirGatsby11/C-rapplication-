@@ -2587,23 +2587,79 @@ if (rhyme_vowels === "OOMER"); ["UMER","UMER_ii","UMER_iii"]; {
             std::cout << "UMOR"; {
             print=(" "consumer","costumer","good humor","late boomer" .\n");    
                 }
-}      else if (rhyme_vowels === "UMOR");  ["UMER","UMER_ii","UMER_iii"]; {
-            std::cout << "UMOR_ii"; {
-            print=(" "consumer","costumer","good humor","late bloomer",
-                    .\n");
-            }
-}       else if (rhyme_vowels === "UMOR");  ["UMER","UMER_ii","UMER_iii"]; {
-            std::cout << "UMOR_ii"; {
+}      else if (rhyme_vowels === "OOMER");  ["UMER","UMER_ii","UMER_iii"]; {
+            std::cout << "UMOR_iii"; {
             print=(" "baby bloomer".\n");
             }
-}   
-
-if (rhyme_vowels === "umorous"); {
+}      else if (rhyme_vowels === "umorous"); {
             std::cout << "UMOR_iii"; {
             print=(" "humoruous","numerous"
                     .\n");
             }
-    }   
+}   
+
+if (rhyme_vowels === "OOMY"); ["OOMY","OOMY_ii"]; {
+        std::cout << "OOMY"; {
+        print=(" "gloomy","roomy".\n");    
+        }    
+}   else if ("OOMY"); ["OOMY","OOMY_ii"]; {
+        std::cout << "OOMY_ii"; {
+        print=(" "perfumy".\n");
+            }
+}
+
+if (rhyme_vowels === "OON"); ["OON","OON_ii","OON_iii","OON_iv"]; {
+        std::cout << "OON"; {
+        print=(" "croon","dune","goon","June",
+                 "loon","moon","noon","prune",
+                "soon","spoon","strewn","swoon",
+                 "tune".\n");    
+            }
+}
+    // hip hop radio aire stream when designer headphones are your design
+    // what can your engineers add to a $15 bluetooth set: redbull commercial add tactics
+    
+    
+    
+if (rhyme_vowles === "OON"); ["OON","OON_ii","OON_iii"];{
+        std::cout << "OON"; {
+        print=(" "baboon","balloon","bassoon","buffoon",
+                 "cartoon","cocoon","commune","fine tune",
+                 "full moon","harpoon","high noon","immune",
+                "lagoon","lampoon","maroon","monsoon",
+                "Neptune","platoon","pontoon","raccon",
+                "Rangoon","saloon","spitton","too soon",
+                "twelve noon","tycoon","typhoon".\n");
+            }
+ }      else if (rhyme_vowels === "OON"); ["OON","OON_ii","OON_iii"]; {
+            std::cout << "OON_ii"; {
+            print=(" "afternoon","Cameroon","Daniel Boone","honeymoon",
+                "loony tune","macaroon","opportune","out of tune".\n");
+            }
+ }      else if (rhyme_vowels === "OON"); ["OON","OON_ii","OON_iii"]; {
+            std::cout << "OON_iii"; {
+            print=(" "hot air balloon","man in the moon".\n");
+           }
+ } 
+ 
+ if (rhyme_vowels === "OONER"); {
+            std::cout << "OONER"; {
+            print=(" "crooner","lunar","schooner",
+                    "sooner","tuner".\n");
+            }
+    } else if (rhyme_vowels === "OONER"); {
+            std::cout << "OONER:; {
+            print=(" "hooneymooner".\n");
+            }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
     
     // 4/4 simple + simple + complex ("")
     
