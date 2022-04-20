@@ -2446,19 +2446,19 @@ if (rhyme_vowels === "OOEY"); ["EWY","EWY_ii"] {
             std::cout << "EWY_ii";  {
             print=(" "chop suey","mildewy".\n");
             }
-    } 
+ } 
     
 if (rhyme_vowels === "OOF_1") ["OOF_1","OOF_1_ii"]; {
             std::cout << "OOF_1"\ {
             print=(" "goof","poof","proof",
                     "roof","spoof".\n");    
             }
-    }   else if (rhyme_vowels === "OOF_1_ii") 
+}       else if (rhyme_vowels === "OOF_1_ii") 
             std::cout << "OOF_1_ii"; {
             print=(" "aloof","childproof","fireproof","foolproof","soundproof",
                     .\n"); 
             }
-    }
+}
     
 if (rhyme_vowels === "OOF_2"); {
             std::cout << "OOF_1_ii"; {
@@ -2591,10 +2591,9 @@ if (rhyme_vowels === "OOMER"); ["UMER","UMER_ii","UMER_iii"]; {
             std::cout << "UMOR_iii"; {
             print=(" "baby bloomer".\n");
             }
-}      else if (rhyme_vowels === "umorous"); {
+}      else if (rhyme_vowels === "OOMER"); ["UMER","UMER_ii","UMER_iii"]; {
             std::cout << "UMOR_iii"; {
-            print=(" "humoruous","numerous"
-                    .\n");
+            print=(" "humoruous","numerous".\n");
             }
 }   
 
@@ -2647,11 +2646,11 @@ if (rhyme_vowles === "OON"); ["OON","OON_ii","OON_iii"];{
             print=(" "crooner","lunar","schooner",
                     "sooner","tuner".\n");
             }
-    } else if (rhyme_vowels === "OONER"); {
+}       else if (rhyme_vowels === "OONER"); {
             std::cout << "OONER:; {
             print=(" "hooneymooner".\n");
             }
-    }
+ }
     
 if (rhyme_vowels === "OOP"); {
            std::cout << "OOP" ["OPP","OPP_ii","OPP_iii"]; {
@@ -2690,6 +2689,71 @@ if (rhyme_vowels === "OOPY"); {
             print=(" "droopy","goopy","snoopy","soupy","whoopee".\n");
             }
 }   
+
+if (rhyme_vowels === "OOR_1"); ["URE","URE_ii","URE_iii"]; {
+            std::cout << "URE"; { 
+            print=(" "boor","cure","lure",
+                     "poor","pure","sure",
+                     "tour","your","you're".\n"
+              }
+}      else if (rhyme_vowels === "OOR_1"); ["URE","URE_ii","URE_iii"] {
+            std::cout << "URE_ii"; {
+            print=(" "amour","assure","brochure","chauffer",   
+                    "contour","demure","endure","ensure",
+                    "for sure","impure","insure","masseur",
+                    "mature","obscure","secure","unsure",
+                    "velour".\n");
+            }
+ }      else if (rhyme_vowels === "OOR_1"); ["URE","URE_ii","URE_iii"]; {
+            std::cout << "URE_iii"; {
+            print=(" "amataeur","apertune","connoisseur","curvature",
+                     "immature","insecure","manicure","overture",
+                      "pedicure","premature","reassure","saboteur".\n");
+            }
+ }
+    
+ if (rhyme_vowels === "OOR_2"); ["ORE_2","ORE_2_ii","ORE_2_iii"]; {
+            std::cout << "ORE" {
+            print=(" "boar","bore","chore","core",
+                     "corps","door","drawer","floor",
+                    "for","four","gore","lore",
+                    "more","nor","oar","or",
+                    "poor","pore","pour","roar",
+                    "snore","soar","score","shore",
+                    "sore","store","swore","tore",
+                    "war","wore","your".\n");
+            }
+    }   else if (rhyme_vowels === "ORE_ii"); ["ORE_2","ORE_2_ii","ORE_2_iii"]; {
+            std::cout << "ORE_ii"; {
+            print=(" "abhor","adore","ashore","before",
+                     "cold sore","cold war","condor","decor",
+                     "downpour","drugstore","encore",
+                    "explore","eyesore","folklore",
+                    "galore","hard-core","hoped-for",
+                    "ignore","indoor","mentor",
+                    "next-door","no more","outdoor",
+                    "outscore","Peace Corps","post war",
+                    "rapport","restore","seashore",
+                    "senor","ten-four","therefour",
+                    "trapdoor","uproar".\n"):
+            }
+    }   else if (rhyme_vowels === "ORE_2"); ["ORE_2","ORE_2_ii","ORE_2_iii"]; {
+            std::cout << "ORE_2_iii"; {
+            print=(" "all shore","antiwar","anymore",
+                     "apple core","Baltimore","blood and gone",
+                     "carnivore","civil war","corridor",
+                    "dinosaur","door-to-door","Ecuador",
+                    "evermore","furthermore","Marine Corps",
+                      "matador","reservior"rich or poor,"saddle sore"
+                    "ship to sore","Singapore","sophmore","Theodore",
+                    "troubadour","tug of war","two-by-four","underscore".\n"
+               }
+    }   else if (rhyme_vowels === "ORE_2"); ["ORE","ORE_2_ii","ORE_2_iii"]; {
+            std::cout << "ORE_2_iii"; {
+            print=(" "forevermore","titanoaur".\n");
+                }
+    }
+    
     
     
     
