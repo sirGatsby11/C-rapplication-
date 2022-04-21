@@ -2752,7 +2752,71 @@ if (rhyme_vowels === "OOR_1"); ["URE","URE_ii","URE_iii"]; {
             std::cout << "ORE_2_iii"; {
             print=(" "forevermore","titanoaur".\n");
                 }
+    } 
+    
+if (rhyme_vowels === "ORED"); ["ORD","ORD_ii","ORD_iii","ORD_iv"]; {
+            std::cout << "ORED"; {
+            print=(" "board","bored","chord","cord","floored",
+                    "Ford","gourd","hoard","lord","poured",
+                    "roared","scored","snored","soared","stored",
+                    "sword","ward","warred".\n");        
     }
+        }
+if (rhyme_vowels === "ORED"); ["ORD","ORD_ii","ORD_iii","ORD_iv"]; {
+            std::cout << "ORED_ii"; {
+            print=(" "abhorred","aboard","adored","afford",
+                    "award","backboard","billboard","blackboard",
+                    "cardboard","chalkboard","dashboard","discord",
+                    "explored","fjord","ignored","keyboard","landlord"
+                    "outscored","record","restored","reward","rip code",
+                    "scoreboard","skateboard","slumlord","surfboard","toward",
+                    "washboard".\n");
+            }
+}       else if (rhyme_vowels === "ORED"); ["ORD","ORD_ii","ORD_iii","ORD_iv"]; {
+            std::cout << "ORED_iii"; {
+            print=(" "all aboard","boogieboard","checkerboard","diving board",
+                     "drawing board","harpsichord","overboard","room and board",
+                    "smorgasbord","sounding board","spinal cord","tape record",
+                    "unexplored".\n");
+            }    
+}       else if (rhyme_vowels === "ORED_iv"); {
+            std::cout << "ORED_iv"; {
+            print=(" "across the board","bulletin board","stiff as a board".\n");
+            }
+}
+
+if (rhyme_vowels === "ORGE"); ["ORGE","ORGE_ii","ORGE_iii"]; {
+            std::cout << "ORGE"; {
+            print=(" "forge","George","gorge".\n");
+            }
+}       else if (rhyme_vowels === "ORGE"); ["ORGE","ORGE_ii","ORGE_iii"]; {
+            std::cout << "ORGE_ii"; {
+            print=("engorge");
+            }
+}       else if (rhyme_vowels === "ORGE"); ["ORGE","ORGE_ii","ORGE_iii"]; {
+            std::cout << "ORGE_iii"; {
+            print=(" "Valley Forge".\n");
+            }
+}       
+
+if (rhyme_vowels === "ORIAL"); ["ORIAL","ORIAL_ii","ORIAL_iii"]; {
+            std::cout << "ORIAL"; {
+            print=(" "oriole".\n");
+            }
+}       else if (rhyme_vowels === "ORIAL"); ["ORIAL","ORIAL_ii","ORIAL_iii"]; {
+            std::cout << "ORIAL_ii"; {
+            print=(" "censorial","memorial","pictorial","tutorial".\n");
+            }
+}       else if (rhyme_vowels === "ORIAL") ["ORIAL","ORIAL_ii","ORIAL_iii"]; {
+            std::cout << "ORIAL_ii";{
+            print=(" "dictatorial","editoral","territoral".\n");                
+            }
+} 
+    
+    
+    
+    // F1
+    // 
     
     
     
