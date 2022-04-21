@@ -2813,7 +2813,32 @@ if (rhyme_vowels === "ORIAL"); ["ORIAL","ORIAL_ii","ORIAL_iii"]; {
             }
 } 
     
-    
+if (rhyme_vowel === "ORIC") ["ORIC","ORIC_iii"]; {
+            std::cout << "ORIC"; {
+            print=(" "caloric","euphoric","historic".\n");
+            }
+}       else if (rhyme_vowels === "ORIC"); {
+            std::cout << "ORIC_ii"; {
+            print=(" "prehistoric","sophomoric".\n");
+            }    
+}
+
+if (rhyme_vowels === "ORITY"); {
+        std::cout << "ORITY"; {
+        print=(" "glorify","horrify".\n");
+            }
+}
+
+if (rhyme_vowels === "ORIOUS"); ["ORIOUS","ORIOUS_iii"]; {
+        std::cout << "ORIOUS"; {
+        print=(" "glorious".\n");
+            }
+}   else if (rhyme_vowels === "ORIOUS"); ["ORIOUS","ORIOUS_iii"];{
+        std::cout << "ORIOUS_iii"; {
+        print=(" "laborious","notorious",
+                "uproarious","victorious".\n")
+            }
+}  
     
     // F1
     // 
