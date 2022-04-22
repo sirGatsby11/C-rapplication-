@@ -2839,14 +2839,51 @@ if (rhyme_vowels === "ORIOUS"); ["ORIOUS","ORIOUS_iii"]; {
                 "uproarious","victorious".\n")
             }
 }  
+  
+if (rhyme_vowels === "ORITY"); {
+         std::cout << "ORITY"; {
+         print=(" "authority","majority","minority","priority",
+                  "seniority","sorority".\n");
+            }   
+}    else if (rhyme_vowels === "ORITY"); {
+         std::cout << "ORITY_iv"; {
+         print=(" "inferiority","moral majority","silent majority","superiority".\n");
+        }
+        }
     
-    // F1
-    // 
+    
+    */ F1 is the day 1, new to ya but to us thats just the crew {yuh}
+        F.I.A is basically the DEA,sold my story and the highlight for 20mins if thats ok, {see} {hope} {thats cool}      
+        fade{{to      {yuh}}  
+        sonics dropping bars losing a big year like 97, still taggin everything like 97
+        {user choice} {is} {#(ampersand){0}{0}{0}{0}ff} {94} | age in avatar mode like 94, 
+        vivid images across your mind like 20th century, 
+        past a eon my shit still gonna be The Griswalds on 20th century, 
+        {wilding out} {wifeless} {like it's me} {Mr.} {Its my Progitive} {nabbed the} {NCAA and the RCA} {in the same year}, didnt even have to act queer still ice cold icicles 
+       humble beings of inferiority was never a thing | never question the moral of the majority |
+       the court of owls the silent majority, blessing from a bat 
+   \*   
     
     
+if (rhyme_vowels === "ORIUM"); ["ORIUM","ORIUM_iii"]; {
+          std::cout << "ORIUM"; { 
+          print=(" "emporium".\n"); 
+            }
+ }   else if (rhyme_vowels === "ORIUM"); ["ORIUM","ORIUM_iii"]; {
+            std::cout << "ORIUM_iii"; {
+            print=(" "auditorium","crematorium","moraltorium".\n"); 
+            }
+    }
     
-    
-    
+if (rhyme_vowels === "ORK_1"); ["ORK_1","ORK_1_ii"]; {
+            std::cout << "ORK_1"; {
+            print=(" "cork","dork","fork","pork","stork".\n");
+             }
+    }   else if ("ORK_1"); ["ORK_1","ORK_1_ii"]; {
+            std::cout << "ORK_1"; {
+            print=(" "New York","pitchfork".\n");        
+    }
+        }
     
     // 4/4 simple + simple + complex ("")
     
