@@ -2885,6 +2885,75 @@ if (rhyme_vowels === "ORK_1"); ["ORK_1","ORK_1_ii"]; {
     }
         }
     
+if (rhyme_vowels === "ORK_2"); ["ERK","ERK_ii","ERK_iii"]; {
+            std::cout << "ORK_2"; {
+            print=(" "clerk","irk","jerk","Kirk","lurk",
+                     "perk","quirk","shirk","smirk","Turk",
+                    "work".\n");
+            }
+}      else if (rhyme_vowels === "ORK_2"); ["ERK","ERK_ii","ERK_iii"]; {
+            std::cout << "ERK_ii"; {
+            print=(" "berserk","brain-work","clockwork","footwork","framework",
+                    "groundwork","guesswork","homework","housework","legwork",
+                    "network","patchwork","schoolwork","teamwork","woodwork".\n");
+            }
+}      else if (rhyme_vowels === "ERK_iii"); ["ERK","ERK_ii","ERK_iii"]; {
+            std::cout << "ERK"; {
+            print=(" "dirty work","handiwork","out of work","overwork".\n");
+            }
+}
+    
+ if (rhyme_vowels === "ORM_1"); ["ORM_1","ORM_1_ii","ORM_1_iii"]; {
+            std::cout << "ORM_1"; {
+            print=(" "dorm","form","norm","storm",
+                    "swarm","warm".\n");
+            } 
+ }      else if (rhyme_vowels === "ORM_1") ["ORM_1","ORM_1_ii","ORM_1_iii"]; {
+            std::cout << "ORM_1"; {
+            print=(" "barnstorm","brainstorm","conform","deform","duststorm"
+                    "free-form","inform","lukewarm","perform","reform",
+                    "snowstorm","transform".\n");
+            }
+}       else if (rhyme_vowels === "ORM_1"); ["ORM_1","ORM_1_ii","ORM_1_iii"]; {
+            std::cout << "ORM_1_ii"; {
+            print=(" "co-ed dorm","misinform","thunderstorm","uniform"
+                    .\n");
+            } 
+}   
+    
+
+if (rhyme_vowels === "ODM_2"); ["ERM","ERM_ii"]; {
+        std::cout << "ERM"; {
+        print=(" "","","",
+                .\n");
+        }
+}
+    
+
+   1. she in the industructable, baby blew up big Hollywood, aint checkin for me; 
+   2.  my first feminist, industry a couple hacked nodes but doesnt do a scene with promise of big cash,
+   3. she the apples of my eye, but we cant LaLa, {role doesnt suit her}
+    4. no justice to the mass cant act still getting a shot for some oranges, we differents cause we make a change, 
+    5. your last name, my last name i had to rearrange set ya up for success this shit is stage, 
+    6. put the {s} in brackets than add some warmth, all in the hibe like what is B, 
+    7. if theres a queen than theres obvi a gambit, let freddie do his thing theres the game let em
+    
+    
+    
+    
+    let me do this have to explore, let me have that just to give em more, let me speak first just to tell em i aint really sore,
+    small pick up on the waiver, big stick move off the waiter, push that just to pull back and leave some on the table, 
+    you braggin off the stererotype im braggin cause im on the sterero hyped thats a different type,
+    
+    
+    we laughin cause the most you have gotten is off a crib and a car
+    they laughin cause at most he look like diesal with the drip as a brick star,
+    
+    
+ 
+    
+    
+    
     // 4/4 simple + simple + complex ("")
     
     1. you the goat, oh please do humor us, thank me later that shit is humorous,
