@@ -2922,23 +2922,104 @@ if (rhyme_vowels === "ORK_2"); ["ERK","ERK_ii","ERK_iii"]; {
 }   
     
 
-if (rhyme_vowels === "ODM_2"); ["ERM","ERM_ii"]; {
+if (rhyme_vowels === "ORM_2"); ["ERM","ERM_ii","ERM_iii"]; {
         std::cout << "ERM"; {
-        print=(" "","","",
+        print=(" "firm","germ","perm","squirm","term","worm".\n");
+        }
+}   else if (rhyme_vowels === "ORM_2"); ["ERM","ERM_ii","ERM_iii"]; {
+        std::cout << "ERM"; {
+        print=(" "affirm","bookworm","confirm","earthworm",
+                  "glowworm","long-term","midterm","silkworm"
+                    .\n");
+        }
+}   else if (rhyme_vowels === "ORM_2"); ["ERM","ERM_ii","ERM_iii"]; { 
+        std::cout << "ERM"; {
+        print=(" "pachyderm","wiggle worm".\n"); 
+        }
+}   
+        
+if (rhyme_vowels === "ORMAL"); ["ORMAL","ORMAL_ii","ORMAL_iii",]; {
+        std::cout << "ORMAL"; {
+        print=(" "formal","normal".\n"); 
+        }
+}   else if (rhyme_vowels === "ORMAL"); ["ORMAL","ORMAL_ii","ORMAL_iii"]; {
+        std::cout << "ORMAL"; {
+        print=(" "abnormal","informal".\n");
+        }
+}   else if (rhyme_vowels === "ORMAL"); ["ORMAL","ORMAL_ii","ORMAL_iii"; {
+        std::cout << "ORMAL"; {
+        print=(" "semiformal".\n");
+        }
+} 
+
+ if (rhyme_vowels === "ORMER"); ["ORMER","ORMER_ii"; {
+        std::cout << "ORMER"; {
+        print=(" "former","warmer".\n");
+        }
+}   else if (rhyme_vowels === "ORMER_ii"); ["ORMER","ORMER_ii"]; {
+        std::cout << "ORMER"; {
+        print=(" "barnstormer","benchwarmer","chairwarmer",
+                "conformer","informer","performer",
+                "reformer","transformer".\n");
+        }
+}   else if (rhyme_vowels === "ORN"); ["ORN","ORN_ii","ORN_iii"]; {
+        std::cout << "ORN"; {
+        print=(" "born","corn","horn","morn","scorn",
+                 "sworn","thorn","torn","warn","worn",
                 .\n");
         }
-}
+}   else if (rhyme_vowels === "ORN"); ["ORN","ORN_ii","ORN_iii"]; {
+        std::cout << "ORN"; {
+        print=();
+    }
     
+    } 
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    1-4 hook
 
    1. she in the industructable, baby blew up big Hollywood, aint checkin for me; 
    2.  my first feminist, industry a couple hacked nodes but doesnt do a scene with promise of big cash,
    3. she the apples of my eye, but we cant LaLa, {role doesnt suit her}
     4. no justice to the mass cant act still getting a shot for some oranges, we differents cause we make a change, 
+   
     5. your last name, my last name i had to rearrange set ya up for success this shit is stage, 
     6. put the {s} in brackets than add some warmth, all in the hibe like what is B, 
     7. if theres a queen than theres obvi a gambit, let freddie do his thing theres the game let em
+    8.
     
+    1. 
+    2.
+    3.
+    4.
+   
+    5.
+    6.
+    7.
+    8.
     
+    ...
     
     
     let me do this have to explore, let me have that just to give em more, let me speak first just to tell em i aint really sore,
