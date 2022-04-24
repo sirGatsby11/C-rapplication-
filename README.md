@@ -2969,14 +2969,46 @@ if (rhyme_vowels === "ORMAL"); ["ORMAL","ORMAL_ii","ORMAL_iii",]; {
                 .\n");
         }
 }   else if (rhyme_vowels === "ORN"); ["ORN","ORN_ii","ORN_iii"]; {
-        std::cout << "ORN"; {
-        print=();
-    }
+        std::cout << "ORN_ii"; {
+        print(" "acorn","adorn","airborne","bullhorn","first-born",
+                 "foghorn","forewarn","forlorn","greenhorn","inborn",
+                "lovelorn","newborn","outworn","popcorn","reborn",
+                "shoehorn","timeworn","unborn","well-worn".\n");
+        }
+}   else if (rhyme_vowels === "ORN"); ["ORN","ORN_ii","ORN_iii"]; {
+       std::cout << "ORN_iii"; {
+       print=(" "Capricorn","ear of corn","foreign-born","Matterhorn","native-born",
+                "unicorn","weatherworn".\n");
+        }
+}
+       
+if (rhyme_vowels === "ORNING"); ["ORNING","ORNING_ii","ORNING_iii"]; {
+        std::cout << "ORNING"; {
+        print=(" "morning","mourning","warning".\n");
+        }
+}   else if (rhyme_vowels === "ORNING"); ["ORNING","ORNING_ii","ORNING_iii"]; {
+        std::cout << "ORNING"; {
+        print=(" "flood warning","good warning".\n");
+        }
+}   else if (rhyme_vowels === "ORNING"); ["ORNING","ORNING_ii","ORNING_iii]; {
+        std::cout << "ORNING_iii"; {
+        print=(" "tornado warning".\n");
+        }
+}
     
-    } 
-        
-    
-    
+if (rhyme_vowels === "ORSE"); ["ORSE","ORSE_ii","ORSE_iii"]; {
+        std::cout << "ORSE"; {
+        print=(" "coarse","course","force","hoarse","horse",
+                "source".\n");
+        }
+}   else if (rhyme_vowels === "ORSE"); ["ORSE","ORSE_ii","ORSE_iii"]; {
+        std::cout << "ORSE"; {
+        print=(" "air force","brute force","clotheshorse","crash course",
+                "dark horse","divorce","endorse","enforce","golf course",
+                "main course","of course","racehorse","remorse","resource",
+                "task force","work force".\n");
+        }
+}   
     
     
     
