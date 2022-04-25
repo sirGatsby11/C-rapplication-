@@ -3010,9 +3010,27 @@ if (rhyme_vowels === "ORSE"); ["ORSE","ORSE_ii","ORSE_iii"]; {
         }
 }   
     
-    
-    
-    
+if (rhyme_vowels === "ORT"); ["ORT","ORT_ii","ORT_iii"]; {
+            std::cout << "ORT"; {
+            print=(" "court","fort","forte","port",
+               "quart","short","snort","sort",
+               "sport","thwart","wart".\n");
+        }
+ }      else if (rhyme_vowels === "ORT"); ["ORT","ORT_ii","ORT_iii"]; {
+            std::cout << "ORT_ii"; {
+            print=(" "airport","bad sport","cavort","chort",
+                "contort","deport","distort","escort",
+                "export","good sport","import","Newport",
+                "night court","passport","report","resort",
+                "seaport","spoilsport","support","transport".\n");
+        } 
+ }      else if (rhyme_vowels === "ORT"); ["ORT","ORT_ii","ORT_iii"]; {
+             std::court << "ORT_iii"; {
+             print=(" "child support","heliport","last resort","Supreme Court",
+                        "tennis court","traffic court","worryqort".\n");
+        }
+ }
+   
     
     
     
