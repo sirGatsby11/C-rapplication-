@@ -3178,6 +3178,50 @@ std::cout << "            \___________/    \|       "
     
     
     
+if (rhyme_vowels === "ORTIFY"; {
+           std::cout << "ORTIFY"; {
+           print=(" "fortify","mortify".\n");           
+           }
+}           
+           
+if (rhyme_vowels === "ORTION"); ["ORTION","ORTION_ii"]; {
+           std::cout << "ORTION"; {
+           print=(" "portion".\n");
+           }
+}       else if ("ORTION"); ["ORTION","ORTION_ii"]; {
+           std::cout << "ORTION"; {
+           print=(" "contortion","distortion","proportion".\n");            
+           }
+}           
+
+if (rhyme_vowels === "ORTY"); {
+           std::cout << "ORTY"; {
+           print=(" "forty","shorty","sporty","warty".\n");
+           }
+}
+// incomplete files
+           
+if (rhyme_vowels === "ORY"); ["ORY","ORY_ii","ORY_iii","ORY_iv"]; {
+           std::cout << "ORY"; {
+           print=(" "glory","gory","Laurie","quarry","story".\n");           
+           }
+ }      else if (rhyme_vowels === "ORY"); ["ORY","ORY_ii","ORY_iii","ORY_iv"]; {
+           std::cout << "ORY_ii"; {
+           print=(" "love story","Old Glory","rock quarry".\n");
+           }
+ }      else if (rhyme_vowels === "ORY"); ["ORY","ORY_ii","ORY_iii","ORY_iv"]; {
+           std::cout << "ORY"; {
+           print=(" "allegory","bedtime story","category","hunky-dory",
+                    "laboratory","lavatory","mandatory","morning glory",
+                    "purgatory","territory".\n");
+           }
+ }
+           
+           
+           
+           
+           
+           
     
     
     1-4 hook
