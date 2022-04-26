@@ -3031,17 +3031,150 @@ if (rhyme_vowels === "ORT"); ["ORT","ORT_ii","ORT_iii"]; {
         }
  }
    
+if (rhyme_vowels === "ORTER"; ["ORDER","ORDER_ii","ORDER_iii"]; {
+            std::cout << "ORDER"; {
+            print=(" "boarder","borber","courter","hoader",
+                     "order","porter","quarter","shorter",
+                    .\n");
+         }
+ }    else if (rhyme_vowels === "ORTER"); {
+            std::cout << "ORDER_ii"; {
+            print=(" "cavorter","court order","exporter","gag order",
+                        "importer","recorder","reporter","supporter",
+                        "transporter".\n");
+         }
+ }      else if (rhyme_vowels === "ORDER_iii"); {
+        print=(" "flight recorder","law and order","made-to-order","out of order",
+                    "out of order","tape recorder".\n");
+         }
+ }
+    
+    /* answer back to preset ad libs ++ female persona in songs, 
+    answering back to another creative expression of a paid actress
+    they call those phones dont answer!
+    *\
+ if (rhyme_vowels === "ORTH"); ["ORTH","ORTH_ii","ORTH_iii","ORDER_iv"]; {
+            std::cout << "ORTH" {
+            print=(" "fourth","north",
+                    .\n");
+         }    
+ }      else if (rhyme_vowels === "ORTH"); {
+            std::cout << "ORTH_ii" {
+            print=(" "come forth".\n");
+         }
+ }      else if ("rhyme_vowels === "ORTH_iii"); {
+            std::cout << "ORTH_iii"; {
+            print=(" "back and forth","July fourth".\n");
+          }
+ }      else if (rhyme_vowels === "ORTH_iv"); {
+            std::cout << "ORTH_iv"; {
+            print=(" "so on and so fourth".\n");
+          }
+ } 
+    /* <header>
+   1.  chaos pendulums same size as clockwise in my music sheets, layer after layer after layer is the new counter sheet, |
+   2.  ANTI her like i seen a pregnant pic of riri, 
+        3.  the hand shaken lefthand hope i dont get that text... |
+        4.  aint seen my favorite in awhile had to put my face on the GQ |
+       <header>
+        <body> 2 verse bar ($16)  
+        5.  that'll bring em out thats how i talk to you |
+        6.  and so on and so fouth, lets move forth to the north north,
+        7.  take over the W(Dub) light it up independce day July 4th,
+        8.  back and forth debate on the numbers like that didnt happend till later.
+       
+        9.  90210 adi scheming, 1080k day dreamin, both in a dissillusion, 
+        10. tip toing through protection spells, like its a constant thing im on a bean, 
+        11. endrill ya mom with knowledge like a balance beam 
+        12. stuck in a calm patience ellipse dont stare at the lips, 
+        </body>
+        <FOOTER>   
+        13. eyes to eyes to stone edge statues, one to one Madam this aint the one, prostitutes say less,
+        14.check your posture you isaac son,in the pictures with campbells, can after can until ya smile witht' the can
+    15. my sneeze flu game is in between series after ckicken soup, i would lie if i didnt say it before 
+    16.    I said a chicken looks better with me in the coop, with me spittin snoop, la la for LAND , what is LA 
+     
+         </FOOTER>   
+        *\ 
+    
+std::cout << "signficance each row"
+           
+std::cout << "      ======o     o======     "
+std::cout <<    "       ___________     "
+std::cout << "         |___________| " 
+std::cout << "          |\  /\  /\| "
+std::cout << "          |_\/__\/__| "
+std::cout << "         |___________| AH "
+
+           
+           std::cout << print"BANG";
+std::cout << "         ======o      "
+           
+std::cout << "                    o======   "
+std::cout << "            ___________   "
+std::cout << "           |___________|  "
+std::cout << "            |\  /\  /\|   "
+std::cout << "            |_\/__\/__|   "
+std::cout << "           |___________| AH   "     
+           
+            
+           std::cout << print"BANG"
+std::cout << "          o======     "
+           
+std::cout << " ======o              "
+std::cout << "   ___________
+std::cout << "  |___________|       "
+std::cout << "   |\  /\  /\|        "
+std::cout << "   |_\/__\/__|        "
+std::cout << "  |___________| AH   "       
+           
+           
+            std::cout << print"BANG";
+std::cout << "          ======o         ";
+           
+std::cout << "                    o======   ";
+std::cout << "            ___________       ";
+std::cout << "           |___________|      ";
+std::cout << "            |\  /\  /\|       ";
+std::cout << "            |_\/__\/__|       ";
+std::cout << "           |___________| AH     ";
+           
+           
+           
+           
+           
+                                    ,     __
+std::cout << " ___________/|      }====TTT==\=(|  o/`  o/o/ "
+std::cout << "  (__|||__) \|        \==III==/  `   o/` "
+
+std::cout << " ___________/|      }====TTT==\=(|  o/`   "
+std::cout << "  (__|||__) \|        \==III==/  `   o/` o/o/"
+           
+                                ,         __
+std::cout << " ___________/|      }====TTT==\=(|  o/`  o/o/ "
+std::cout << "  (__|||__) \|        \==III==/  `   o/` "
+
+std::cout << " ___________/|      }====TTT==\=(|  o/`   "
+std::cout << "  (__|||__) \|        \==III==/  `   o/` o/o/"
+                      
+    
+           
+           
+           
+           
+           
+           
+    
+std::cout <<              "                /|       "
+std::cout <<              "  =  =  =      / |       "
+std::cout <<         "  ____| || || |____/  | -_-_-_-_-_-_      "
+std::cout <<  "       |)----| || || |____   |     AH        "
+std::cout <<    "       ((  | || || |  ))\  | _-_-_-_-_-_-      "
+std::cout << "           \\_|_||_||_|_//  \ |       "
+std::cout << "            \___________/    \|       "
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    // after drums:
     
     
     
