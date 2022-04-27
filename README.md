@@ -60,6 +60,12 @@ if (rhyme_vowels == "O"); ["O","O_ii","O_iii","O_iv"]; {
                 "portfolio","ready, set, go".\n")
         }
 } 
+rhyme count pattern=== print=("4-4-4")+*("2-2"+"1-1");
+/ 1.announce thyself, like geronimo, if the ship really going in off a burg, thay aint even have to get-up-and-go;, aint fuckin with it no more, thats blasphemy yall Pistachio, Since you been gone i been NUTS about these portfolios, 
+2. quadruple doubles my shit, i do it for those on the avenue of skid row, doing a sideshow, with the so and so, 
+3. 
+
+
  // incomplete cross reference
 if (rhyme_vowels == "O_2"); ["EW","EW_ii","EW_iii","EW_iv","EW_v","EW_vi"]; {
       std::cout << "EW"; {
