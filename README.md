@@ -3250,7 +3250,29 @@ if (rhyme_vowels === "OS_1"); ["OSE_1","OSE_1_ii","OSE_1_iii"]; {
            }
  }
 
-if (rhyme_vowels === "OS_2"); ["OSE_2","OSE_2_ii","OSE_2_iii","OSE_2"];
+if (rhyme_vowels === "OS_2"); ["OSE_2","OSE_2_ii","OSE_2_iii","OSE_2"]; {
+           std::cout << "OSE_2"; {
+           print=(" "beaux","blows","bows","chose",
+                    "close","clothes","crows","doze",
+                    "flows","foes","froze","glows",
+                    "glows","goes","grows","hose","knows",
+                    "lows","mows","nose","owes","pose",
+                    "pros","prose","rose","rows","sews",
+                    "shows","slows","snows","those","throws",
+                    "toes","tows","woes".\n");           
+           }
+}       else if (rhyme_vowels === "OS_2"); ["OSE_2","OSE_2_ii","OSE_2_iii","OSE_2"]; {
+           std::cout << "OSE_2"; {
+           print=(" "bozos","bulldoze","dispose","enclose","expose",
+                    "fire hose","impose","low blows","no-nos","no-shows",
+                    "oppose","propose","pug nose","rainbows","scarecrows",
+                    "sideshows","suppose","tiptoes","yo-yos".\n");
+           }
+}       else if (rhyme_vowels === "OS_2"); ["OSE_2","OSE_2_ii","OSE_2_iii","OSE_2"]; {
+           std::cout << "OSE_2_ii"; {
+           print=();
+           }
+}
            
            
     
