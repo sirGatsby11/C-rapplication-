@@ -3163,9 +3163,14 @@ std::cout << "  (__|||__) \|        \==III==/  `   o/` "
 std::cout << " ___________/|      }====TTT==\=(|  o/`   "
 std::cout << "  (__|||__) \|        \==III==/  `   o/` o/o/"
                       
-    
+    // change the pitchs in the spanish language to match scenes of live action or film editting.
+           screenplay: ("spanish cafe sitcom");
+           
+           encoded that contracts with select resorts that allow a discreet film session when a team is on company grounds, published and licensed with the EEE.organization 
            
            
+       // non profit center for troubled youths, accepting of donations, charitable events held for such announcements.
+           radio station or label? 
            
            
            
@@ -3216,16 +3221,36 @@ if (rhyme_vowels === "ORY"); ["ORY","ORY_ii","ORY_iii","ORY_iv"]; {
            print=(" "love story","Old Glory","rock quarry".\n");
            }
  }      else if (rhyme_vowels === "ORY"); ["ORY","ORY_ii","ORY_iii","ORY_iv"]; {
-           std::cout << "ORY"; {
+           std::cout << "ORY_iii"; {
            print=(" "allegory","bedtime story","category","hunky-dory",
                     "laboratory","lavatory","mandatory","morning glory",
                     "purgatory","territory".\n");
            }
+              // "reformatory" // "re-form-a-tory", playful pronunciation pitch selection 
+ }      else if (rhyme_vowels === "ORY"); ["ORY","ORY_ii","ORY_iii","","ORY_iv"]; {
+           std::cout << "ORY_iv"; {
+           print=(" "conservatory","derogatory","explanatory","obligatory",
+                    "observatory".\n");          
+           }
  }
-           
-           
-           
-           
+
+if (rhyme_vowels === "OS_1"); ["OSE_1","OSE_1_ii","OSE_1_iii"]; {
+           std::cout << "OSE_1"; {
+           print=("close","dose","gross"\n");          
+           }
+ }      else if ("OS_1"); ["OSE_1","OSE_1_ii","OSE_1_iii"]; {
+           std::cout << "OSE_1_ii"; {
+           print=(" "cosmos","engross","Laos","morose","",
+                    "","","","","",
+           .\n");         
+           }
+ }      else if ("OS_1"); ["OSE_1","OSE_1_ii","OSE_1_iii"]; {
+           std::cout << "OSE_1_iii"; {
+           print=(" "adios","comatose","diagnose","graniose".\n");          
+           }
+ }
+
+if (rhyme_vowels === "OS_2"); ["OSE_2","OSE_2_ii","OSE_2_iii","OSE_2"];
            
            
     
