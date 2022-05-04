@@ -3210,6 +3210,7 @@ if (rhyme_vowels === "ORTY"); {
            print=(" "forty","shorty","sporty","warty".\n");
            }
 }
+           
 // incomplete files
            
 if (rhyme_vowels === "ORY"); ["ORY","ORY_ii","ORY_iii","ORY_iv"]; {
@@ -3226,7 +3227,9 @@ if (rhyme_vowels === "ORY"); ["ORY","ORY_ii","ORY_iii","ORY_iv"]; {
                     "laboratory","lavatory","mandatory","morning glory",
                     "purgatory","territory".\n");
            }
-              // "reformatory" // "re-form-a-tory", playful pronunciation pitch selection 
+           
+           // "reformatory" // "re-form-a-tory", playful pronunciation pitch selection 
+           
  }      else if (rhyme_vowels === "ORY"); ["ORY","ORY_ii","ORY_iii","","ORY_iv"]; {
            std::cout << "ORY_iv"; {
            print=(" "conservatory","derogatory","explanatory","obligatory",
@@ -3337,6 +3340,34 @@ if (rhyme_vowels === "OSE_2"); ["OSE_2","OSE_2_ii","OSE_2_iii","OSE_2"]; {
            }
 }
     
+if (rhyme_vowels === "OSH"); {
+           std:: cout << "OSH" {
+           print=(" "gosh","josh","nosh","posh",
+                    "quash","slosh","squash","wash",
+                    "brainwash","carwash","hogwash",
+                    "mouthwash","my gosh","whitewash".\n");
+           }
+} 
+1. +2 speed is with the speech, in the future just met you but already tryin to cut em off, 
+           birth mothers side probably feels kinda leech, 
+           
+           listen to the blueprint 15 plus later seany still snitchin, spit splat splatter, cut off these niggas serve it back on a platter, 
+           this cruisine is a luxority nothing short of mom's spegetti 
+           they give nips murals 
+           they give pups rugs 
+           light skins still psych doggin, 
+     2. +1 
+           // acceleration
+           3. +3 // acceleration  
+                4. +2 // acce;eration
+           
+if (rhyme_vowels === "")           
+           
+           
+           
+           
+           
+           
     
     1-4 hook
 
