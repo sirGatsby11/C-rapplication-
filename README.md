@@ -3348,6 +3348,27 @@ if (rhyme_vowels === "OSH"); {
                     "mouthwash","my gosh","whitewash".\n");
            }
 } 
+
+if (rhyme_vowels === "OSION"); {
+           std::cout << "OSION"; {
+           print=(" "corrosion","erosion","explosion","implosion".\n");
+           }
+}
+
+if (rhyme_vowels === "OSITY"); {
+           std::cout << "OCITY" {
+           print=(" "atrocity","ferocity","monstrosity","velocity"
+                    .\n");          
+           }
+ }   else if (rhyme_vowels === "OCITY"); {
+           std::cout << "OCITY"; {
+           print=(" "animosity","curiosity","generosity","","reciprocity".\n");
+           }
+ }
+           //  1. {for any dead} {cat's {curiosity} in milwuakee, im nice with thee buck{s} notorious lifestyle it's a generosity
+           2. no hard feelings or bad blood we over that animosity | 
+           
+           
 1. +2 speed is with the speech, in the future just met you but already tryin to cut em off, 
            birth mothers side probably feels kinda leech, 
            
@@ -3361,7 +3382,23 @@ if (rhyme_vowels === "OSH"); {
            3. +3 // acceleration  
                 4. +2 // acce;eration
            
-if (rhyme_vowels === "")           
+if (rhyme_vowels === "OCK"); {
+           std::cout << "OCK"; {
+           print=(" "Bach","block","chalk","clock","crock",
+                    "doc","dock","flock","frock","gawk",
+                    "hawk","jacques","jock","knock","lock",
+                    "mock","rock","shock","smock","sock",
+                    "squawk","stock","talk","walk","wok",
+                    .\n");           
+           }
+}       else (rhyme_vowels === "OCK"); {
+           std::cout << "OCK"; {
+           print=(" "back talk","Bangkok","beanstalk","boardwalk","cell block",
+                    "crosswalk","deadlock","fast-talk","girl talk","gridlock",
+                    "hard rock","headlock","Hitchcock","jaywalk","jive talk",
+                    "knock knock".\n");
+           }
+}  
            
            
            
