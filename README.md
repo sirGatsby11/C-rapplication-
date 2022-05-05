@@ -3391,15 +3391,28 @@ if (rhyme_vowels === "OCK"); {
                     "squawk","stock","talk","walk","wok",
                     .\n");           
            }
-}       else (rhyme_vowels === "OCK"); {
+}       else if (rhyme_vowels === "OCK"); {
            std::cout << "OCK"; {
            print=(" "back talk","Bangkok","beanstalk","boardwalk","cell block",
                     "crosswalk","deadlock","fast-talk","girl talk","gridlock",
                     "hard rock","headlock","Hitchcock","jaywalk","jive talk",
-                    "knock knock".\n");
+                    "knock knock","livestock","Mohawk","o'clock","outtalk",
+                    "padlock","peacock","pep talk","punk rock","roadblock",
+                    "shamrock","shell shock","Sherlock","sidewalk","sleepwalk",
+                    "small talk","space walk","sunblock","sweet talk","ticktock",
+                    "unlock","woodblock".\n");
            }
-}  
-           
+}       else if (rhyme_vowels === "OCK"); {
+           std::cout << "OCK"; {
+           print=(" "aftershock","alarm clock","auction block","baby talk",
+                     "butcher block","chopping block","cuckoo clock","culture shock",
+                      "double talk","laughing stock","mental block","nature walk",
+                      "out of stock","poppycock","rount-the-clock","stumbling block",
+                       "tomahawk","What's up Doc".\n");
+           }
+}
+   
+if (rhyme_vowels === "OCKER"
            
            
            
