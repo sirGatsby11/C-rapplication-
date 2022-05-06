@@ -3391,7 +3391,7 @@ if (rhyme_vowels === "OCK"); {
                     "squawk","stock","talk","walk","wok",
                     .\n");           
            }
-}       else if (rhyme_vowels === "OCK"); {
+}      else if (rhyme_vowels === "OCK"); {
            std::cout << "OCK"; {
            print=(" "back talk","Bangkok","beanstalk","boardwalk","cell block",
                     "crosswalk","deadlock","fast-talk","girl talk","gridlock",
@@ -3405,16 +3405,39 @@ if (rhyme_vowels === "OCK"); {
 }       else if (rhyme_vowels === "OCK"); {
            std::cout << "OCK"; {
            print=(" "aftershock","alarm clock","auction block","baby talk",
-                     "butcher block","chopping block","cuckoo clock","culture shock",
-                      "double talk","laughing stock","mental block","nature walk",
-                      "out of stock","poppycock","rount-the-clock","stumbling block",
-                       "tomahawk","What's up Doc".\n");
+                     "butcher block","chopping block","cuckoo clock",
+                    "culture shock","double talk","laughing stock",
+                    "mental block","nature walk","out of stock",
+                    "poppycock","rount-the-clock","stumbling block",
+                    "tomahawk","What's up Doc".\n");
            }
 }
    
-if (rhyme_vowels === "OCKER"
+if (rhyme_vowels === "OCKER"); {
+           std::cout << "OCKER"; {
+           print=(" "blocker","knocker","locker","rocker",
+                    "shocker","soccer","talker","walker".\n");           
+           }
+}       else if (rhyme_vowels === "OCKER"); {
+           std::cout << "OCKER"; {
+           print=(" "fast talker","footlocker","jaywalker",
+                    "night stalker","sleepwalker".\n");
+           }
+}
            
-           
+if (rhyme_vowels === "OCKET"); {
+           std::cout << "OCKET"; {
+           print=(" "docket","locket","pocket","rocket","socket".\n");
+           }
+}       else if ("OCKET"); {
+           std::cout << "OCKET"; {
+           print=(" "light socket","pick pocket","sky rocket".\n");
+           }
+}       else if ("OCKET"); {
+           std::cout << "OCKET"; {
+           print=(" "Dave Crocket".\n");
+           }
+}          
            
            
            
@@ -3429,7 +3452,10 @@ if (rhyme_vowels === "OCKER"
     5. your last name, my last name i had to rearrange set ya up for success this shit is stage, 
     6. put the {s} in brackets than add some warmth, all in the hibe like what is B, 
     7. if theres a queen than theres obvi a gambit, let freddie do his thing theres the game let em
-    8.
+    8. nice electric feel off the pick pocket, 
+       have em shocked i know that wrath of a light socket,
+       secured certification for those across the nation watching 
+           me take off like a skyrocket    
     
     1. 
     2.
