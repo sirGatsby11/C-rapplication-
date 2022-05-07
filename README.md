@@ -3418,27 +3418,51 @@ if (rhyme_vowels === "OCKER"); {
            print=(" "blocker","knocker","locker","rocker",
                     "shocker","soccer","talker","walker".\n");           
            }
-}       else if (rhyme_vowels === "OCKER"); {
+}       else if (rhyme_vowels === "OCKER"); ["","",""]; {
            std::cout << "OCKER"; {
            print=(" "fast talker","footlocker","jaywalker",
                     "night stalker","sleepwalker".\n");
            }
 }
            
-if (rhyme_vowels === "OCKET"); {
+if (rhyme_vowels === "OCKET"); ["OCKET","OCKET_iii"]; {
            std::cout << "OCKET"; {
            print=(" "docket","locket","pocket","rocket","socket".\n");
            }
-}       else if ("OCKET"); {
+}       else if ("OCKET"); ["OCKET","OCKET_iii"]; {
            std::cout << "OCKET"; {
            print=(" "light socket","pick pocket","sky rocket".\n");
            }
-}       else if ("OCKET"); {
+}       else if ("OCKET"); ["OCKET","OCKET_iii"]; {
            std::cout << "OCKET"; {
            print=(" "Dave Crocket".\n");
            }
 }          
            
+if (rhyme_vowels === "OCKS"); {
+           std::cout << "OX"; {
+           print=(" "blocks","box","clocks","docks",
+                    "flocks","fox","gawks","jocks",
+                    "knocks","locks","mocks","ox",
+                    "pox","rocks","shocks","smocks"
+                    "socks","sox","squawks","stocks","talks",
+                    "walks","woks".\n");
+           }
+}       else if (rhyme_vowels === "OCKS"); {
+                std::cout << "OCKS"; {
+                print=("  "cashbox","crosswalks","deadlocks","detox",
+                         "Fort knox","jaywalks","knee socks","lunch box",
+                          "mailbox","Mohawks","outfox","peacocks","sandblocks"
+                          "shamrocks","sleepwalks","soap box","sweat socks",
+                          "tick tocks","","","","",
+                          "","","","","","",
+           
+                            
+                        .\n");           
+           }
+}
+
+
            
            
     
