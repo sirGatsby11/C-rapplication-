@@ -3454,17 +3454,24 @@ if (rhyme_vowels === "OCKS"); {
                          "Fort knox","jaywalks","knee socks","lunch box",
                           "mailbox","Mohawks","outfox","peacocks","sandblocks"
                           "shamrocks","sleepwalks","soap box","sweat socks",
-                          "tick tocks","","","","",
-                          "","","","","","",
-           
-                            
-                        .\n");           
+                          "tick tocks","toy box","unlocks","Xerox".\n");           
            }
 }
 
+if (rhyme_vowels === "OCKS"); {
+           std::cout << "OCKS" {
+           print=(" "aftershocks","chatterbox","chickenpox","Goldilocks",
+                    "music box","orthodox","paradox","shadowbox",
+                    "stumbling block","tomahawks".\n");           
+           }
+}       else if (rhyme_vowels "OCKS"); {
+           std::cout << "OCKS"; {
+           print=(" "Pandora's box","unorthodox","","", 
+                    .\n");
+           }
+           }
+           
 
-           
-           
     
     1-4 hook
 
