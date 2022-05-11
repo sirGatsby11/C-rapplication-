@@ -3449,7 +3449,7 @@ if (rhyme_vowels === "OCKS"); {
                     "walks","woks".\n");
            }
 }       else if (rhyme_vowels === "OCKS"); {
-                std::cout << "OCKS"; {
+                std::cout << "OX"; {
                 print=("  "cashbox","crosswalks","deadlocks","detox",
                          "Fort knox","jaywalks","knee socks","lunch box",
                           "mailbox","Mohawks","outfox","peacocks","sandblocks"
@@ -3459,18 +3459,32 @@ if (rhyme_vowels === "OCKS"); {
 }
 
 if (rhyme_vowels === "OCKS"); {
-           std::cout << "OCKS" {
+           std::cout << "OX" {
            print=(" "aftershocks","chatterbox","chickenpox","Goldilocks",
                     "music box","orthodox","paradox","shadowbox",
                     "stumbling block","tomahawks".\n");           
            }
 }       else if (rhyme_vowels "OCKS"); {
-           std::cout << "OCKS"; {
-           print=(" "Pandora's box","unorthodox","","", 
+           std::cout << "OX"; {
+           print=(" "Pandora's box","unorthodox" 
                     .\n");
            }
-           }
+}
            
+ if (rhyme_vowels == "OCKEY"); {
+           std::cout << "AWKEY"; {
+           print=(" "cocky","gawky","hockey","jockey",
+                    "rocky","stocky".\n");           
+            }
+}       else if (rhyme_vowels === "OCKEY"); {
+           std::cout << "AWKEY"; {
+           print=(" "disc jockey","ice hockey","Milwaukee".\n");           
+           }
+}       else if (rhyme_vowels === "AWKEY"); {
+           std::cout << "AWKEY"; {
+           print=( " "Jabberwocky","teriyaki","walkie-talkie".\n");
+           }
+}
 
     
     1-4 hook
