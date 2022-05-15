@@ -3504,42 +3504,37 @@ std::cout <<               "  ooo$$$$"" $                   oo$$$$$""""""oooo  "
 std::cout <<            "  oo"$$$$$$$ oo"" oooooooooooooooo$$"""           o$$"oo  "
 std::cout <<           "  o"  $$$$$$$ "$o           oo$$$$$"               $$$$o"$o  "
 std::cout <<           " $    $$$$$$$  " ""oooooooooo$$$$"         o$      $$$$$$o"$  "
-std::cout <<           "   o     $$""               oo$$$"           o$$     o$$$$$$$o$  "
-std::cout <<           "  "o    $$             oo$$$$""            o$$$   o$$$$$$$$$$$  "
+std::cout <<       "   o     $$""               oo$$$"           o$$     o$$$$$$$o$  "
+std::cout <<         "  "o    $$             oo$$$$""            o$$$   o$$$$$$$$$$$  "
 std::cout <<           " "$o  $$$oo                           $$$$$$$   ooo$$$$$""  "
 std::cout <<           "   "$$oooo ""            ooo$$$$      $$$$$$$$$$$$$$""  "
 std::cout <<           "       """"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$""""""  "
 std::cout <<           "                 """"""""""""""""""        "
-           
-                        oooo     oooo
-                      o$$"""$oo$$"""""$o
-                     $"      $$"      $$$$
-                    $"      ""        $$$$$o
-                    $                  $$$$$o
-                   $                    $$$$$$
-                  $"                    "$$$$$
-                  $                      $$$$$$
-                 $"                      $$$$$$
-                 $                        $$$$$
-                 $                       o$$$$$
-                 $                       $$$$$$
-                 $                      o$$$$$$
-              ooo                      o$$$$$$$
-      ooo$$$$"" $                   oo$$$$$""""""oooo
-   oo"$$$$$$$ oo"" oooooooooooooooo$$"""           o$$"oo
-  o"  $$$$$$$ "$o           oo$$$$$"               $$$$o"$o
- $    $$$$$$$  " ""oooooooooo$$$$"         o$      $$$$$$o"$
-o     $$""               oo$$$"           o$$     o$$$$$$$o$
-"o    $$             oo$$$$""            o$$$   o$$$$$$$$$$$
- "$o  $$$oo                           $$$$$$$   ooo$$$$$""
-   "$$oooo ""            ooo$$$$      $$$$$$$$$$$$$$""
-       """"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$""""""
-                 """"""""""""""""""
+
            
            
+if (rhyme_vowels === "OCO"); {
+           std::cout << "OCO"; {
+           print=(" "cocoa","loco".\n");
+           }
+}           
+
+if (rhyme_vowels === "OCRACY"); {
+           std::cout << "OCRACY"; {
+           print=(" "autocracy","bureaucracy","democracy","hypocrisy".\n");           
+           }
+}       else if (rhyme_vowels === "OCRACY"); {
+           std::cout << "OCRACY"; {
+           print=(" "aristocracy".\n");
+           }
+}
            
-           
-           
+if (rhyme_vowels === "OD"); {
+           std::cout << "AWED"; {
+           print=(" "","","","","",
+                        .\n");
+           }
+           }           
            
            
            
