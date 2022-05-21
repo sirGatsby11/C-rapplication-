@@ -3521,7 +3521,8 @@ if (rhyme_vowels === "OCO"); {
 
 if (rhyme_vowels === "OCRACY"); {
            std::cout << "OCRACY"; {
-           print=(" "autocracy","bureaucracy","democracy","hypocrisy".\n");           
+           print=("     
+           "autocracy","bureaucracy","democracy","hypocrisy".\n");           
            }
 }       else if (rhyme_vowels === "OCRACY"); {
            std::cout << "OCRACY"; {
@@ -3531,10 +3532,15 @@ if (rhyme_vowels === "OCRACY"); {
            
 if (rhyme_vowels === "OD"); {
            std::cout << "AWED"; {
-           print=(" "","","","","",
+           print=(" "awed","broad","Claude","clawed","clod",
+                   "broad","Claude","clawed","clod","flawed",
+                    "fraud","gnawed","God","mod","nod",
+                    "odd","pawed","plod","pod","prod",
+                    "quad","rod","sawed","squad","Todd","trod",
+                    "wad"
                         .\n");
            }
-           }           
+}           
            
            
            
